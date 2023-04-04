@@ -1,0 +1,185 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: LinkShortener
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target LinkShortener
+
+
+#############################################
+# Order-only phony target for LinkShortener
+
+build cmake_object_order_depends_target_LinkShortener: phony || CMakeFiles/LinkShortener.dir
+
+build CMakeFiles/LinkShortener.dir/main.cpp.o: CXX_COMPILER__LinkShortener_Debug /Users/alexander/CLionProjects/LinkShortener/main.cpp || cmake_object_order_depends_target_LinkShortener
+  DEFINES = -DFMT_SHARED -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -D_DEBUG
+  DEP_FILE = CMakeFiles/LinkShortener.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
+  INCLUDES = -I/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.0.7/include -I/Users/alexander/CLionProjects/LinkShortener/RequestHandlers -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/LinkShortener.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinkShortener.dir
+
+build CMakeFiles/LinkShortener.dir/RequestHandlers/sv_RequestHandler.cpp.o: CXX_COMPILER__LinkShortener_Debug /Users/alexander/CLionProjects/LinkShortener/RequestHandlers/sv_RequestHandler.cpp || cmake_object_order_depends_target_LinkShortener
+  DEFINES = -DFMT_SHARED -DPOCO_ENABLE_CPP11 -DPOCO_ENABLE_CPP14 -DPOCO_HAVE_IPv6 -DPOCO_NO_STAT64 -DPOCO_OS_FAMILY_UNIX -DPOCO_UNBUNDLED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB -D_DEBUG
+  DEP_FILE = CMakeFiles/LinkShortener.dir/RequestHandlers/sv_RequestHandler.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++20
+  INCLUDES = -I/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.0.7/include -I/Users/alexander/CLionProjects/LinkShortener/RequestHandlers -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/LinkShortener.dir
+  OBJECT_FILE_DIR = CMakeFiles/LinkShortener.dir/RequestHandlers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinkShortener
+
+
+#############################################
+# Link the executable LinkShortener
+
+build LinkShortener: CXX_EXECUTABLE_LINKER__LinkShortener_Debug CMakeFiles/LinkShortener.dir/main.cpp.o CMakeFiles/LinkShortener.dir/RequestHandlers/sv_RequestHandler.cpp.o | /opt/homebrew/lib/libPocoNet.94.dylib /opt/homebrew/lib/libPocoJSON.94.dylib /System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.0.7/lib/libssl.dylib /System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.0.7/lib/libcrypto.dylib /opt/homebrew/lib/libspdlog.1.11.0.dylib /opt/homebrew/lib/libPocoFoundation.94.dylib /opt/homebrew/lib/libpcre2-8.dylib /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libz.tbd /opt/homebrew/lib/libfmt.9.1.0.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libPocoNet.94.dylib  /opt/homebrew/lib/libPocoJSON.94.dylib  /System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.0.7/lib/libssl.dylib  /System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.0.7/lib/libcrypto.dylib  /opt/homebrew/lib/libspdlog.1.11.0.dylib  /opt/homebrew/lib/libPocoFoundation.94.dylib  /opt/homebrew/lib/libpcre2-8.dylib  /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk/usr/lib/libz.tbd  /opt/homebrew/lib/libfmt.9.1.0.dylib
+  OBJECT_DIR = CMakeFiles/LinkShortener.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LinkShortener
+  TARGET_PDB = LinkShortener.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alexander/CLionProjects/LinkShortener -B/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/alexander/CLionProjects/LinkShortener/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build RequestHandlers/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/RequestHandlers && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build RequestHandlers/edit_cache: phony RequestHandlers/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build RequestHandlers/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/RequestHandlers && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/alexander/CLionProjects/LinkShortener -B/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build RequestHandlers/rebuild_cache: phony RequestHandlers/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug
+
+build all: phony LinkShortener RequestHandlers/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/RequestHandlers
+
+build RequestHandlers/all: phony
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindBoost.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindOpenSSL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPkgConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindZLIB.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake /Users/alexander/CLionProjects/LinkShortener/CMakeLists.txt /Users/alexander/CLionProjects/LinkShortener/RequestHandlers/CMakeLists.txt /opt/homebrew/lib/cmake/Boost-1.81.0/BoostConfig.cmake /opt/homebrew/lib/cmake/Boost-1.81.0/BoostConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/FindPCRE2.cmake /opt/homebrew/lib/cmake/Poco/PocoConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationTargets-release.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationTargets.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONTargets-release.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONTargets.cmake /opt/homebrew/lib/cmake/Poco/PocoNetConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoNetConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoNetTargets-release.cmake /opt/homebrew/lib/cmake/Poco/PocoNetTargets.cmake /opt/homebrew/lib/cmake/boost_headers-1.81.0/boost_headers-config-version.cmake /opt/homebrew/lib/cmake/boost_headers-1.81.0/boost_headers-config.cmake /opt/homebrew/lib/cmake/fmt/fmt-config-version.cmake /opt/homebrew/lib/cmake/fmt/fmt-config.cmake /opt/homebrew/lib/cmake/fmt/fmt-targets-release.cmake /opt/homebrew/lib/cmake/fmt/fmt-targets.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfig.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfigTargets-release.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfigTargets.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfigVersion.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindDependencyMacro.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckIncludeFile.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CheckLibraryExists.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindBoost.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindOpenSSL.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPackageMessage.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindPkgConfig.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindThreads.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/FindZLIB.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/SelectLibraryConfigurations.cmake /Users/alexander/CLionProjects/LinkShortener/CMakeLists.txt /Users/alexander/CLionProjects/LinkShortener/RequestHandlers/CMakeLists.txt /opt/homebrew/lib/cmake/Boost-1.81.0/BoostConfig.cmake /opt/homebrew/lib/cmake/Boost-1.81.0/BoostConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/FindPCRE2.cmake /opt/homebrew/lib/cmake/Poco/PocoConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationTargets-release.cmake /opt/homebrew/lib/cmake/Poco/PocoFoundationTargets.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONTargets-release.cmake /opt/homebrew/lib/cmake/Poco/PocoJSONTargets.cmake /opt/homebrew/lib/cmake/Poco/PocoNetConfig.cmake /opt/homebrew/lib/cmake/Poco/PocoNetConfigVersion.cmake /opt/homebrew/lib/cmake/Poco/PocoNetTargets-release.cmake /opt/homebrew/lib/cmake/Poco/PocoNetTargets.cmake /opt/homebrew/lib/cmake/boost_headers-1.81.0/boost_headers-config-version.cmake /opt/homebrew/lib/cmake/boost_headers-1.81.0/boost_headers-config.cmake /opt/homebrew/lib/cmake/fmt/fmt-config-version.cmake /opt/homebrew/lib/cmake/fmt/fmt-config.cmake /opt/homebrew/lib/cmake/fmt/fmt-targets-release.cmake /opt/homebrew/lib/cmake/fmt/fmt-targets.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfig.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfigTargets-release.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfigTargets.cmake /opt/homebrew/lib/cmake/spdlog/spdlogConfigVersion.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
