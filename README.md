@@ -1,4 +1,3 @@
 # Link Shortener
 
-Gonna be a high-perfomance server using lots of tools and techniques
-In development nowadays!
+Gonna be a high-perfomance server using lots of tools and techniques. In development nowadays!
