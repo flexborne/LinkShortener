@@ -1,4 +1,26 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/alexander/CLionProjects/LinkShortener -B /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/alexander/CLionProjects/LinkShortener/cmake-build-debug
+/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/homebrew/Cellar/ninja/1.11.1/bin/ninja -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=/opt/homebrew/Cellar/llvm/16.0.1/bin/ld64.lld -DOPENSSL_CRYPTO_LIBRARY=/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.1.0/lib/libcrypto.dylib -DOPENSSL_ROOT_DIR=/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.1.0 -G Ninja -S /Users/alexander/CLionProjects/GitHub/LinkShortener -B /Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug
+CMake Warning at /usr/local/lib/cmake/libmongocxx-3.7.1/libmongocxx-config.cmake:15 (message):
+  This CMake target is deprecated.  Use 'mongo::mongocxx_shared' instead.
+  Consult the example projects for further details.
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (find_package)
+
+
+CMake Warning at /usr/local/lib/cmake/libbsoncxx-3.7.1/libbsoncxx-config.cmake:15 (message):
+  This CMake target is deprecated.  Use 'mongo::bsoncxx_shared' instead.
+  Consult the example projects for further details.
+Call Stack (most recent call first):
+  /usr/local/lib/cmake/libmongocxx-3.7.1/libmongocxx-config.cmake:22 (find_package)
+  CMakeLists.txt:34 (find_package)
+
+
+CMake Warning at /usr/local/lib/cmake/libbsoncxx-3.7.1/libbsoncxx-config.cmake:15 (message):
+  This CMake target is deprecated.  Use 'mongo::bsoncxx_shared' instead.
+  Consult the example projects for further details.
+Call Stack (most recent call first):
+  CMakeLists.txt:35 (find_package)
+
+
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug

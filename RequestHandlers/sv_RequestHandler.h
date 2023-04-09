@@ -2,7 +2,6 @@
 #include <unordered_map>
 #include <functional>
 #include <boost/beast.hpp>
-#include <boost/multi_array.hpp>
 
 #include "../Utils/utils_EnumTraits.h"
 

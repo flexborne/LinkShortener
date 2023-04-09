@@ -1,5 +1,7 @@
-/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/CMakeFiles/LinkShortener.dir
-/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/RequestHandlers/CMakeFiles/edit_cache.dir
-/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/RequestHandlers/CMakeFiles/rebuild_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/CMakeFiles/LinkShortener.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/RequestHandlers/CMakeFiles/edit_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/RequestHandlers/CMakeFiles/rebuild_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/Database/CMakeFiles/edit_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/Database/CMakeFiles/rebuild_cache.dir

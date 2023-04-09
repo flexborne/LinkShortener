@@ -1,0 +1,5 @@
+/Users/alexander/CLionProjects/GitHub/LinkShortener/CMakeFiles/LinkShortener.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/CMakeFiles/edit_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/CMakeFiles/rebuild_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/RequestHandlers/CMakeFiles/edit_cache.dir
+/Users/alexander/CLionProjects/GitHub/LinkShortener/RequestHandlers/CMakeFiles/rebuild_cache.dir

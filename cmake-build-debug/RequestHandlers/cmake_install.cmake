@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alexander/CLionProjects/LinkShortener/RequestHandlers
+# Install script for directory: /Users/alexander/CLionProjects/GitHub/LinkShortener/RequestHandlers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/opt/homebrew/Cellar/llvm/16.0.1/bin/llvm-objdump")
 endif()
 

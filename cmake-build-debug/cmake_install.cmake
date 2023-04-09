@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alexander/CLionProjects/LinkShortener
+# Install script for directory: /Users/alexander/CLionProjects/GitHub/LinkShortener
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,17 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/opt/homebrew/Cellar/llvm/16.0.1/bin/llvm-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/RequestHandlers/cmake_install.cmake")
+  include("/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/RequestHandlers/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/Database/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/alexander/CLionProjects/LinkShortener/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
