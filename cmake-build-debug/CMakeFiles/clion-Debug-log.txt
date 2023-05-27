@@ -1,9 +1,28 @@
-/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/homebrew/Cellar/ninja/1.11.1/bin/ninja -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=/opt/homebrew/Cellar/llvm/16.0.1/bin/ld64.lld -DOPENSSL_CRYPTO_LIBRARY=/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.1.0/lib/libcrypto.dylib -DOPENSSL_ROOT_DIR=/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.1.0 -G Ninja -S /Users/alexander/CLionProjects/GitHub/LinkShortener -B /Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug
+/opt/homebrew/Cellar/cmake/3.26.3/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/homebrew/Cellar/ninja/1.11.1/bin/ninja -DCMAKE_C_COMPILER=/opt/homebrew/Cellar/llvm/16.0.4/bin/clang -DCMAKE_CXX_COMPILER=/opt/homebrew/Cellar/llvm/16.0.4/bin/clang++ -DCMAKE_EXE_LINKER_FLAGS=-fuse-ld=/opt/homebrew/Cellar/llvm/16.0.4/bin/ld64.lld -DOPENSSL_CRYPTO_LIBRARY=/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.1.0/lib/libcrypto.dylib -DOPENSSL_ROOT_DIR=/System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.1.0 -D LIBMONGOCXX_LIBRARIES=/usr/local/lib -D LIBBSONCXX_LIBRARIES=/usr/local/lib -G Ninja -S /Users/alexander/CLionProjects/GitHub/LinkShortener -B /Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug
+-- The C compiler identification is Clang 16.0.4
+-- The CXX compiler identification is Clang 16.0.4
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /opt/homebrew/Cellar/llvm/16.0.4/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /opt/homebrew/Cellar/llvm/16.0.4/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ZLIB: /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib/libz.tbd (found version "1.2.11")  
+-- Found PCRE2: /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib/libpcre2-8.tbd  
+-- Found Boost: /opt/homebrew/lib/cmake/Boost-1.81.0/BoostConfig.cmake (found version "1.81.0")  
+-- Found OpenSSL: /System/Volumes/Data/opt/homebrew/Cellar/openssl@3/3.1.0/lib/libcrypto.dylib (found version "3.1.0")  
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
 CMake Warning at /usr/local/lib/cmake/libmongocxx-3.7.1/libmongocxx-config.cmake:15 (message):
   This CMake target is deprecated.  Use 'mongo::mongocxx_shared' instead.
   Consult the example projects for further details.
 Call Stack (most recent call first):
-  CMakeLists.txt:34 (find_package)
+  CMakeLists.txt:39 (find_package)
 
 
 CMake Warning at /usr/local/lib/cmake/libbsoncxx-3.7.1/libbsoncxx-config.cmake:15 (message):
@@ -11,16 +30,16 @@ CMake Warning at /usr/local/lib/cmake/libbsoncxx-3.7.1/libbsoncxx-config.cmake:1
   Consult the example projects for further details.
 Call Stack (most recent call first):
   /usr/local/lib/cmake/libmongocxx-3.7.1/libmongocxx-config.cmake:22 (find_package)
-  CMakeLists.txt:34 (find_package)
+  CMakeLists.txt:39 (find_package)
 
 
 CMake Warning at /usr/local/lib/cmake/libbsoncxx-3.7.1/libbsoncxx-config.cmake:15 (message):
   This CMake target is deprecated.  Use 'mongo::bsoncxx_shared' instead.
   Consult the example projects for further details.
 Call Stack (most recent call first):
-  CMakeLists.txt:35 (find_package)
+  CMakeLists.txt:40 (find_package)
 
 
--- Configuring done (0.1s)
+-- Configuring done (0.9s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/alexander/CLionProjects/GitHub/LinkShortener/cmake-build-debug

@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/homebrew/Cellar/llvm/16.0.1/bin/llvm-objdump")
+  set(CMAKE_OBJDUMP "/opt/homebrew/Cellar/llvm/16.0.4/bin/llvm-objdump")
 endif()
 

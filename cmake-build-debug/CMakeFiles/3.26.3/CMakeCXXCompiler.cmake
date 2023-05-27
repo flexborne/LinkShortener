@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "/opt/homebrew/Cellar/llvm/16.0.1/bin/clang++")
+set(CMAKE_CXX_COMPILER "/opt/homebrew/Cellar/llvm/16.0.4/bin/clang++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "Clang")
-set(CMAKE_CXX_COMPILER_VERSION "16.0.1")
+set(CMAKE_CXX_COMPILER_VERSION "16.0.4")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/opt/anaconda3/bin/ar")
-set(CMAKE_CXX_COMPILER_AR "/opt/homebrew/Cellar/llvm/16.0.1/bin/llvm-ar")
-set(CMAKE_RANLIB "/opt/homebrew/Cellar/llvm/16.0.1/bin/llvm-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/opt/homebrew/Cellar/llvm/16.0.1/bin/llvm-ranlib")
-set(CMAKE_LINKER "/opt/anaconda3/bin/ld")
+set(CMAKE_AR "/usr/bin/ar")
+set(CMAKE_CXX_COMPILER_AR "/opt/homebrew/Cellar/llvm/16.0.4/bin/llvm-ar")
+set(CMAKE_RANLIB "/opt/homebrew/Cellar/llvm/16.0.4/bin/llvm-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/opt/homebrew/Cellar/llvm/16.0.4/bin/llvm-ranlib")
+set(CMAKE_LINKER "/usr/bin/ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX )
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/opt/homebrew/Cellar/llvm/16.0.1/include/c++/v1;/opt/homebrew/Cellar/llvm/16.0.1/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/opt/homebrew/Cellar/llvm/16.0.4/include/c++/v1;/opt/homebrew/Cellar/llvm/16.0.4/lib/clang/16/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/System/Library/Frameworks")

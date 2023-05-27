@@ -5,8 +5,9 @@
 #include <boost/beast/ssl.hpp>
 #include <mongocxx/client.hpp>
 #include <mongocxx/instance.hpp>
-#include "Mongo.h"
-#include "RequestHandlers/sv_RequestHandler.h"
+#include "RequestHandlers/request_handler.h"
+#include "db_record.h"
+#include "mongo.h"
 
 namespace asio = boost::asio;
 namespace ssl = boost::asio::ssl;
@@ -111,16 +112,15 @@ void do_accept(tcp::acceptor& acceptor, ssl::context& ssl_context) {
 }
 
 int main() try {
-  MongoConnector{}.setConfig(27017);
+  auto connector = database::MongoConnector{"localhost", 27017};
+  connector.create(DbRecord{.key_ = "dadada", .url_ = "URL"});
   asio::io_context ioc;
   tcp::acceptor acceptor{ioc,
                          {ServerConfig::ip_address, ServerConfig::port_num}};
   ssl::context ssl_context{ssl::context::tlsv12};
   ssl_context = create_ssl_context();
 
-  // Start accepting HTTPS connections
-  // Start accepting HTTPS connections
-  do_accept(acceptor, ssl_context);
+  // Start accepting HTTPS connectionsdo_accept(acceptor, ssl_context);
 
   // Run the I/O service
 
@@ -128,4 +128,6 @@ int main() try {
   return 0;
 } catch (std::exception const& e) {
   spdlog::error(e.what());
+} catch (...) {
+  spdlog::error("Unknown exception");
 }

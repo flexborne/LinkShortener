@@ -6,10 +6,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(RequestHandlers)
 add_subdirectory(Database)
+add_subdirectory(Serialization)
+add_subdirectory(Utils)
 
 add_executable(LinkShortener main.cpp)
+
 target_link_libraries(LinkShortener PRIVATE RequestHandlers)
 target_link_libraries(LinkShortener PRIVATE Database)
+target_link_libraries(LinkShortener PRIVATE Serialization)
+target_link_libraries(LinkShortener PRIVATE Utils)
 
 # Find Poco
 find_package(Poco REQUIRED COMPONENTS Foundation Net JSON)
@@ -35,7 +40,7 @@ find_package(libmongocxx REQUIRED)
 find_package(libbsoncxx REQUIRED)
 
 # Add the include directories for the driver
-include_directories($ENV{MONGOCXX_INCLUDE_DIRS} $ENV{BSONCXX_INCLUDE_DIRS})
+include_directories(${LIBMONGOCXX_INCLUDE_DIRS} ${LIBBSONCXX_INCLUDE_DIRS})
 target_link_libraries(LinkShortener PRIVATE ${LIBMONGOCXX_LIBRARIES} ${LIBBSONCXX_LIBRARIES})
 
 # fmt
