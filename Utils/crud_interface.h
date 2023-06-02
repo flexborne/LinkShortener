@@ -11,7 +11,7 @@ class CRUD {
   }
 
   template <class... Args>
-  auto read(Args&&... args) {
+  const auto read(Args&&... args) const {
     return derived().readImpl(std::forward<Args>(args)...);
   }
 

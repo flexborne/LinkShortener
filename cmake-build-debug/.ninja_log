@@ -24,3 +24,6 @@
 31	1174	1685226032222526579	CMakeFiles/LinkShortener.dir/Database/mongo.cpp.o	e783da0291fe3a68
 31	6239	1685226037276988336	CMakeFiles/LinkShortener.dir/main.cpp.o	9dd3cf757fae9bb9
 6239	6356	1685226037413202438	LinkShortener	924fab3f95a4c538
+47	1245	1685731116735894563	CMakeFiles/LinkShortener.dir/Database/mongo.cpp.o	e783da0291fe3a68
+46	5853	1685731121326391612	CMakeFiles/LinkShortener.dir/main.cpp.o	9dd3cf757fae9bb9
+5853	5996	1685731121491999878	LinkShortener	924fab3f95a4c538
