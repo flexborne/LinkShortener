@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LinkShortener"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LinkShortener">
+				<Option output="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/LinkShortener" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSPDLOG_SHARED_LIB"/>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add option="-DSPDLOG_FMT_EXTERNAL"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/Serialization"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/Utils"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 LinkShortener"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LinkShortener/fast">
+				<Option output="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/LinkShortener" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSPDLOG_SHARED_LIB"/>
+					<Add option="-DSPDLOG_COMPILED_LIB"/>
+					<Add option="-DSPDLOG_FMT_EXTERNAL"/>
+					<Add option="-DFMT_LOCALE"/>
+					<Add option="-DFMT_SHARED"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/Serialization"/>
+					<Add directory="/home/sashka/Projects/LinkShortener/Utils"/>
+					<Add directory="/usr/local/include/mongocxx/v_noabi"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc"/>
+					<Add directory="/usr/local/include/bsoncxx/v_noabi"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
+					<Add directory="/usr/lib/llvm-14/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 LinkShortener/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Database/mongo.cpp">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Database/mongo.h">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/request_handler.cpp">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/request_handler.h">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Serialization/db_record_bson.cpp">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Utils/shortener.cpp">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Utils/shortener.h">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/main.cpp">
+			<Option target="LinkShortener"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Database/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Database\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx_targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx_targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-1.0-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-1.0-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson-1.0-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson-1.0-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_shared-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_shared-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_static-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_static-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx_targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx_targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../workflow/workflow-config.cmake">
+			<Option virtualFolder="CMake Files\..\workflow\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\RequestHandlers\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Serialization/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Serialization\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/Utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Utils\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

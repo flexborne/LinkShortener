@@ -9,6 +9,8 @@
 #include "db_record.h"
 #include "mongo.h"
 
+#include "workflow/WFHttpServer.h"
+
 namespace asio = boost::asio;
 namespace ssl = boost::asio::ssl;
 namespace beast = boost::beast;
@@ -55,7 +57,7 @@ class Session : public std::enable_shared_from_this<Session> {
     beast::http::async_read(
         stream_, buffer_, request_,
         [self](beast::error_code ec, std::size_t bytes_transferred) {
-          spdlog::info("request target {}", self->request_.target());
+          spdlog::info("request target {}", self->request_.target().data());
           if (!ec)
             self->do_write();
         });
@@ -77,7 +79,7 @@ class Session : public std::enable_shared_from_this<Session> {
         stream_, response_,
         [self](beast::error_code ec, std::size_t bytes_transferred) {
           if (ec) {
-            spdlog::error(ec.what());
+            spdlog::error(ec.message());
           }
           self->do_read();
         });
@@ -104,7 +106,7 @@ void do_accept(tcp::acceptor& acceptor, ssl::context& ssl_context) {
       // Create a session and start it
       std::make_shared<Session>(std::move(socket), ssl_context)->start();
     } else {
-      spdlog::error(ec.what());
+      spdlog::error(ec.message());
     }
     spdlog::info("Adding new connection");
     do_accept(acceptor, ssl_context);
