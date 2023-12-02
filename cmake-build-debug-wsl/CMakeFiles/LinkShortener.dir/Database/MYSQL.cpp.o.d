@@ -462,4 +462,5 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: \
   /home/sashka/Projects/workflow/_include/workflow/MySQLResult.h \
   /home/sashka/Projects/workflow/_include/workflow/mysql_types.h \
   /home/sashka/Projects/workflow/_include/workflow/MySQLResult.inl \
-  /home/sashka/Projects/workflow/_include/workflow/mysql_byteorder.h
+  /home/sashka/Projects/workflow/_include/workflow/mysql_byteorder.h \
+  /home/sashka/Projects/LinkShortener/Database/db_record.h

@@ -129,6 +129,19 @@ LinkShortener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/build
 .PHONY : LinkShortener/fast
 
+#=============================================================================
+# Target rules for targets named Database
+
+# Build rule for target.
+Database: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Database
+.PHONY : Database
+
+# fast build rule for target.
+Database/fast:
+	$(MAKE) $(MAKESILENT) -f Database/CMakeFiles/Database.dir/build.make Database/CMakeFiles/Database.dir/build
+.PHONY : Database/fast
+
 Database/MYSQL.o: Database/MYSQL.cpp.o
 .PHONY : Database/MYSQL.o
 
@@ -257,6 +270,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Database"
 	@echo "... LinkShortener"
 	@echo "... Database/MYSQL.o"
 	@echo "... Database/MYSQL.i"

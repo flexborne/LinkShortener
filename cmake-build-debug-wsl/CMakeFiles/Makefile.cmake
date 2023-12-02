@@ -95,4 +95,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinkShortener.dir/DependInfo.cmake"
+  "Database/CMakeFiles/Database.dir/DependInfo.cmake"
   )

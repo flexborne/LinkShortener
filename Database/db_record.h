@@ -11,3 +11,10 @@ struct ShortenedURL {
   std::string originalURL;
   Time creationTime;
 };
+
+const inline std::string URLS_TABLE_CREATION_QUERY =
+                          R"(CREATE TABLE IF NOT EXISTS urls (
+                            shortened VARCHAR(20) PRIMARY KEY,
+                            original VARCHAR(255) NOT NULL,
+                            creation_time DATETIME
+                          );)";

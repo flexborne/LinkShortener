@@ -41,6 +41,7 @@ class MYSQL : public CRUD {
 //    }
 //  }
 
+  /// @brief init connection
   int init(const std::string& url);
 
  private:

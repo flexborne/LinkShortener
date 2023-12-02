@@ -8,23 +8,28 @@
 #include "co/log.h"
 #include "co/cout.h"
 #include "workflow/MySQLResult.h"
+#include "db_record.h"
 
 void db::MYSQL::read() {
-  std::string createTableQuery = R"(CREATE TABLE IF NOT EXISTS your_table (
-                                   id INT AUTO_INCREMENT PRIMARY KEY,
-                                   shortenedURL VARCHAR(100),
-                                   originalURL VARCHAR(100),
-                                   creationTime DATETIME
-                               );)";
+
   auto callback = [](WFMySQLTask* task)
   {
-    cout << "HI from callback" << endl;
-    cout << task->get_resp()->get_info();
+    cout << "HI from callback2" << endl;
+    if (task->get_state() != WFT_STATE_SUCCESS)
+    {
+      ELOG << "[MYSQL] Task failed with error: " << WFGlobal::get_error_string(task->get_state(), task->get_error());
+      return;
+    }
+    cout << "EVERYTHING IS FINE";
+    auto* resp = task->get_resp();
+    LOG << resp->get_info() << "\n" << resp->get_affected_rows();
+    cout << "VERY FINE";
+    LOG << "KEK";
     //cout << task->get_resp()->
 
   };
 
-  auto* task = conn.create_query_task(createTableQuery, callback);
+  auto* task = conn.create_query_task(URLS_TABLE_CREATION_QUERY, callback);
   task->start();
 }
 
@@ -38,6 +43,7 @@ int db::MYSQL::init(const std::string& url) {
   DLOG << "[MYSQL::init] error: " << res;
   return res;
 }
+
 void db::MYSQL::create(int a) {
     protocol::MySQLCell cell;
     //conn.init("mysql://root:root@localhost:3306/db?\n");
@@ -47,18 +53,12 @@ void db::MYSQL::create(int a) {
       cout << "HI from callback2" << endl;
       if (task->get_state() != WFT_STATE_SUCCESS)
       {
-        ELOG << "[MYSQL] Task failed with error: " << WFGlobal::get_error_string(task->get_state(),
-                               task->get_error());
-        cout << "STATE " << task->get_state() << endl;
-        cout << "TIMEOUT REASON " << task->get_timeout_reason() << endl;
-        cout << "CLOSED " << task->closed() << endl;
-        cout << task->get_error() << endl;
-        ELOG << "MYSQL task error: " << task->get_error();
+        ELOG << "[MYSQL] Task failed with error: " << WFGlobal::get_error_string(task->get_state(), task->get_error());
         return;
       }
       cout << "EVERYTHING IS FINE";
       auto* resp = task->get_resp();
-      cout << resp->get_info() << endl << resp->get_error_code();
+      LOG << resp->get_info() << "\n" << resp->get_affected_rows();
       cout << "VERY FINE";
       LOG << "KEK";
       //std::terminate();

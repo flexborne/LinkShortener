@@ -20,6 +20,9 @@
 #include "MYSQL.h"
 #include "co/log.h"
 #include "co/cout.h"
+
+#include "co/god.h"
+
 struct ServerConfig {
   constexpr static uint16_t port_num = 443;
   //static inline auto const ip_address = tcp::v4();
@@ -28,11 +31,22 @@ struct ServerConfig {
 static WFFacilities::WaitGroup wait_group(1);
 
 
-void process(WFHttpTask* task) {
-  task->get_req()->get_method();
-  task->get_resp()->append_output_body("<html>Hello World!</html>");
-  auto* resp = task->get_resp();
-  resp->add_header_pair("Content-Type", "text/html");
+void handle_request(WFHttpTask* task) {
+  protocol::HttpRequest* req = task->get_req();
+  protocol::HttpResponse* resp = task->get_resp();
+  resp->set_http_version("HTTP/1.1");
+
+  const char* request_uri = req->get_request_uri();
+
+  request::handle_func handler = request::Router::get_handler(request_uri);
+
+  if (handler == nullptr) [[unlikely]] {
+    resp->append_output_body_nocopy(request::default_messages::UNSUPPORTED_URI);
+    resp->set_status_code(request::status_codes::UNIMPLEMENTED);
+    return;
+  }
+
+  handler(task->get_req(), task->get_resp());
 }
 
 #define RETRY_MAX       0
@@ -238,6 +252,7 @@ DEF_string(dbHost, "localhost", "dbHost");
 
 
 int main(int argc, char** argv) try {
+  god::bless_no_bugs();
   db::MYSQL connector{};
 
   flag::parse(argc, argv);
@@ -249,14 +264,17 @@ int main(int argc, char** argv) try {
   cout << dbURL << endl;
   int res = connector.init(dbURL);
   cout << "RES: " << res << endl;
-  //connector.read();
+  connector.read();
   connector.create(1);
   DLOG << "db url: " << dbURL;
 
-  for (;;)
-  {}
+  WFHttpServer server(handle_request);
 
-//  WFMySQLTask *task;
+  if (server.start(8888) == 0) {  // start server on port 8888
+    getchar();                    // press "Enter" to end.
+  }
+
+  //  WFMySQLTask *task;
 //
 //  auto url = "mysql://root:root@localhost:3306/db?\n";
 //
@@ -278,11 +296,6 @@ int main(int argc, char** argv) try {
 //
 //  wait_group.wait();
 //
-//  WFHttpServer server(process);
-//
-//  if (server.start(8888) == 0) {  // start server on port 8888
-//    getchar();                    // press "Enter" to end.
-//  }
 //  WFGlobal::new_ssl_server_ctx();
 ////  auto url = "https://github.com/sogou/workflow/blob/master/tutorial/tutorial-01-wget.cc";
 ////  WFHttpTask *task = WFTaskFactory::create_http_task(url, 1, 1, wget_callback);

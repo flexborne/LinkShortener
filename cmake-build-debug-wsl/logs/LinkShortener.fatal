@@ -1,2 +1,4 @@
 F1202 19:51:48.220] SIGILL: illegal instruction
 F1202 21:09:13.568] SIGABRT: aborted
+F1202 23:37:23.341] SIGSEGV: segmentation fault
+F1202 23:52:53.449] SIGSEGV: segmentation fault

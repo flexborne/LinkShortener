@@ -89,7 +89,7 @@ clean: Utils/clean
 # Directory level rules for directory Database
 
 # Recursive "all" directory target.
-Database/all:
+Database/all: Database/CMakeFiles/Database.dir/all
 .PHONY : Database/all
 
 # Recursive "preinstall" directory target.
@@ -97,7 +97,7 @@ Database/preinstall:
 .PHONY : Database/preinstall
 
 # Recursive "clean" directory target.
-Database/clean:
+Database/clean: Database/CMakeFiles/Database.dir/clean
 .PHONY : Database/clean
 
 #=============================================================================
@@ -149,7 +149,7 @@ Utils/clean:
 # Target rules for target CMakeFiles/LinkShortener.dir
 
 # All Build rule for target.
-CMakeFiles/LinkShortener.dir/all:
+CMakeFiles/LinkShortener.dir/all: Database/CMakeFiles/Database.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target LinkShortener"
@@ -170,6 +170,32 @@ LinkShortener: CMakeFiles/LinkShortener.dir/rule
 CMakeFiles/LinkShortener.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/clean
 .PHONY : CMakeFiles/LinkShortener.dir/clean
+
+#=============================================================================
+# Target rules for target Database/CMakeFiles/Database.dir
+
+# All Build rule for target.
+Database/CMakeFiles/Database.dir/all:
+	$(MAKE) $(MAKESILENT) -f Database/CMakeFiles/Database.dir/build.make Database/CMakeFiles/Database.dir/depend
+	$(MAKE) $(MAKESILENT) -f Database/CMakeFiles/Database.dir/build.make Database/CMakeFiles/Database.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num= "Built target Database"
+.PHONY : Database/CMakeFiles/Database.dir/all
+
+# Build rule for subdir invocation for target.
+Database/CMakeFiles/Database.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Database/CMakeFiles/Database.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles 0
+.PHONY : Database/CMakeFiles/Database.dir/rule
+
+# Convenience name for target.
+Database: Database/CMakeFiles/Database.dir/rule
+.PHONY : Database
+
+# clean rule for target.
+Database/CMakeFiles/Database.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Database/CMakeFiles/Database.dir/build.make Database/CMakeFiles/Database.dir/clean
+.PHONY : Database/CMakeFiles/Database.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
