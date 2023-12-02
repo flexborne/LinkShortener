@@ -6,9 +6,9 @@
 
 using Time = std::chrono::time_point<std::chrono::system_clock>;
 
-struct ShortenedURL {
-  std::string shortenedURL;
-  std::string originalURL;
+struct ShortenedUrl {
+  std::string shortenedUrl;
+  std::string originalUrl;
   Time creationTime;
 };
 

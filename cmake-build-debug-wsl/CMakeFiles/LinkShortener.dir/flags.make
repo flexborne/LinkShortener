@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++-18
 CXX_DEFINES = -DFMT_LOCALE -DFMT_SHARED
 
-CXX_INCLUDES = -I/home/sashka/Projects/workflow/_include -I/home/sashka/Projects/LinkShortener/RequestHandlers -I/home/sashka/Projects/LinkShortener/Database -I/home/sashka/Projects/LinkShortener/Serialization -I/home/sashka/Projects/LinkShortener/Utils -isystem /home/sashka/Projects/coost/include -isystem /usr/local/include/mongocxx/v_noabi -isystem /usr/local/include/bsoncxx/v_noabi/bsoncxx/third_party/mnmlstc -isystem /usr/local/include/bsoncxx/v_noabi
+CXX_INCLUDES = -I/home/sashka/Projects/workflow/_include -I/home/sashka/Projects/LinkShortener/RequestHandlers -I/home/sashka/Projects/LinkShortener/Database -I/home/sashka/Projects/LinkShortener/Serialization -I/home/sashka/Projects/LinkShortener/Utils -isystem /home/sashka/Projects/coost/include
 
-CXX_FLAGS = -g -std=gnu++2b
+CXX_FLAGS =  -stdlib=libc++ -g -std=gnu++2b
 

@@ -3,7 +3,6 @@
 /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles/rebuild_cache.dir
 /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/RequestHandlers/CMakeFiles/edit_cache.dir
 /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/RequestHandlers/CMakeFiles/rebuild_cache.dir
-/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Database/CMakeFiles/Database.dir
 /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Database/CMakeFiles/edit_cache.dir
 /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Database/CMakeFiles/rebuild_cache.dir
 /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Serialization/CMakeFiles/edit_cache.dir

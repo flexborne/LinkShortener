@@ -129,19 +129,6 @@ LinkShortener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/build
 .PHONY : LinkShortener/fast
 
-#=============================================================================
-# Target rules for targets named Database
-
-# Build rule for target.
-Database: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Database
-.PHONY : Database
-
-# fast build rule for target.
-Database/fast:
-	$(MAKE) $(MAKESILENT) -f Database/CMakeFiles/Database.dir/build.make Database/CMakeFiles/Database.dir/build
-.PHONY : Database/fast
-
 Database/MYSQL.o: Database/MYSQL.cpp.o
 .PHONY : Database/MYSQL.o
 
@@ -165,6 +152,30 @@ Database/MYSQL.s: Database/MYSQL.cpp.s
 Database/MYSQL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.s
 .PHONY : Database/MYSQL.cpp.s
+
+RequestHandlers/DAO.o: RequestHandlers/DAO.cpp.o
+.PHONY : RequestHandlers/DAO.o
+
+# target to build an object file
+RequestHandlers/DAO.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o
+.PHONY : RequestHandlers/DAO.cpp.o
+
+RequestHandlers/DAO.i: RequestHandlers/DAO.cpp.i
+.PHONY : RequestHandlers/DAO.i
+
+# target to preprocess a source file
+RequestHandlers/DAO.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.i
+.PHONY : RequestHandlers/DAO.cpp.i
+
+RequestHandlers/DAO.s: RequestHandlers/DAO.cpp.s
+.PHONY : RequestHandlers/DAO.s
+
+# target to generate assembly for a file
+RequestHandlers/DAO.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.s
+.PHONY : RequestHandlers/DAO.cpp.s
 
 RequestHandlers/request_handler.o: RequestHandlers/request_handler.cpp.o
 .PHONY : RequestHandlers/request_handler.o
@@ -214,30 +225,6 @@ Serialization/db_record_bson.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.s
 .PHONY : Serialization/db_record_bson.cpp.s
 
-Utils/shortener.o: Utils/shortener.cpp.o
-.PHONY : Utils/shortener.o
-
-# target to build an object file
-Utils/shortener.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o
-.PHONY : Utils/shortener.cpp.o
-
-Utils/shortener.i: Utils/shortener.cpp.i
-.PHONY : Utils/shortener.i
-
-# target to preprocess a source file
-Utils/shortener.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.i
-.PHONY : Utils/shortener.cpp.i
-
-Utils/shortener.s: Utils/shortener.cpp.s
-.PHONY : Utils/shortener.s
-
-# target to generate assembly for a file
-Utils/shortener.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.s
-.PHONY : Utils/shortener.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -270,20 +257,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Database"
 	@echo "... LinkShortener"
 	@echo "... Database/MYSQL.o"
 	@echo "... Database/MYSQL.i"
 	@echo "... Database/MYSQL.s"
+	@echo "... RequestHandlers/DAO.o"
+	@echo "... RequestHandlers/DAO.i"
+	@echo "... RequestHandlers/DAO.s"
 	@echo "... RequestHandlers/request_handler.o"
 	@echo "... RequestHandlers/request_handler.i"
 	@echo "... RequestHandlers/request_handler.s"
 	@echo "... Serialization/db_record_bson.o"
 	@echo "... Serialization/db_record_bson.i"
 	@echo "... Serialization/db_record_bson.s"
-	@echo "... Utils/shortener.o"
-	@echo "... Utils/shortener.i"
-	@echo "... Utils/shortener.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

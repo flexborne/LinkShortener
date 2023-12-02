@@ -1,6 +1,4 @@
-#include <spdlog/spdlog.h>
-#include <mongocxx/client.hpp>
-#include <mongocxx/instance.hpp>
+
 #include "MYSQL.h"
 #include "RequestHandlers/request_handler.h"
 #include "db_record.h"

@@ -97,10 +97,24 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sashka/Projects/LinkShortener/RequestHandlers/request_handler.cpp -o CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.s
 
+CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o: CMakeFiles/LinkShortener.dir/flags.make
+CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o: ../RequestHandlers/DAO.cpp
+CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o: CMakeFiles/LinkShortener.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o -MF CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o.d -o CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o -c /home/sashka/Projects/LinkShortener/RequestHandlers/DAO.cpp
+
+CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.i"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sashka/Projects/LinkShortener/RequestHandlers/DAO.cpp > CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.i
+
+CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.s"
+	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sashka/Projects/LinkShortener/RequestHandlers/DAO.cpp -o CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.s
+
 CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: CMakeFiles/LinkShortener.dir/flags.make
 CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp
 CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: CMakeFiles/LinkShortener.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o -MF CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o.d -o CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o -c /home/sashka/Projects/LinkShortener/Database/MYSQL.cpp
 
 CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.s: cmake_force
 CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o: CMakeFiles/LinkShortener.dir/flags.make
 CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o: ../Serialization/db_record_bson.cpp
 CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o: CMakeFiles/LinkShortener.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o -MF CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o.d -o CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o -c /home/sashka/Projects/LinkShortener/Serialization/db_record_bson.cpp
 
 CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.i: cmake_force
@@ -125,49 +139,30 @@ CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.s"
 	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sashka/Projects/LinkShortener/Serialization/db_record_bson.cpp -o CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.s
 
-CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o: CMakeFiles/LinkShortener.dir/flags.make
-CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o: ../Utils/shortener.cpp
-CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o: CMakeFiles/LinkShortener.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o -MF CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o.d -o CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o -c /home/sashka/Projects/LinkShortener/Utils/shortener.cpp
-
-CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.i"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sashka/Projects/LinkShortener/Utils/shortener.cpp > CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.i
-
-CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.s"
-	/usr/bin/clang++-18 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sashka/Projects/LinkShortener/Utils/shortener.cpp -o CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.s
-
 # Object files for target LinkShortener
 LinkShortener_OBJECTS = \
 "CMakeFiles/LinkShortener.dir/main.cpp.o" \
 "CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o" \
+"CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o" \
 "CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o" \
-"CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o" \
-"CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o"
+"CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o"
 
 # External object files for target LinkShortener
 LinkShortener_EXTERNAL_OBJECTS =
 
 LinkShortener: CMakeFiles/LinkShortener.dir/main.cpp.o
 LinkShortener: CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o
+LinkShortener: CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o
 LinkShortener: CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o
 LinkShortener: CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o
-LinkShortener: CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o
 LinkShortener: CMakeFiles/LinkShortener.dir/build.make
 LinkShortener: /home/sashka/Projects/coost/build/src/libco.so.3.0.0
 LinkShortener: /usr/lib/x86_64-linux-gnu/libssl.so
 LinkShortener: /usr/lib/x86_64-linux-gnu/libcrypto.so
-LinkShortener: /usr/local/lib/libmongocxx.so.3.9.0
-LinkShortener: /usr/local/lib/libbsoncxx.so.3.9.0
 LinkShortener: /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
 LinkShortener: /usr/lib/x86_64-linux-gnu/libssl.so
 LinkShortener: /usr/lib/x86_64-linux-gnu/libcrypto.so
 LinkShortener: /usr/lib/x86_64-linux-gnu/librt.a
-LinkShortener: /usr/lib/x86_64-linux-gnu/librt.a
-LinkShortener: /usr/lib/x86_64-linux-gnu/libssl.so
-LinkShortener: /usr/lib/x86_64-linux-gnu/libcrypto.so
 LinkShortener: CMakeFiles/LinkShortener.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable LinkShortener"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinkShortener.dir/link.txt --verbose=$(VERBOSE)

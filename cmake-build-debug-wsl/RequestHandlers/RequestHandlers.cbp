@@ -5,7 +5,7 @@
 		<Option title="RequestHandlers"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\build\;CMake Files\..\coost\build\src\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\build\;CMake Files\..\coost\build\src\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/RequestHandlers"/>
@@ -32,63 +32,6 @@
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/build/src/coostTargets.cmake">
 			<Option virtualFolder="CMake Files\..\coost\build\src\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx_targets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx_targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-1.0-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-1.0-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-targets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongoc-1.0/mongoc-targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson-1.0-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson-1.0-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson-targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_shared-targets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_shared-targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_static-targets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bson-1.0/bson_static-targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx_targets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx_targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>

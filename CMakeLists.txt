@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.22)
 project(LinkShortener)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -stdlib=libc++")
+#set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -stdlib=libc++")
+
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
@@ -26,23 +30,17 @@ message(STATUS "CMAKE_MODULE_PATH: ${CMAKE_MODULE_PATH}")
 
 # Find Coost
 find_package(coost REQUIRED CONFIG)
-target_link_libraries(LinkShortener PRIVATE coost::co)
+target_link_libraries(${PROJECT_NAME} PRIVATE coost::co)
 
 # Find OpenSSL
 find_package(OpenSSL REQUIRED)
 #include_directories(${OPENSSL_INCLUDE_DIR})
-target_link_libraries(LinkShortener PRIVATE ${OPENSSL_LIBRARIES})
+target_link_libraries(${PROJECT_NAME} PRIVATE ${OPENSSL_LIBRARIES})
 
-# Find the MongoDB C++ driver libraries and headers
-find_package(mongocxx REQUIRED)
-find_package(bsoncxx REQUIRED)
-
-# Add the include directories for the driver
-target_link_libraries(LinkShortener PRIVATE mongo::mongocxx_shared mongo::bsoncxx_shared)
 
 # fmt
 find_package(fmt REQUIRED)
-target_link_libraries(LinkShortener PRIVATE fmt::fmt)
+target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt)
 
 # Workflow
 find_library(LIBRT rt)
