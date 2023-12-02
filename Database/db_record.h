@@ -1,11 +1,13 @@
 #pragma once
 
 #include <string>
-#include <boost/date_time.hpp>
 
+#include <chrono>
 
-struct DbRecord {
-  std::string key_;
-  std::string url_;
-  boost::gregorian::date date_;
+using Time = std::chrono::time_point<std::chrono::system_clock>;
+
+struct ShortenedURL {
+  std::string shortenedURL;
+  std::string originalURL;
+  Time creationTime;
 };

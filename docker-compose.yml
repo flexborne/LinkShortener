@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mongodb:
+    # Use the MongoDB Docker image
+    image: mongo:latest
+    container_name: mongodb
+    # Configure other MongoDB settings if needed
+
+  my_cpp_server:
+    # Build from the Dockerfile in your C++ application directory
+    build:
+      context: ./link-shortener
+      dockerfile: Dockerfile
+    container_name: link_shortener
+    # Link your C++ server container to the MongoDB container
+    depends_on:
+      - mongodb
+    # Add other configurations or environment variables if needed

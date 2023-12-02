@@ -1,0 +1,205 @@
+I1202 19:27:02.199 77165 main.cpp:255] mysql://root:root@localhost:3306/db?
+
+D1202 19:28:03.020 77421 main.cpp:255] db url: mysql://root:root@localhost:3306/db?
+
+D1202 19:38:34.552 78113 main.cpp:255] db url: mysql://root:root@localhost:3306/db?
+
+D1202 19:40:18.370 78554 main.cpp:256] db url: mysql://root:root@localhost:3306/db?
+
+D1202 19:41:08.274 78801 main.cpp:256] db url: mysql://root:root@localhost:3306/db?
+
+D1202 19:49:47.056 79008 main.cpp:256] db url: mysql://root:root@localhost:3306/db
+D1202 19:49:52.575 79159 main.cpp:256] db url: mysql://root:root1@localhost:3306/db
+D1202 19:51:48.220 79433 MYSQL.cpp:15] 0
+F1202 19:51:48.220] SIGILL: illegal instruction
+D1202 19:51:51.751 79592 MYSQL.cpp:15] 0
+D1202 19:51:51.751 79592 main.cpp:256] db url: mysql://root:root@localhost:3306/db
+D1202 19:53:05.769 79842 MYSQL.cpp:16] [MYSQL::init] successful
+D1202 19:53:05.769 79842 main.cpp:256] db url: mysql://root:root@localhost:3306/db
+D1202 20:12:17.296 81063 MYSQL.cpp:30] [MYSQL::init] successful
+D1202 20:12:17.296 81063 main.cpp:256] db url: mysql://root:root@localhost:3306/db
+D1202 20:12:38.474 81268 MYSQL.cpp:31] [MYSQL::init] successful
+D1202 20:12:38.474 81268 main.cpp:256] db url: mysql://root:root@localhost:3306/db
+D1202 20:13:20.028 81490 MYSQL.cpp:32] [MYSQL::init] successful
+D1202 20:13:20.028 81490 main.cpp:256] db url: mysql://root:root@localhost:3306/db
+D1202 20:16:25.733 81970 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:16:25.733 81970 main.cpp:256] db url: mysql://root:root@localhost:3306/db
+D1202 20:16:37.995 82149 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:16:37.995 82149 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+D1202 20:16:56.808 82336 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:16:56.808 82336 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+D1202 20:18:00.797 82605 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:18:00.797 82605 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+D1202 20:19:08.035 82824 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:19:08.035 82824 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:19:08.035 82831 MYSQL.cpp:48] MYSQL task error: 11
+D1202 20:20:17.668 82964 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:20:17.668 82964 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:20:17.668 82972 MYSQL.cpp:48] MYSQL task error: 11
+D1202 20:20:29.855 83088 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:20:29.855 83088 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:20:29.855 83099 MYSQL.cpp:48] MYSQL task error: 11
+D1202 20:20:31.851 83180 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:20:31.851 83180 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:20:31.851 83188 MYSQL.cpp:48] MYSQL task error: 11
+D1202 20:22:01.367 83428 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:22:01.367 83428 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:22:01.367 83437 MYSQL.cpp:48] MYSQL task error: 11
+
+D1202 20:22:04.244 83555 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:22:04.244 83555 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:22:04.244 83580 MYSQL.cpp:48] MYSQL task error: 11
+
+D1202 20:22:21.473 83739 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:22:21.473 83739 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:22:21.473 83750 MYSQL.cpp:49] MYSQL task error: 11
+D1202 20:22:34.318 83919 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:22:34.318 83919 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:22:34.318 83929 MYSQL.cpp:49] MYSQL task error: 11
+D1202 20:22:44.530 84107 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:22:44.530 84107 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:22:44.530 84114 MYSQL.cpp:49] MYSQL task error: 0
+D1202 20:23:48.154 84309 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:23:48.154 84309 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:23:48.154 84331 MYSQL.cpp:50] MYSQL task error: 0
+D1202 20:35:36.877 84494 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:35:36.877 84494 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+
+E1202 20:35:36.877 84504 MYSQL.cpp:50] MYSQL task error: 0
+D1202 20:35:44.615 84667 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:35:44.615 84667 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+
+E1202 20:35:44.615 84674 MYSQL.cpp:50] MYSQL task error: 0
+D1202 20:36:50.340 84900 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:36:50.340 84900 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:36:50.340 84910 MYSQL.cpp:50] MYSQL task error: 0
+D1202 20:36:51.355 84989 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:36:51.355 84989 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:36:51.355 84996 MYSQL.cpp:50] MYSQL task error: 0
+D1202 20:38:52.951 85198 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:38:52.951 85198 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:38:52.951 85205 MYSQL.cpp:51] MYSQL task error: 0
+D1202 20:38:58.809 85366 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:38:58.809 85366 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:38:58.809 85373 MYSQL.cpp:51] MYSQL task error: 0
+D1202 20:39:59.431 85554 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:39:59.431 85554 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:39:59.431 85564 MYSQL.cpp:52] MYSQL task error: 0
+D1202 20:40:04.401 85728 MYSQL.cpp:33] [MYSQL::init] successful
+D1202 20:40:04.401 85728 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:40:04.401 85735 MYSQL.cpp:52] MYSQL task error: 0
+D1202 20:44:20.290 86239 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:44:20.290 86239 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:44:20.290 86246 MYSQL.cpp:53] MYSQL task error: 0
+D1202 20:44:54.794 86429 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:44:54.794 86429 main.cpp:257] db url: mysql://root:root@localhost:3306/db?
+E1202 20:44:54.794 86436 MYSQL.cpp:53] MYSQL task error: 0
+D1202 20:45:40.786 86701 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:45:40.786 86701 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:45:40.786 86708 MYSQL.cpp:53] MYSQL task error: 0
+D1202 20:45:48.362 86873 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:45:48.362 86873 main.cpp:257] db url: mysql://root:root@localhost:3306/db
+E1202 20:45:48.362 86883 MYSQL.cpp:53] MYSQL task error: 0
+D1202 20:49:22.041 87132 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:49:22.041 87132 main.cpp:259] db url: mysql://root:root@localhost:3306/db
+E1202 20:49:22.041 87140 MYSQL.cpp:53] MYSQL task error: 0
+D1202 20:49:54.073 87335 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:49:54.073 87335 main.cpp:259] db url: mysql://root:root@localhost:3306/db
+E1202 20:49:54.073 87342 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:50:03.291 87508 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:50:03.291 87508 main.cpp:259] db url: mysql://root:root@localhost:3306/db
+E1202 20:50:03.291 87519 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:51:11.879 87778 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:51:11.879 87778 main.cpp:259] db url: mysql://root:root@localhost:3306/db
+E1202 20:51:11.879 87786 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:51:19.271 87952 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:51:19.271 87952 main.cpp:259] db url: mysqsl://root:root@localhost:3306/db
+E1202 20:51:19.271 87958 MYSQL.cpp:54] MYSQL task error: 1002
+D1202 20:51:43.760 88185 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:51:43.760 88185 main.cpp:260] db url: mysql://root:root@localhost:3306/db
+E1202 20:51:43.760 88192 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:51:54.933 88358 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:51:54.933 88358 main.cpp:260] db url: mysql://root:root1@localhost:3306/db
+E1202 20:51:54.933 88365 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:52:19.517 88579 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:52:19.517 88579 main.cpp:253] db url: mysql://root:root@localhost:3306/db
+E1202 20:52:19.517 88586 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:53:46.550 88769 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:53:46.550 88769 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:53:46.550 88777 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:53:54.480 88937 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:53:54.480 88937 main.cpp:253] db url: mysql://root:root@127.0.0.2:3306/db
+E1202 20:53:54.480 88947 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:54:55.149 89312 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:54:55.149 89312 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:54:55.149 89319 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:56:38.328 89496 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:56:38.328 89496 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:56:38.328 89503 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:56:57.534 89679 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:56:57.534 89679 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:56:57.534 89689 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:57:32.875 89868 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:57:32.875 89868 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:57:32.875 89893 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:58:03.784 90207 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:58:03.784 90207 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:58:03.784 90219 MYSQL.cpp:54] MYSQL task error: 0
+E1202 20:58:03.784 90216 main.cpp:264] MYSQL task error: 0
+D1202 20:58:26.852 90446 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:58:26.852 90446 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:58:26.852 90453 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:58:36.633 90628 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:58:36.633 90628 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:58:36.633 90635 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:59:09.259 90932 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:59:09.259 90932 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:59:09.259 90942 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:59:15.456 91112 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:59:15.456 91112 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:59:15.456 91119 MYSQL.cpp:54] MYSQL task error: 0
+D1202 20:59:19.140 91283 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 20:59:19.140 91283 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 20:59:19.140 91292 MYSQL.cpp:54] MYSQL task error: 0
+D1202 21:00:00.817 91517 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:00:00.817 91517 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 21:00:00.817 91524 MYSQL.cpp:54] MYSQL task error: 0
+D1202 21:00:05.655 91695 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:00:05.655 91695 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 21:00:05.655 91702 MYSQL.cpp:54] MYSQL task error: 0
+D1202 21:01:40.383 91905 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:01:40.383 91905 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 21:01:40.383 91912 MYSQL.cpp:54] MYSQL task error: 0
+D1202 21:02:13.959 92053 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:02:13.959 92053 main.cpp:253] db url: mysql://root:root@127.0.0.1:3306/db
+D1202 21:02:54.192 92247 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:02:54.192 92247 main.cpp:254] db url: mysql://root:root@127.0.0.1:3306/db
+D1202 21:03:15.749 92435 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:03:15.749 92435 main.cpp:254] db url: mysql://root:root@127.0.0.1:3306/db
+D1202 21:04:24.619 92596 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:04:24.619 92596 main.cpp:254] db url: mysql://root:root@127.0.0.1:3306/db
+D1202 21:05:06.901 92758 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:05:06.901 92758 main.cpp:254] db url: mysql://root:root@127.0.0.1:3306/db
+E1202 21:05:06.901 92766 MYSQL.cpp:54] MYSQL task error: 0
+D1202 21:06:17.483 93233 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:06:17.483 93233 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+E1202 21:06:17.483 93240 MYSQL.cpp:56] MYSQL task error: 0
+D1202 21:06:50.084 93441 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:06:50.084 93441 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+D1202 21:07:16.977 93648 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:07:16.977 93648 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+D1202 21:07:50.027 93843 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:07:50.027 93843 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+D1202 21:08:50.551 94102 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:08:50.551 94102 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+D1202 21:09:13.568 94267 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:09:13.568 94267 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+F1202 21:09:13.568] SIGABRT: aborted
+D1202 21:09:20.786 94544 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:09:20.786 94544 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+D1202 21:09:31.786 94706 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:09:31.786 94706 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+I1202 21:09:31.786 94719 MYSQL.cpp:63] KEK
+D1202 21:10:00.557 94905 MYSQL.cpp:34] [MYSQL::init] successful
+D1202 21:10:00.557 94905 main.cpp:254] db url: mysql://root:root@localhost:3306/db
+I1202 21:10:00.557 94922 MYSQL.cpp:63] KEK

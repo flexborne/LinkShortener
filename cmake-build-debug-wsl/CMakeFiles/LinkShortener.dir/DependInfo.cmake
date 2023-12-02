@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/sashka/Projects/LinkShortener/Database/mongo.cpp" "CMakeFiles/LinkShortener.dir/Database/mongo.cpp.o" "gcc" "CMakeFiles/LinkShortener.dir/Database/mongo.cpp.o.d"
+  "/home/sashka/Projects/LinkShortener/Database/MYSQL.cpp" "CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o" "gcc" "CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o.d"
   "/home/sashka/Projects/LinkShortener/RequestHandlers/request_handler.cpp" "CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o" "gcc" "CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o.d"
   "/home/sashka/Projects/LinkShortener/Serialization/db_record_bson.cpp" "CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o" "gcc" "CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o.d"
   "/home/sashka/Projects/LinkShortener/Utils/shortener.cpp" "CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o" "gcc" "CMakeFiles/LinkShortener.dir/Utils/shortener.cpp.o.d"

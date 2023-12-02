@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LinkShortener.dir/Database/mongo.cpp.o"
-  "CMakeFiles/LinkShortener.dir/Database/mongo.cpp.o.d"
+  "CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o"
+  "CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o.d"
   "CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o"
   "CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o.d"
   "CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o"

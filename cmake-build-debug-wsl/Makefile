@@ -129,29 +129,29 @@ LinkShortener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/build
 .PHONY : LinkShortener/fast
 
-Database/mongo.o: Database/mongo.cpp.o
-.PHONY : Database/mongo.o
+Database/MYSQL.o: Database/MYSQL.cpp.o
+.PHONY : Database/MYSQL.o
 
 # target to build an object file
-Database/mongo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/mongo.cpp.o
-.PHONY : Database/mongo.cpp.o
+Database/MYSQL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o
+.PHONY : Database/MYSQL.cpp.o
 
-Database/mongo.i: Database/mongo.cpp.i
-.PHONY : Database/mongo.i
+Database/MYSQL.i: Database/MYSQL.cpp.i
+.PHONY : Database/MYSQL.i
 
 # target to preprocess a source file
-Database/mongo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/mongo.cpp.i
-.PHONY : Database/mongo.cpp.i
+Database/MYSQL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.i
+.PHONY : Database/MYSQL.cpp.i
 
-Database/mongo.s: Database/mongo.cpp.s
-.PHONY : Database/mongo.s
+Database/MYSQL.s: Database/MYSQL.cpp.s
+.PHONY : Database/MYSQL.s
 
 # target to generate assembly for a file
-Database/mongo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/mongo.cpp.s
-.PHONY : Database/mongo.cpp.s
+Database/MYSQL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.s
+.PHONY : Database/MYSQL.cpp.s
 
 RequestHandlers/request_handler.o: RequestHandlers/request_handler.cpp.o
 .PHONY : RequestHandlers/request_handler.o
@@ -258,9 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LinkShortener"
-	@echo "... Database/mongo.o"
-	@echo "... Database/mongo.i"
-	@echo "... Database/mongo.s"
+	@echo "... Database/MYSQL.o"
+	@echo "... Database/MYSQL.i"
+	@echo "... Database/MYSQL.s"
 	@echo "... RequestHandlers/request_handler.o"
 	@echo "... RequestHandlers/request_handler.i"
 	@echo "... RequestHandlers/request_handler.s"

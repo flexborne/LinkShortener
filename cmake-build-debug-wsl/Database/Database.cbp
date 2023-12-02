@@ -5,7 +5,7 @@
 		<Option title="Database"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\build\;CMake Files\..\coost\build\src\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\mongoc-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bson-1.0\;CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/Database"/>
@@ -24,41 +24,14 @@
 		<Unit filename="/home/sashka/Projects/LinkShortener/Database/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Database\"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/build/src/coostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\coost\build\src\"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.74.0\"/>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/build/src/coostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\coost\build\src\"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.74.0/boost_headers-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.74.0\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\spdlog\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/build/src/coostTargets.cmake">
+			<Option virtualFolder="CMake Files\..\coost\build\src\"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/mongocxx-3.9.0/mongocxx-config-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\mongocxx-3.9.0\"/>
@@ -116,6 +89,18 @@
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/local/lib/cmake/bsoncxx-3.9.0/bsoncxx_targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\bsoncxx-3.9.0\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		</Unit>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/../workflow/workflow-config.cmake">
 			<Option virtualFolder="CMake Files\..\workflow\"/>
