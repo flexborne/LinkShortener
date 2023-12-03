@@ -6,7 +6,20 @@
 
 #include "workflow/WFMySQLConnection.h"
 
+#include <expected>
+
 #include "enum_traits.h"
+
+
+struct Error{
+  const char* message;
+};
+
+template <class Data>
+using Result = std::expected<Data, Error>;
+
+template <class Data>
+using ResultCallback = std::function<void(Result<Data>)>;
 
 ENUM_DEFINE(UrlsTableColumn, Shortened, Original, CreationTime)
 
@@ -35,7 +48,7 @@ struct UrlsTableHandler : public CRUD {
   void create_impl(ShortenedUrl url);
 
   //using ReadResult = std::expeceted<
-  void read_impl(UrlsTableInfo::PrimaryKey key);
+  void read_impl(UrlsTableInfo::PrimaryKey key, ResultCallback<ShortenedUrl> callback);
 
   /// @brief read only column
   void read_impl(UrlsTableInfo::PrimaryKey key, UrlsTableColumn column);

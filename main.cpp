@@ -45,7 +45,7 @@ void handle_request(WFHttpTask* task) {
     return;
   }
 
-  handler(task->get_req(), task->get_resp());
+  handler(task);
 }
 
 #define RETRY_MAX       0

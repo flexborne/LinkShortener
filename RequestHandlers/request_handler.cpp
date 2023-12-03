@@ -28,9 +28,10 @@ void Router::add_handler(const char* route, handle_func handler) {
   map[route] = handler;
 }
 
-void ShortenURL::handle_get(protocol::HttpRequest* req,
-                            protocol::HttpResponse* resp) const {
-  auto body = protocol::HttpUtil::decode_chunked_body(req);
+void ShortenURL::handle_get(WFHttpTask* task) const {
+  auto body = protocol::HttpUtil::decode_chunked_body(task->get_req());
+
+  auto* resp = task->get_resp();
 
   co::Json parsed;
   if (!parsed.parse_from(body) || !parsed.has_member(tags::KEY)) {
@@ -44,8 +45,7 @@ void ShortenURL::handle_get(protocol::HttpRequest* req,
   resp->append_output_body(key);
 }
 
-void ShortenURL::handle_post(protocol::HttpRequest* req,
-                             protocol::HttpResponse* resp) const {
+void ShortenURL::handle_post(WFHttpTask* task) const {
 
 }
 

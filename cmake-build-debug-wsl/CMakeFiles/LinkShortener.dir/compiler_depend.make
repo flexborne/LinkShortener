@@ -798,6 +798,11 @@ CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o: ../Database/urls
   /home/sashka/Projects/workflow/_include/workflow/WFDnsResolver.h \
   /home/sashka/Projects/workflow/_include/workflow/WFTaskError.h \
   /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h \
+  /usr/lib/llvm-18/include/c++/v1/expected \
+  /usr/lib/llvm-18/include/c++/v1/__expected/bad_expected_access.h \
+  /usr/lib/llvm-18/include/c++/v1/__expected/expected.h \
+  /usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h \
+  /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h \
   ../Utils/enum_traits.h \
   /usr/lib/llvm-18/include/c++/v1/type_traits \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h \
@@ -2411,6 +2416,58 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/include/x86_64-linux-gnu/bits/eventfd.h \
   /home/sashka/Projects/workflow/_include/workflow/http_parser.h \
   /home/sashka/Projects/workflow/_include/workflow/HttpUtil.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTaskFactory.h \
+  /home/sashka/Projects/workflow/_include/workflow/URIParser.h \
+  /usr/lib/llvm-18/include/c++/v1/map \
+  /usr/lib/llvm-18/include/c++/v1/__tree \
+  /home/sashka/Projects/workflow/_include/workflow/RedisMessage.h \
+  /home/sashka/Projects/workflow/_include/workflow/redis_parser.h \
+  /home/sashka/Projects/workflow/_include/workflow/MySQLMessage.h \
+  /home/sashka/Projects/workflow/_include/workflow/mysql_stream.h \
+  /home/sashka/Projects/workflow/_include/workflow/mysql_parser.h \
+  /home/sashka/Projects/workflow/_include/workflow/MySQLMessage.inl \
+  /home/sashka/Projects/workflow/_include/workflow/SSLWrapper.h \
+  /home/sashka/Projects/workflow/_include/workflow/DnsMessage.h \
+  /home/sashka/Projects/workflow/_include/workflow/dns_parser.h \
+  /home/sashka/Projects/workflow/_include/workflow/Workflow.h \
+  /home/sashka/Projects/workflow/_include/workflow/SubTask.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTask.h \
+  /usr/lib/llvm-18/include/c++/v1/atomic \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/aliases.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_lock_free.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_flag.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_init.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/fence.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/kill_dependency.h \
+  /home/sashka/Projects/workflow/_include/workflow/Executor.h \
+  /home/sashka/Projects/workflow/_include/workflow/ExecRequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/CommScheduler.h \
+  /home/sashka/Projects/workflow/_include/workflow/CommRequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/SleepRequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/IORequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFConnection.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTask.inl \
+  /home/sashka/Projects/workflow/_include/workflow/WFGraphTask.h \
+  /home/sashka/Projects/workflow/_include/workflow/EndpointParams.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTaskFactory.inl \
+  /usr/include/netdb.h \
+  /usr/include/netinet/in.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/rpc/netdb.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/netdb.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFGlobal.h \
+  /home/sashka/Projects/workflow/_include/workflow/DnsCache.h \
+  /home/sashka/Projects/workflow/_include/workflow/LRUCache.h \
+  /home/sashka/Projects/workflow/_include/workflow/rbtree.h \
+  /home/sashka/Projects/workflow/_include/workflow/DnsUtil.h \
+  /home/sashka/Projects/workflow/_include/workflow/RouteManager.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFResourcePool.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFNameService.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFDnsResolver.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTaskError.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h \
   /usr/include/fmt/format.h \
   /usr/lib/llvm-18/include/c++/v1/memory \
   /usr/lib/llvm-18/include/c++/v1/__memory/align.h \
@@ -2451,9 +2508,52 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/__expected/expected.h \
   /usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h \
   /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h \
+  ../Database/urls_table_handler.h \
+  ../Database/shortened_url.h \
+  /usr/lib/llvm-18/include/c++/v1/chrono \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/calendar.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_tm.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/hh_mm_ss.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/day.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/file_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/month.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/month_weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/monthday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/statically_widen.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_day.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/literals.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/formatter.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/ostream.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_functions.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/clamp.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_arg_store.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_args.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_context.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_char.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/write_escaped.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_for_each.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_fun_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/escaped_output_table.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_floating_point.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/chars_format.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_floating_point.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_integer.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_pointer.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_string.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/parser_std_format_spec.h \
+  /usr/lib/llvm-18/include/c++/v1/sstream \
+  /usr/lib/llvm-18/include/c++/v1/istream \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/tzdb.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/tzdb_list.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFMySQLConnection.h \
+  ../Utils/enum_traits.h \
   /home/sashka/Projects/coost/include/co/cout.h \
   /usr/lib/llvm-18/include/c++/v1/iostream \
-  /usr/lib/llvm-18/include/c++/v1/istream \
   /home/sashka/Projects/coost/include/co/json.h \
   /home/sashka/Projects/coost/include/co/str.h \
   /home/sashka/Projects/coost/include/co/error.h \
@@ -2463,8 +2563,6 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/list \
   /usr/lib/llvm-18/include/c++/v1/deque \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_backward.h \
-  /usr/lib/llvm-18/include/c++/v1/map \
-  /usr/lib/llvm-18/include/c++/v1/__tree \
   /usr/lib/llvm-18/include/c++/v1/set \
   /usr/lib/llvm-18/include/c++/v1/unordered_set
 
@@ -3203,6 +3301,58 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/eventfd.h \
   /home/sashka/Projects/workflow/_include/workflow/http_parser.h \
   /home/sashka/Projects/workflow/_include/workflow/HttpUtil.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTaskFactory.h \
+  /home/sashka/Projects/workflow/_include/workflow/URIParser.h \
+  /usr/lib/llvm-18/include/c++/v1/map \
+  /usr/lib/llvm-18/include/c++/v1/__tree \
+  /home/sashka/Projects/workflow/_include/workflow/RedisMessage.h \
+  /home/sashka/Projects/workflow/_include/workflow/redis_parser.h \
+  /home/sashka/Projects/workflow/_include/workflow/MySQLMessage.h \
+  /home/sashka/Projects/workflow/_include/workflow/mysql_stream.h \
+  /home/sashka/Projects/workflow/_include/workflow/mysql_parser.h \
+  /home/sashka/Projects/workflow/_include/workflow/MySQLMessage.inl \
+  /home/sashka/Projects/workflow/_include/workflow/SSLWrapper.h \
+  /home/sashka/Projects/workflow/_include/workflow/DnsMessage.h \
+  /home/sashka/Projects/workflow/_include/workflow/dns_parser.h \
+  /home/sashka/Projects/workflow/_include/workflow/Workflow.h \
+  /home/sashka/Projects/workflow/_include/workflow/SubTask.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTask.h \
+  /usr/lib/llvm-18/include/c++/v1/atomic \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/aliases.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_lock_free.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_flag.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_init.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/fence.h \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/kill_dependency.h \
+  /home/sashka/Projects/workflow/_include/workflow/Executor.h \
+  /home/sashka/Projects/workflow/_include/workflow/ExecRequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/CommScheduler.h \
+  /home/sashka/Projects/workflow/_include/workflow/CommRequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/SleepRequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/IORequest.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFConnection.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTask.inl \
+  /home/sashka/Projects/workflow/_include/workflow/WFGraphTask.h \
+  /home/sashka/Projects/workflow/_include/workflow/EndpointParams.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTaskFactory.inl \
+  /usr/include/netdb.h \
+  /usr/include/netinet/in.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/rpc/netdb.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/netdb.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFGlobal.h \
+  /home/sashka/Projects/workflow/_include/workflow/DnsCache.h \
+  /home/sashka/Projects/workflow/_include/workflow/LRUCache.h \
+  /home/sashka/Projects/workflow/_include/workflow/rbtree.h \
+  /home/sashka/Projects/workflow/_include/workflow/DnsUtil.h \
+  /home/sashka/Projects/workflow/_include/workflow/RouteManager.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFResourcePool.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFNameService.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFDnsResolver.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFTaskError.h \
+  /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h \
   /usr/include/fmt/format.h \
   /usr/lib/llvm-18/include/c++/v1/memory \
   /usr/lib/llvm-18/include/c++/v1/__memory/align.h \
@@ -3279,64 +3429,12 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__chrono/tzdb_list.h \
   /home/sashka/Projects/workflow/_include/workflow/WFHttpServer.h \
   /home/sashka/Projects/workflow/_include/workflow/WFServer.h \
-  /usr/lib/llvm-18/include/c++/v1/atomic \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/aliases.h \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_lock_free.h \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_flag.h \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/atomic_init.h \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/fence.h \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/kill_dependency.h \
   /usr/lib/llvm-18/include/c++/v1/condition_variable \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/stop_token.h \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/stop_state.h \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFTaskFactory.h \
-  /home/sashka/Projects/workflow/_include/workflow/URIParser.h \
-  /usr/lib/llvm-18/include/c++/v1/map \
-  /usr/lib/llvm-18/include/c++/v1/__tree \
-  /home/sashka/Projects/workflow/_include/workflow/RedisMessage.h \
-  /home/sashka/Projects/workflow/_include/workflow/redis_parser.h \
-  /home/sashka/Projects/workflow/_include/workflow/MySQLMessage.h \
-  /home/sashka/Projects/workflow/_include/workflow/mysql_stream.h \
-  /home/sashka/Projects/workflow/_include/workflow/mysql_parser.h \
-  /home/sashka/Projects/workflow/_include/workflow/MySQLMessage.inl \
-  /home/sashka/Projects/workflow/_include/workflow/SSLWrapper.h \
-  /home/sashka/Projects/workflow/_include/workflow/DnsMessage.h \
-  /home/sashka/Projects/workflow/_include/workflow/dns_parser.h \
-  /home/sashka/Projects/workflow/_include/workflow/Workflow.h \
-  /home/sashka/Projects/workflow/_include/workflow/SubTask.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFTask.h \
-  /home/sashka/Projects/workflow/_include/workflow/Executor.h \
-  /home/sashka/Projects/workflow/_include/workflow/ExecRequest.h \
-  /home/sashka/Projects/workflow/_include/workflow/CommScheduler.h \
-  /home/sashka/Projects/workflow/_include/workflow/CommRequest.h \
-  /home/sashka/Projects/workflow/_include/workflow/SleepRequest.h \
-  /home/sashka/Projects/workflow/_include/workflow/IORequest.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFConnection.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFTask.inl \
-  /home/sashka/Projects/workflow/_include/workflow/WFGraphTask.h \
-  /home/sashka/Projects/workflow/_include/workflow/EndpointParams.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFTaskFactory.inl \
-  /usr/include/netdb.h \
-  /usr/include/netinet/in.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/rpc/netdb.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFGlobal.h \
-  /home/sashka/Projects/workflow/_include/workflow/DnsCache.h \
-  /home/sashka/Projects/workflow/_include/workflow/LRUCache.h \
-  /home/sashka/Projects/workflow/_include/workflow/rbtree.h \
-  /home/sashka/Projects/workflow/_include/workflow/DnsUtil.h \
-  /home/sashka/Projects/workflow/_include/workflow/RouteManager.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFResourcePool.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFNameService.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFDnsResolver.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFTaskError.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h \
   /home/sashka/Projects/workflow/_include/workflow/WFFacilities.h \
   /home/sashka/Projects/workflow/_include/workflow/WFFuture.h \
   /usr/lib/llvm-18/include/c++/v1/future \
@@ -3372,6 +3470,11 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   ../Database/urls_table_handler.h \
   ../Utils/crud_interface.h \
   /home/sashka/Projects/workflow/_include/workflow/WFMySQLConnection.h \
+  /usr/lib/llvm-18/include/c++/v1/expected \
+  /usr/lib/llvm-18/include/c++/v1/__expected/bad_expected_access.h \
+  /usr/lib/llvm-18/include/c++/v1/__expected/expected.h \
+  /usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h \
+  /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h \
   ../Utils/enum_traits.h \
   ../config.h
 
@@ -3438,14 +3541,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /home/sashka/Projects/workflow/_include/workflow/HttpUtil.h:
 
-/usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h:
-
-/usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h:
-
-/usr/lib/llvm-18/include/c++/v1/__expected/bad_expected_access.h:
-
-/usr/lib/llvm-18/include/c++/v1/expected:
-
 ../RequestHandlers/dao.h:
 
 /usr/lib/llvm-18/include/c++/v1/stack:
@@ -3499,6 +3594,14 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h:
 
 /usr/lib/llvm-18/include/c++/v1/type_traits:
+
+/usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h:
+
+/usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h:
+
+/usr/lib/llvm-18/include/c++/v1/__expected/bad_expected_access.h:
+
+/usr/lib/llvm-18/include/c++/v1/expected:
 
 /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h:
 

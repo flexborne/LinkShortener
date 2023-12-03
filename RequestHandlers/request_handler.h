@@ -3,6 +3,7 @@
 #include "co/log.h"
 #include "workflow/HttpMessage.h"
 #include "workflow/HttpUtil.h"
+#include "workflow/WFTaskFactory.h"
 
 #include <cstring>  // For std::strcmp
 #include <unordered_map>
@@ -27,19 +28,18 @@ void reply_invalid_body(protocol::HttpResponse* resp);
 /// @brief simple base class with preprocessing job
 /// calls requested method if exists, otherwise puts error into @a resp
 struct RequestHandlerBase {
-  void handle_request(this const auto& self, protocol::HttpRequest* req,
-                      protocol::HttpResponse* resp) {
+  void handle_request(this const auto& self, WFHttpTask* task) {
 // Macro to check and call a member function if it exists
-#define HANDLE_IF_EXISTS_OR_ERROR(handler_method)               \
-  if constexpr (requires { self.handler_method(req, resp); }) { \
-    self.handler_method(req, resp);                             \
-    return;                                                     \
-  } else {                                                      \
-    reply_unsupported_method(resp);                             \
-    return;                                                     \
+#define HANDLE_IF_EXISTS_OR_ERROR(handler_method)          \
+  if constexpr (requires { self.handler_method(task); }) { \
+    self.handler_method(task);                             \
+    return;                                                \
+  } else {                                                 \
+    reply_unsupported_method(task->get_resp());            \
+    return;                                                \
   }
 
-    const char* method = req->get_method();
+    const char* method = task->get_req()->get_method();
 
     if (std::strcmp(method, HttpMethodGet) == 0) {
       HANDLE_IF_EXISTS_OR_ERROR(handle_get);
@@ -51,21 +51,18 @@ struct RequestHandlerBase {
       HANDLE_IF_EXISTS_OR_ERROR(handle_delete);
     }
 
-    reply_unsupported_method(resp);
+    reply_unsupported_method(task->get_resp());
 #undef HANDLE_IF_EXISTS_OR_ERROR
   }
 };
 
 struct ShortenURL : RequestHandlerBase {
-  void handle_get(protocol::HttpRequest* req,
-                  protocol::HttpResponse* resp) const;
+  void handle_get(WFHttpTask* task) const;
 
-  void handle_post(protocol::HttpRequest* req,
-                  protocol::HttpResponse* resp) const;
+  void handle_post(WFHttpTask* task) const;
 };
 
-using handle_func = void (*)(protocol::HttpRequest* req,
-                             protocol::HttpResponse* resp);
+using handle_func = void (*)(WFHttpTask* task);
 
 struct Router {
   /// @return handler func pointer if exists, nullptr otherwise
@@ -82,8 +79,8 @@ template <class RequestHandler>
 int register_request_handler(const char* route) {
   static constexpr RequestHandler INST;
   Router::add_handler(
-      route, +[](protocol::HttpRequest* req, protocol::HttpResponse* resp) {
-        INST.handle_request(req, resp);
+      route, +[](WFHttpTask* task) {
+        INST.handle_request(task);
       });
   return 1;
 }

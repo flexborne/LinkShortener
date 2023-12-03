@@ -43,10 +43,7 @@ void db::UrlsTableHandler::create_impl(ShortenedUrl url) {
   task->start();
 }
 
-void db::UrlsTableHandler::read_impl(UrlsTableInfo::PrimaryKey key) {
-
-
-
+void db::UrlsTableHandler::read_impl(UrlsTableInfo::PrimaryKey key, ResultCallback<ShortenedUrl> callback) {
   WFMySQLTask *task = WFTaskFactory::create_mysql_task(Config::dbUrl, RETRY_MAX, mysql_callback);
 
   auto query = std::format("SELECT * FROM {} WHERE {} = '{}';", UrlsTableInfo::TABLE_NAME,
