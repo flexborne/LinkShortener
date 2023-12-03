@@ -2,11 +2,19 @@
 
 #include "dao.h"
 
+#include "co/cout.h"
+#include "co/json.h"
+#include "workflow/HttpUtil.h"
+
 namespace request {
 
 void reply_unsupported_method(protocol::HttpResponse* resp) {
   resp->append_output_body_nocopy(default_messages::UNSUPPORTED_METHOD);
-  resp->set_status_code(status_codes::UNIMPLEMENTED);
+  protocol::HttpUtil::set_response_status(resp, HttpStatusNotImplemented);
+}
+void reply_invalid_body(protocol::HttpResponse* resp) {
+  resp->append_output_body_nocopy(default_messages::INVALID_BODY);
+  protocol::HttpUtil::set_response_status(resp, HttpStatusBadRequest);
 }
 
 handle_func Router::get_handler(const char* request_uri) {
@@ -22,8 +30,18 @@ void Router::add_handler(const char* route, handle_func handler) {
 
 void ShortenURL::handle_get(protocol::HttpRequest* req,
                             protocol::HttpResponse* resp) const {
-  //req.get_b
-  resp->append_output_body("fuckYou)");
+  auto body = protocol::HttpUtil::decode_chunked_body(req);
+
+  co::Json parsed;
+  if (!parsed.parse_from(body) || !parsed.has_member(tags::KEY)) {
+    reply_invalid_body(resp);
+    return;
+  }
+
+  auto key = parsed.get(tags::KEY).as_c_str();
+
+  dao::ShortenedUrlDAO dao;
+  resp->append_output_body(key);
 }
 
 void ShortenURL::handle_post(protocol::HttpRequest* req,

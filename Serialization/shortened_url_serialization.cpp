@@ -9,6 +9,7 @@
 namespace {
 using Info = db::MYSQLInfo<ShortenedUrl>;
 }
+
 template <>
 std::string queries::mysql::insert_record<ShortenedUrl>(
     ShortenedUrl shortened_url) {
@@ -25,7 +26,7 @@ std::string queries::mysql::insert_record<ShortenedUrl>(
 
 template <>
 std::string queries::mysql::get_record_by_primary_key<ShortenedUrl>(
-    std::basic_string<char> key) {
+    Info::PrimaryKey key) {
   using enum UrlsTableColumn;
   return std::format("SELECT * FROM {} WHERE {} = '{}';", Info::TABLE_NAME,
                      Info::column_name(Shortened), std::move(key));
@@ -33,7 +34,7 @@ std::string queries::mysql::get_record_by_primary_key<ShortenedUrl>(
 
 template <>
 std::string queries::mysql::get_cell_by_primary_key<ShortenedUrl>(
-    std::basic_string<char> key, UrlsTableColumn column) {
+    Info::PrimaryKey key, UrlsTableColumn column) {
   using enum UrlsTableColumn;
   return std::format("SELECT {} FROM {} WHERE {} = '{}';",
                      Info::column_name(column), Info::TABLE_NAME,

@@ -1,7 +1,7 @@
 #pragma once
 
 #include "crud_interface.h"
-
+#include <functional>
 #include "../Serialization/mysql_queries.h"
 
 #include "shortened_url.h"
@@ -22,7 +22,6 @@ class MYSQL : public CRUD {
 
   //using ReadResult = std::expeceted<
   void read_impl(MYSQLInfo<Data>::PrimaryKey key);
-
 
   /// @brief read only column
   void read_impl(MYSQLInfo<Data>::PrimaryKey key, MYSQLInfo<Data>::Column column);

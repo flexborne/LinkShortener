@@ -1,27 +1,28 @@
 #pragma once
 
-#include <cstring>  // For std::strcmp
-#include <unordered_map>
-
-#include <fmt/format.h>
 #include "co/log.h"
 #include "workflow/HttpMessage.h"
+#include "workflow/HttpUtil.h"
+
+#include <cstring>  // For std::strcmp
+#include <unordered_map>
+#include <fmt/format.h>
 
 namespace request {
-
-namespace status_codes {
-constexpr inline char const* UNIMPLEMENTED = "501";
-constexpr inline char const* OK = "200";
-constexpr inline char const* NOT_FOUND = "404";
-}  // namespace status_codes
 
 namespace default_messages {
 constexpr inline char const* UNSUPPORTED_URI = "Unsupported uri";
 constexpr inline char const* UNSUPPORTED_METHOD = "Unsupported method";
 constexpr inline char const* NOT_FOUND = "Resource not found";
+constexpr inline char const* INVALID_BODY = "Invalid body";
+}  // namespace default_messages
+
+namespace tags {
+constexpr inline char const* KEY = "key";
 }  // namespace default_messages
 
 void reply_unsupported_method(protocol::HttpResponse* resp);
+void reply_invalid_body(protocol::HttpResponse* resp);
 
 /// @brief simple base class with preprocessing job
 /// calls requested method if exists, otherwise puts error into @a resp
@@ -40,13 +41,13 @@ struct RequestHandlerBase {
 
     const char* method = req->get_method();
 
-    if (std::strcmp(method, "GET") == 0) {
+    if (std::strcmp(method, HttpMethodGet) == 0) {
       HANDLE_IF_EXISTS_OR_ERROR(handle_get);
-    } else if (std::strcmp(method, "POST") == 0) {
+    } else if (std::strcmp(method, HttpMethodPost) == 0) {
       HANDLE_IF_EXISTS_OR_ERROR(handle_post);
-    } else if (std::strcmp(method, "PUT") == 0) {
+    } else if (std::strcmp(method, HttpMethodPut) == 0) {
       HANDLE_IF_EXISTS_OR_ERROR(handle_put);
-    } else if (std::strcmp(method, "DELETE") == 0) {
+    } else if (std::strcmp(method, HttpMethodDelete) == 0) {
       HANDLE_IF_EXISTS_OR_ERROR(handle_delete);
     }
 

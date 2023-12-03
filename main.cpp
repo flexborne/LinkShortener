@@ -40,7 +40,7 @@ void handle_request(WFHttpTask* task) {
 
   if (handler == nullptr) [[unlikely]] {
     resp->append_output_body_nocopy(request::default_messages::UNSUPPORTED_URI);
-    resp->set_status_code(request::status_codes::UNIMPLEMENTED);
+    protocol::HttpUtil::set_response_status(resp, HttpStatusNotImplemented);
     return;
   }
 

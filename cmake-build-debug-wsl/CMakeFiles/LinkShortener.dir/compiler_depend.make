@@ -269,37 +269,145 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/is_eq.h \
   /usr/lib/llvm-18/include/c++/v1/initializer_list \
-  ../Serialization/mysql_queries.h \
-  ../Database/mysql_struct_info.h \
-  /usr/lib/llvm-18/include/c++/v1/string \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
+  /usr/lib/llvm-18/include/c++/v1/functional \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/search.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/comp.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/operation_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/min.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/min_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/advance.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/distance.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/access.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_borrowed_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/data.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_pointer.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_view.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/size.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/iter_swap.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/next.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/prev.h \
   /usr/lib/llvm-18/include/c++/v1/__functional/identity.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_callable.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/remove.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/find.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/countr.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/rotate.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/invert_if.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/bit_reference.h \
-  /usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/construct_at.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binary_negate.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/bind.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/weak_result_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/tuple \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/lazy.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/maybe_const.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/negation.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/bind_back.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/perfect_forward.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/bind_front.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binder1st.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binder2nd.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/fill_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/hash.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/hash.h \
+  /usr/lib/llvm-18/include/c++/v1/cstring \
+  /usr/lib/llvm-18/include/c++/v1/string.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__exception/exception.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/reference_wrapper.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/ostream.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/string.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/access.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/construct_at.h \
   /usr/lib/llvm-18/include/c++/v1/__memory/voidify.h \
   /usr/lib/llvm-18/include/c++/v1/new \
-  /usr/lib/llvm-18/include/c++/v1/__exception/exception.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/dependent_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_move_common.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/datasizeof.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_always_bitcastable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_equality_comparable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
   /usr/lib/llvm-18/include/c++/v1/__utility/is_pointer_in_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/for_each_segment.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/segmented_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/min.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/min_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/move.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/dangling.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/view_interface.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unbounded_array.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h \
+  /usr/lib/llvm-18/include/c++/v1/typeinfo \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/memory_order.h \
+  /usr/lib/llvm-18/include/c++/v1/array \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/equal.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/swap_ranges.h \
+  /usr/lib/llvm-18/include/c++/v1/stdexcept \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/data.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/size.h \
+  /usr/lib/llvm-18/include/c++/v1/unordered_map \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h \
+  /usr/lib/llvm-18/include/c++/v1/__hash_table \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/countl.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/rotate.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const_ref.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h \
+  /usr/lib/llvm-18/include/c++/v1/__node_handle \
+  /usr/lib/llvm-18/include/c++/v1/optional \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_destructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/container_compatible_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/from_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/vector \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/remove.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/find.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/countr.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/invert_if.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/bit_reference.h \
   /usr/lib/llvm-18/include/c++/v1/cwchar \
   /usr/lib/llvm-18/include/c++/v1/cwctype \
   /usr/lib/llvm-18/include/c++/v1/cctype \
@@ -319,69 +427,23 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_if.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/remove_if.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/enable_insertable.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/hash.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/hash.h \
-  /usr/lib/llvm-18/include/c++/v1/cstring \
-  /usr/lib/llvm-18/include/c++/v1/string.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/string.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h \
-  /usr/lib/llvm-18/include/c++/v1/__ios/fpos.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/ios.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/distance.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/access.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_borrowed_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/data.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_pointer.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_view.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/size.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/advance.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/iter_swap.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/next.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/prev.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/segmented_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/dangling.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/view_interface.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/wrap_iter.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/dependent_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h \
-  /usr/lib/llvm-18/include/c++/v1/tuple \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/lazy.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/maybe_const.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/negation.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/container_compatible_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/from_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__string/char_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/rotate.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/move_backward.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit_reference \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_n.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_move_common.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/for_each_segment.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/fill_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/popcount.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/enable_insertable.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_fwd.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_bool.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_parse_context.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_error.h \
+  /usr/lib/llvm-18/include/c++/v1/string_view \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/string_view.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/bounded_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__string/char_traits.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_end.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/search.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_first_of.h \
   /usr/lib/llvm-18/include/c++/v1/cstdio \
   /usr/lib/llvm-18/include/c++/v1/stdio.h \
@@ -393,16 +455,62 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/lib/llvm-18/include/c++/v1/iosfwd \
   /usr/lib/llvm-18/include/c++/v1/__fwd/fstream.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/ios.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/istream.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/ostream.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/sstream.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/streambuf.h \
   /usr/lib/llvm-18/include/c++/v1/__std_mbstate_t.h \
   /usr/lib/llvm-18/include/c++/v1/__mbstate_t.h \
-  /usr/lib/llvm-18/include/c++/v1/__string/extern_template_lists.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_standard_layout.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivial.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_specialization.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_integral.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_integral.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/tables.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_base_10.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__system_error/errc.h \
+  /usr/lib/llvm-18/include/c++/v1/cerrno \
+  /usr/lib/llvm-18/include/c++/v1/errno.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_output.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_out_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_fill_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_transform.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_in_out_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/projected.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/buffer.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/unreachable_sentinel.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/wrap_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/transform.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_to_n_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_construct_at.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/parser_std_format_spec.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_arg.h \
+  /usr/lib/llvm-18/include/c++/v1/__variant/monostate.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_string.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/unicode.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/extended_grapheme_cluster_table.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_upper_bound.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/lower_bound.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/half_positive.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/width_estimation_table.h \
+  /usr/lib/llvm-18/include/c++/v1/string \
+  /usr/lib/llvm-18/include/c++/v1/__ios/fpos.h \
+  /usr/lib/llvm-18/include/c++/v1/__string/extern_template_lists.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
   /usr/lib/llvm-18/include/c++/v1/climits \
   /usr/lib/llvm-18/lib/clang/18/include/limits.h \
@@ -414,120 +522,12 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/lib/llvm-18/include/c++/v1/stdexcept \
-  /usr/lib/llvm-18/include/c++/v1/string_view \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/string_view.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/bounded_iter.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/data.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/size.h \
-  ../Database/shortened_url.h \
-  ../Utils/enum_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/type_traits \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const_ref.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_specialization.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_destructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unbounded_array.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h \
-  /usr/lib/llvm-18/include/c++/v1/chrono \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/calendar.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/duration.h \
-  /usr/lib/llvm-18/include/c++/v1/ratio \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_tm.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/hh_mm_ss.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/day.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/file_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/month.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/month_weekday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/weekday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/monthday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/statically_widen.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_fwd.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_parse_context.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_error.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_day.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_weekday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/high_resolution_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/literals.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/formatter.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/ostream.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_functions.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/clamp.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/buffer.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy_n.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_out_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/unreachable_sentinel.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/transform.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_to_n_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_construct_at.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/move.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_arg.h \
-  /usr/lib/llvm-18/include/c++/v1/__variant/monostate.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_arg_store.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_args.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_context.h \
   /usr/lib/llvm-18/include/c++/v1/locale \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/equal.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/reverse.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/istreambuf_iterator.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/default_sentinel.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/ostreambuf_iterator.h \
   /usr/lib/llvm-18/include/c++/v1/__locale \
-  /usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/reference_wrapper.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/weak_result_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/typeinfo \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/memory_order.h \
   /usr/lib/llvm-18/include/c++/v1/__mutex/once_flag.h \
   /usr/lib/llvm-18/include/c++/v1/__utility/no_destroy.h \
   /usr/lib/llvm-18/include/c++/v1/clocale \
@@ -535,19 +535,15 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/include/locale.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/lib/llvm-18/include/c++/v1/cstdlib \
-  /usr/lib/llvm-18/include/c++/v1/cerrno \
-  /usr/lib/llvm-18/include/c++/v1/errno.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/lib/llvm-18/include/c++/v1/ctime \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/lib/llvm-18/include/c++/v1/ios \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_category.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_code.h \
-  /usr/lib/llvm-18/include/c++/v1/__system_error/errc.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_condition.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/system_error.h \
   /usr/lib/llvm-18/include/c++/v1/__atomic/atomic.h \
@@ -556,8 +552,15 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/lib/llvm-18/include/c++/v1/__atomic/contention_t.h \
   /usr/lib/llvm-18/include/c++/v1/__atomic/cxx_atomic_impl.h \
   /usr/lib/llvm-18/include/c++/v1/__atomic/is_always_lock_free.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/duration.h \
+  /usr/lib/llvm-18/include/c++/v1/ratio \
   /usr/lib/llvm-18/include/c++/v1/__thread/poll_with_backoff.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/high_resolution_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h \
   /usr/lib/llvm-18/include/c++/v1/__threading_support \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -574,44 +577,75 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h \
-  /usr/lib/llvm-18/include/c++/v1/optional \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_string.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter_bool.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter_integral.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_integral.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/countl.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/tables.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_base_10.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter_output.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_fill_n.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_transform.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_in_out_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/projected.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/parser_std_format_spec.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/unicode.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/extended_grapheme_cluster_table.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_upper_bound.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/lower_bound.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/half_positive.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/width_estimation_table.h \
-  /usr/lib/llvm-18/include/c++/v1/array \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/swap_ranges.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/temp_value.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h \
+  /usr/lib/llvm-18/include/c++/v1/__split_buffer \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/compose.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/default_searcher.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/function.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/builtin_new_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/strip_signature.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fn.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fun_ref.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/not_fn.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/unary_negate.h \
+  ../Serialization/mysql_queries.h \
+  ../Database/mysql_struct_info.h \
+  ../Database/shortened_url.h \
+  ../Utils/enum_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/type_traits \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h \
+  /usr/lib/llvm-18/include/c++/v1/chrono \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/calendar.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_tm.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/hh_mm_ss.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/day.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/file_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/month.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/month_weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/monthday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/statically_widen.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_day.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/literals.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/formatter.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/ostream.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_functions.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/clamp.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_arg_store.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_args.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_context.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_char.h \
   /usr/lib/llvm-18/include/c++/v1/__format/write_escaped.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_for_each.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/in_fun_result.h \
   /usr/lib/llvm-18/include/c++/v1/__format/escaped_output_table.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_floating_point.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/rotate.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/move_backward.h \
   /usr/lib/llvm-18/include/c++/v1/__charconv/chars_format.h \
   /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_floating_point.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_integer.h \
@@ -621,9 +655,7 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/lib/llvm-18/include/c++/v1/__exception/operations.h \
   /usr/lib/llvm-18/include/c++/v1/bitset \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/count.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/popcount.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/fill.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit_reference \
   /usr/lib/llvm-18/include/c++/v1/__chrono/parser_std_format_spec.h \
   /usr/lib/llvm-18/include/c++/v1/sstream \
   /usr/lib/llvm-18/include/c++/v1/istream \
@@ -641,41 +673,9 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/push_heap.h \
   /usr/lib/llvm-18/include/c++/v1/deque \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_backward.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/temp_value.h \
-  /usr/lib/llvm-18/include/c++/v1/__split_buffer \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h \
-  /usr/lib/llvm-18/include/c++/v1/vector \
   /usr/lib/llvm-18/include/c++/v1/stack \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_tuple.h \
   /home/sashka/Projects/workflow/_include/workflow/WFMySQLConnection.h \
-  /usr/lib/llvm-18/include/c++/v1/functional \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binary_negate.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/bind.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/bind_back.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/perfect_forward.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/bind_front.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binder1st.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binder2nd.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /usr/lib/llvm-18/include/c++/v1/unordered_map \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h \
-  /usr/lib/llvm-18/include/c++/v1/__hash_table \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__node_handle \
-  /usr/lib/llvm-18/include/c++/v1/__functional/compose.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/default_searcher.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/function.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/builtin_new_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/strip_signature.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fn.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fun_ref.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/not_fn.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_binary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_unary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/unary_negate.h \
   /home/sashka/Projects/workflow/_include/workflow/URIParser.h \
   /usr/lib/llvm-18/include/c++/v1/map \
   /usr/lib/llvm-18/include/c++/v1/__tree \
@@ -1729,8 +1729,10 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o: ../RequestHandlers/dao.c
 
 CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHandlers/request_handler.cpp \
   ../RequestHandlers/request_handler.h \
-  /usr/lib/llvm-18/include/c++/v1/cstring \
-  /usr/lib/llvm-18/include/c++/v1/__assert \
+  /home/sashka/Projects/coost/include/co/log.h \
+  /home/sashka/Projects/coost/include/co/flag.h \
+  /home/sashka/Projects/coost/include/co/def.h \
+  /usr/lib/llvm-18/include/c++/v1/stdint.h \
   /usr/lib/llvm-18/include/c++/v1/__config \
   /usr/lib/llvm-18/include/c++/v1/__config_site \
   /usr/include/features.h \
@@ -1742,39 +1744,37 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/llvm-18/include/c++/v1/__verbose_abort \
-  /usr/lib/llvm-18/include/c++/v1/__availability \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_constant_evaluated.h \
-  /usr/lib/llvm-18/include/c++/v1/string.h \
-  /usr/include/string.h \
+  /usr/lib/llvm-18/lib/clang/18/include/stdint.h \
+  /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/llvm-18/include/c++/v1/stddef.h \
   /usr/lib/llvm-18/lib/clang/18/include/stddef.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stddef_null.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  /usr/lib/llvm-18/include/c++/v1/unordered_map \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/integral_constant.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/operation_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/declval.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/swap.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_move_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_lvalue_reference.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_referenceable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_same.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_rvalue_reference.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_move_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_move_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_move_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_constructible.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h \
+  /usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h \
+  /home/sashka/Projects/coost/include/co/config.h \
+  /home/sashka/Projects/coost/include/co/mem.h \
+  /home/sashka/Projects/coost/include/co/god.h \
+  /usr/lib/llvm-18/include/c++/v1/utility \
+  /usr/lib/llvm-18/include/c++/v1/__assert \
+  /usr/lib/llvm-18/include/c++/v1/__verbose_abort \
+  /usr/lib/llvm-18/include/c++/v1/__availability \
+  /usr/lib/llvm-18/include/c++/v1/__utility/as_const.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_const.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/forward.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_reference.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/integral_constant.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_reference.h \
   /usr/lib/llvm-18/include/c++/v1/cstddef \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/enable_if.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_integral.h \
@@ -1782,79 +1782,104 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_volatile.h \
   /usr/lib/llvm-18/include/c++/v1/version \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_max_align_t.h \
-  /usr/lib/llvm-18/lib/clang/18/include/__stddef_offsetof.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_swappable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/conditional.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_void.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/nat.h \
   /usr/lib/llvm-18/include/c++/v1/__utility/move.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/conditional.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_copy_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_const.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_reference.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_lvalue_reference.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_referenceable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_same.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_move_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_rvalue_reference.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/declval.h \
   /usr/lib/llvm-18/include/c++/v1/__undef_macros \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/arithmetic.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_floating_point.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_signed.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_arithmetic.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_signed_integer.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unsigned_integer.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/common_reference_with.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/convertible_to.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_convertible.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/auto_cast.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/decay.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_pointer.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_void.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_array.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_function.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_const.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_extent.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/cmp.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/disjunction.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_signed.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_arithmetic.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_floating_point.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/make_unsigned.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/apply_cv.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_volatile.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_enum.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unsigned.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/nat.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_list.h \
+  /usr/lib/llvm-18/include/c++/v1/limits \
+  /usr/lib/llvm-18/include/c++/v1/__utility/exception_guard.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/exchange.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/forward_like.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/in_place.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_cvref.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/integer_sequence.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/pair.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/common_comparison_category.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/ordering.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/synth_three_way.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/three_way_comparable.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/common_reference_with.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/convertible_to.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_convertible.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/same_as.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/common_reference.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/common_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/decay.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/add_pointer.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_extent.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_cvref.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/void_t.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/copy_cv.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/add_cv.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/add_volatile.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/copy_cvref.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/equality_comparable.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/boolean_testable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/make_const_lvalue_ref.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/forward.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/totally_ordered.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/different_from.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/array.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/get.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/copyable.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/assignable.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/constructible.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/destructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_destructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_destructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_all_extents.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_scalar.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_enum.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_member_pointer.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_member_function_pointer.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_null_pointer.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_pointer.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/copyable.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/movable.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/swappable.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/class_or_enum.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_class.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_union.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/extent.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/exchange.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_move_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/swap.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_move_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_move_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_swappable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_object.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/pair.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/subrange.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/arithmetic.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_signed_integer.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unsigned_integer.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/derived_from.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_base_of.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/equality_comparable.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/boolean_testable.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/invocable.h \
   /usr/lib/llvm-18/include/c++/v1/__functional/invoke.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/invoke.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/apply_cv.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_volatile.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_core_convertible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_member_object_pointer.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_reference_wrapper.h \
@@ -1862,114 +1887,51 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/__concepts/regular.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/semiregular.h \
   /usr/lib/llvm-18/include/c++/v1/__concepts/relation.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/totally_ordered.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/incrementable_traits.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_primary_template.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_valid_expansion.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/make_signed.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_list.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/iter_move.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/iterator_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/pair.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/readable_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/disjunction.h \
   /usr/lib/llvm-18/include/c++/v1/__memory/pointer_traits.h \
   /usr/lib/llvm-18/include/c++/v1/__memory/addressof.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/conjunction.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/advance.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/underlying_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/unreachable.h \
-  /usr/lib/llvm-18/include/c++/v1/limits \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/distance.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/access.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_borrowed_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/auto_cast.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/data.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_pointer.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_view.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/size.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/make_unsigned.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unsigned.h \
-  /usr/lib/llvm-18/include/c++/v1/initializer_list \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/iter_swap.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/next.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/prev.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/identity.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_callable.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__hash_table \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/min.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/min_element.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/countl.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/rotate.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/hash.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/hash.h \
-  /usr/lib/llvm-18/include/c++/v1/__tuple/sfinae_helpers.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/tuple.h \
-  /usr/lib/llvm-18/include/c++/v1/__tuple/make_tuple_types.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/array.h \
   /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_element.h \
   /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_indices.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/integer_sequence.h \
   /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_types.h \
-  /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_size.h \
-  /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_like_ext.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_default_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/pair.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/common_comparison_category.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/ordering.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/synth_three_way.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/three_way_comparable.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/different_from.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/get.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/subrange.h \
   /usr/lib/llvm-18/include/c++/v1/__tuple/pair_like.h \
   /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_like.h \
+  /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_size.h \
+  /usr/lib/llvm-18/include/c++/v1/__tuple/sfinae_helpers.h \
+  /usr/lib/llvm-18/include/c++/v1/__tuple/make_tuple_types.h \
+  /usr/lib/llvm-18/include/c++/v1/__tuple/tuple_like_ext.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_assignable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_copy_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_default_constructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_copy_assignable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_default_constructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/unwrap_ref.h \
   /usr/lib/llvm-18/include/c++/v1/__utility/piecewise_construct.h \
-  /usr/lib/llvm-18/include/c++/v1/cstdint \
-  /usr/lib/llvm-18/include/c++/v1/stdint.h \
-  /usr/lib/llvm-18/lib/clang/18/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/construct_at.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/access.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/voidify.h \
-  /usr/lib/llvm-18/include/c++/v1/new \
-  /usr/lib/llvm-18/include/c++/v1/__exception/exception.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/dependent_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/priority_tag.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/rel_ops.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/to_underlying.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/underlying_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/unreachable.h \
+  /usr/lib/llvm-18/include/c++/v1/compare \
+  /usr/lib/llvm-18/include/c++/v1/__compare/compare_partial_order_fallback.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/partial_order.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/compare_three_way.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/compare_three_way_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const_ref.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/weak_order.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/strong_order.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/bit_cast.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copyable.h \
+  /usr/lib/llvm-18/include/c++/v1/cstdint \
   /usr/lib/llvm-18/include/c++/v1/cmath \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_constant_evaluated.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/promote.h \
   /usr/lib/llvm-18/include/c++/v1/math.h \
   /usr/include/math.h \
@@ -2007,6 +1969,8 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
@@ -2031,94 +1995,82 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/exception_guard.h \
-  /usr/lib/llvm-18/include/c++/v1/tuple \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/lazy.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/maybe_const.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/negation.h \
-  /usr/lib/llvm-18/include/c++/v1/compare \
-  /usr/lib/llvm-18/include/c++/v1/__compare/compare_partial_order_fallback.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/partial_order.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/weak_order.h \
-  /usr/lib/llvm-18/include/c++/v1/__compare/strong_order.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/bit_cast.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copyable.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/priority_tag.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/compare_strong_order_fallback.h \
+  /usr/lib/llvm-18/include/c++/v1/__compare/compare_three_way_result.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/is_eq.h \
-  /usr/lib/llvm-18/include/c++/v1/__node_handle \
-  /usr/lib/llvm-18/include/c++/v1/optional \
-  /usr/lib/llvm-18/include/c++/v1/__functional/reference_wrapper.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/weak_result_type.h \
+  /usr/lib/llvm-18/include/c++/v1/initializer_list \
+  /usr/lib/llvm-18/include/c++/v1/type_traits \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/hash.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const_ref.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/dependent_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_callable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_standard_layout.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivial.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/lazy.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_specialization.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_assignable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_destructible.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/in_place.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/container_compatible_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/from_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/stdexcept \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/string.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/data.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/segmented_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/dangling.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/view_interface.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/size.h \
-  /usr/include/fmt/format.h \
-  /usr/lib/llvm-18/include/c++/v1/memory \
-  /usr/lib/llvm-18/include/c++/v1/__memory/align.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/assume_aligned.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_construct_at.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_uninitialized_algorithms.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_out_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_move_common.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/datasizeof.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_always_bitcastable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_equality_comparable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/is_pointer_in_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/for_each_segment.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/move.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unbounded_array.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/raw_storage_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/ostream.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h \
-  /usr/lib/llvm-18/include/c++/v1/typeinfo \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/memory_order.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/temporary_buffer.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator_construction.h \
-  /usr/lib/llvm-18/include/c++/v1/system_error \
-  /usr/lib/llvm-18/include/c++/v1/__system_error/errc.h \
-  /usr/lib/llvm-18/include/c++/v1/cerrno \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/maybe_const.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/negation.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_pointer.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h \
+  /home/sashka/Projects/coost/include/co/atomic.h \
+  /usr/include/assert.h \
+  /usr/lib/llvm-18/include/c++/v1/mutex \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/duration.h \
+  /usr/lib/llvm-18/include/c++/v1/ratio \
+  /usr/lib/llvm-18/include/c++/v1/climits \
+  /usr/lib/llvm-18/lib/clang/18/include/limits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h \
+  /usr/lib/llvm-18/include/c++/v1/__condition_variable/condition_variable.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/ctime \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/lib/llvm-18/include/c++/v1/__mutex/mutex.h \
+  /usr/lib/llvm-18/include/c++/v1/__threading_support \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h \
   /usr/lib/llvm-18/include/c++/v1/errno.h \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2127,13 +2079,44 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/lib/llvm-18/include/c++/v1/__mutex/unique_lock.h \
+  /usr/lib/llvm-18/include/c++/v1/__mutex/tag_types.h \
+  /usr/lib/llvm-18/include/c++/v1/__system_error/system_error.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_category.h \
   /usr/lib/llvm-18/include/c++/v1/string \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/operation_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/min.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/min_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/identity.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/remove.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h \
   /usr/lib/llvm-18/include/c++/v1/__bit/countr.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/rotate.h \
   /usr/lib/llvm-18/include/c++/v1/__bit/invert_if.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/bit_reference.h \
+  /usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/construct_at.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/access.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/voidify.h \
+  /usr/lib/llvm-18/include/c++/v1/new \
+  /usr/lib/llvm-18/include/c++/v1/__exception/exception.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/datasizeof.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_always_bitcastable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_equality_comparable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/is_pointer_in_range.h \
   /usr/lib/llvm-18/include/c++/v1/cwchar \
   /usr/lib/llvm-18/include/c++/v1/cwctype \
   /usr/lib/llvm-18/include/c++/v1/cctype \
@@ -2154,11 +2137,57 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_if.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/remove_if.h \
   /usr/lib/llvm-18/include/c++/v1/__format/enable_insertable.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/hash.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/cstring \
+  /usr/lib/llvm-18/include/c++/v1/string.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/string.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h \
   /usr/lib/llvm-18/include/c++/v1/__ios/fpos.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/ios.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/distance.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/access.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_borrowed_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/data.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_view.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/size.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/advance.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/iter_swap.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/next.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/prev.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/segmented_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/dangling.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/view_interface.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/empty.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/wrap_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h \
+  /usr/lib/llvm-18/include/c++/v1/tuple \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/container_compatible_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/from_range.h \
   /usr/lib/llvm-18/include/c++/v1/__string/char_traits.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_move_common.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/for_each_segment.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/fill_n.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_end.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/search.h \
@@ -2174,124 +2203,39 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/iosfwd \
   /usr/lib/llvm-18/include/c++/v1/__fwd/fstream.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/istream.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/ostream.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/sstream.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/streambuf.h \
   /usr/lib/llvm-18/include/c++/v1/__std_mbstate_t.h \
   /usr/lib/llvm-18/include/c++/v1/__mbstate_t.h \
   /usr/lib/llvm-18/include/c++/v1/__string/extern_template_lists.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_standard_layout.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivial.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
-  /usr/lib/llvm-18/include/c++/v1/climits \
-  /usr/lib/llvm-18/lib/clang/18/include/limits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/lib/llvm-18/include/c++/v1/stdexcept \
   /usr/lib/llvm-18/include/c++/v1/string_view \
   /usr/lib/llvm-18/include/c++/v1/__fwd/string_view.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/bounded_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/data.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/size.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_code.h \
+  /usr/lib/llvm-18/include/c++/v1/__system_error/errc.h \
+  /usr/lib/llvm-18/include/c++/v1/cerrno \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_condition.h \
-  /usr/lib/llvm-18/include/c++/v1/__system_error/system_error.h \
-  /usr/lib/llvm-18/include/c++/v1/utility \
-  /usr/lib/llvm-18/include/c++/v1/__utility/as_const.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/cmp.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/forward_like.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/rel_ops.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/to_underlying.h \
-  /usr/lib/llvm-18/include/c++/v1/bit \
-  /usr/lib/llvm-18/include/c++/v1/__bit/bit_ceil.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/bit_floor.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/bit_log2.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/bit_width.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/blsr.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/byteswap.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/endian.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/has_single_bit.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/popcount.h \
-  /usr/include/fmt/core.h \
-  /usr/lib/llvm-18/include/c++/v1/iterator \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/common_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/variant \
-  /usr/lib/llvm-18/include/c++/v1/__variant/monostate.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/counted_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__concepts/common_with.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/default_sentinel.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/front_insert_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/indirectly_comparable.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/projected.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/insert_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/istream_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/istreambuf_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/mergeable.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/ostream_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/ostreambuf_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/permutable.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/sortable.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/unreachable_sentinel.h \
-  /usr/lib/llvm-18/include/c++/v1/concepts \
-  /usr/lib/llvm-18/include/c++/v1/type_traits \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_specialization.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h \
-  /home/sashka/Projects/coost/include/co/log.h \
-  /home/sashka/Projects/coost/include/co/flag.h \
-  /home/sashka/Projects/coost/include/co/def.h \
-  /home/sashka/Projects/coost/include/co/config.h \
-  /home/sashka/Projects/coost/include/co/mem.h \
-  /home/sashka/Projects/coost/include/co/god.h \
-  /home/sashka/Projects/coost/include/co/atomic.h \
-  /usr/include/assert.h \
-  /usr/lib/llvm-18/include/c++/v1/mutex \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/duration.h \
-  /usr/lib/llvm-18/include/c++/v1/ratio \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h \
-  /usr/lib/llvm-18/include/c++/v1/__condition_variable/condition_variable.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/lib/llvm-18/include/c++/v1/__mutex/mutex.h \
-  /usr/lib/llvm-18/include/c++/v1/__threading_support \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/lib/llvm-18/include/c++/v1/__mutex/unique_lock.h \
-  /usr/lib/llvm-18/include/c++/v1/__mutex/tag_types.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/reference_wrapper.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/weak_result_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/move.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/typeinfo \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/memory_order.h \
   /usr/lib/llvm-18/include/c++/v1/__mutex/lock_guard.h \
   /usr/lib/llvm-18/include/c++/v1/__mutex/once_flag.h \
   /usr/lib/llvm-18/include/c++/v1/__thread/id.h \
@@ -2310,10 +2254,20 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/swap_ranges.h \
+  /usr/lib/llvm-18/include/c++/v1/unordered_map \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h \
+  /usr/lib/llvm-18/include/c++/v1/__hash_table \
+  /usr/lib/llvm-18/include/c++/v1/__bit/countl.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__node_handle \
+  /usr/lib/llvm-18/include/c++/v1/optional \
   /usr/lib/llvm-18/include/c++/v1/vector \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/rotate.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/move_backward.h \
   /usr/lib/llvm-18/include/c++/v1/__bit_reference \
+  /usr/lib/llvm-18/include/c++/v1/__bit/popcount.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter.h \
   /usr/lib/llvm-18/include/c++/v1/__format/format_fwd.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_bool.h \
@@ -2329,24 +2283,35 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_output.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_out_result.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_fill_n.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_transform.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/in_in_out_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/projected.h \
   /usr/lib/llvm-18/include/c++/v1/__format/buffer.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/unreachable_sentinel.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/transform.h \
   /usr/lib/llvm-18/include/c++/v1/__format/format_to_n_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_construct_at.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/concepts.h \
   /usr/lib/llvm-18/include/c++/v1/__format/parser_std_format_spec.h \
   /usr/lib/llvm-18/include/c++/v1/__format/format_arg.h \
+  /usr/lib/llvm-18/include/c++/v1/__variant/monostate.h \
   /usr/lib/llvm-18/include/c++/v1/__format/format_string.h \
   /usr/lib/llvm-18/include/c++/v1/__format/unicode.h \
   /usr/lib/llvm-18/include/c++/v1/__format/extended_grapheme_cluster_table.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_upper_bound.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/lower_bound.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/half_positive.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h \
   /usr/lib/llvm-18/include/c++/v1/__format/width_estimation_table.h \
   /usr/lib/llvm-18/include/c++/v1/locale \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/reverse.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/istreambuf_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/default_sentinel.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/ostreambuf_iterator.h \
   /usr/lib/llvm-18/include/c++/v1/__locale \
   /usr/lib/llvm-18/include/c++/v1/__utility/no_destroy.h \
   /usr/lib/llvm-18/include/c++/v1/clocale \
@@ -2374,6 +2339,8 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h \
   /usr/lib/llvm-18/include/c++/v1/__memory/temp_value.h \
   /usr/lib/llvm-18/include/c++/v1/__split_buffer \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h \
   /usr/lib/llvm-18/include/c++/v1/__functional/compose.h \
   /usr/lib/llvm-18/include/c++/v1/__functional/default_searcher.h \
   /usr/lib/llvm-18/include/c++/v1/__functional/function.h \
@@ -2494,13 +2461,63 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/include/x86_64-linux-gnu/sys/eventfd.h \
   /usr/include/x86_64-linux-gnu/bits/eventfd.h \
   /home/sashka/Projects/workflow/_include/workflow/http_parser.h \
+  /home/sashka/Projects/workflow/_include/workflow/HttpUtil.h \
+  /usr/include/fmt/format.h \
+  /usr/lib/llvm-18/include/c++/v1/memory \
+  /usr/lib/llvm-18/include/c++/v1/__memory/align.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/assume_aligned.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_uninitialized_algorithms.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/raw_storage_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/temporary_buffer.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator_construction.h \
+  /usr/lib/llvm-18/include/c++/v1/system_error \
+  /usr/lib/llvm-18/include/c++/v1/bit \
+  /usr/lib/llvm-18/include/c++/v1/__bit/bit_ceil.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/bit_floor.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/bit_log2.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/bit_width.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/blsr.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/byteswap.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/endian.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/has_single_bit.h \
+  /usr/include/fmt/core.h \
+  /usr/lib/llvm-18/include/c++/v1/iterator \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/common_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/variant \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/counted_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__concepts/common_with.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/front_insert_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/indirectly_comparable.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/insert_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/istream_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/mergeable.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/ostream_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/permutable.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/sortable.h \
+  /usr/lib/llvm-18/include/c++/v1/concepts \
   ../RequestHandlers/dao.h \
   ../Utils/crud_interface.h \
   /usr/lib/llvm-18/include/c++/v1/expected \
   /usr/lib/llvm-18/include/c++/v1/__expected/bad_expected_access.h \
   /usr/lib/llvm-18/include/c++/v1/__expected/expected.h \
   /usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h \
-  /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h
+  /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h \
+  /home/sashka/Projects/coost/include/co/cout.h \
+  /usr/lib/llvm-18/include/c++/v1/iostream \
+  /usr/lib/llvm-18/include/c++/v1/istream \
+  /home/sashka/Projects/coost/include/co/json.h \
+  /home/sashka/Projects/coost/include/co/str.h \
+  /home/sashka/Projects/coost/include/co/error.h \
+  /home/sashka/Projects/coost/include/co/stl.h \
+  /home/sashka/Projects/coost/include/co/clist.h \
+  /home/sashka/Projects/coost/include/co/table.h \
+  /usr/lib/llvm-18/include/c++/v1/list \
+  /usr/lib/llvm-18/include/c++/v1/deque \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_backward.h \
+  /usr/lib/llvm-18/include/c++/v1/map \
+  /usr/lib/llvm-18/include/c++/v1/__tree \
+  /usr/lib/llvm-18/include/c++/v1/set \
+  /usr/lib/llvm-18/include/c++/v1/unordered_set
 
 CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.o: ../Serialization/shortened_url_serialization.cpp \
   ../Serialization/mysql_queries.h \
@@ -3411,37 +3428,145 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/is_eq.h \
   /usr/lib/llvm-18/include/c++/v1/initializer_list \
-  ../Serialization/mysql_queries.h \
-  ../Database/mysql_struct_info.h \
-  /usr/lib/llvm-18/include/c++/v1/string \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
+  /usr/lib/llvm-18/include/c++/v1/functional \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/search.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/comp.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/operation_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/min.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/min_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/advance.h \
+  /usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/distance.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/access.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_borrowed_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/data.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_pointer.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_view.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/size.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/iter_swap.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/next.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/prev.h \
   /usr/lib/llvm-18/include/c++/v1/__functional/identity.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_callable.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/remove.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/find.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/countr.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/rotate.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/invert_if.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/bit_reference.h \
-  /usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/construct_at.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binary_negate.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/bind.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/weak_result_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/tuple \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/lazy.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/maybe_const.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/negation.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/bind_back.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/perfect_forward.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/bind_front.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binder1st.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/binder2nd.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/boyer_moore_searcher.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/fill_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/hash.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/hash.h \
+  /usr/lib/llvm-18/include/c++/v1/cstring \
+  /usr/lib/llvm-18/include/c++/v1/string.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__exception/exception.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/reference_wrapper.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/ostream.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/string.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/access.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/construct_at.h \
   /usr/lib/llvm-18/include/c++/v1/__memory/voidify.h \
   /usr/lib/llvm-18/include/c++/v1/new \
-  /usr/lib/llvm-18/include/c++/v1/__exception/exception.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/dependent_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_move_common.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/datasizeof.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_always_bitcastable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_equality_comparable.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
   /usr/lib/llvm-18/include/c++/v1/__utility/is_pointer_in_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/for_each_segment.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/segmented_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/min.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/min_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/move.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/dangling.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/view_interface.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unbounded_array.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h \
+  /usr/lib/llvm-18/include/c++/v1/typeinfo \
+  /usr/lib/llvm-18/include/c++/v1/__atomic/memory_order.h \
+  /usr/lib/llvm-18/include/c++/v1/array \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/equal.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/swap_ranges.h \
+  /usr/lib/llvm-18/include/c++/v1/stdexcept \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/data.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/empty.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/size.h \
+  /usr/lib/llvm-18/include/c++/v1/unordered_map \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h \
+  /usr/lib/llvm-18/include/c++/v1/__hash_table \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/countl.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/rotate.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const_ref.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory_resource/polymorphic_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h \
+  /usr/lib/llvm-18/include/c++/v1/__node_handle \
+  /usr/lib/llvm-18/include/c++/v1/optional \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_destructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/container_compatible_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__ranges/from_range.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/vector \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/remove.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/find.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/countr.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/invert_if.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/bit_reference.h \
   /usr/lib/llvm-18/include/c++/v1/cwchar \
   /usr/lib/llvm-18/include/c++/v1/cwctype \
   /usr/lib/llvm-18/include/c++/v1/cctype \
@@ -3461,69 +3586,23 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_if.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/remove_if.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/enable_insertable.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/hash.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/hash.h \
-  /usr/lib/llvm-18/include/c++/v1/cstring \
-  /usr/lib/llvm-18/include/c++/v1/string.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/string.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h \
-  /usr/lib/llvm-18/include/c++/v1/__ios/fpos.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/ios.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/distance.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/access.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_borrowed_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/data.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_pointer.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/enable_view.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/size.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/advance.h \
-  /usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/iter_swap.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/next.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/prev.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/segmented_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/dangling.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/view_interface.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/wrap_iter.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/dependent_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h \
-  /usr/lib/llvm-18/include/c++/v1/tuple \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/lazy.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/maybe_const.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/negation.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/container_compatible_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__ranges/from_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__string/char_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/rotate.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/move_backward.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit_reference \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_n.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_move_common.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_range.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/for_each_segment.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/fill_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__bit/popcount.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/enable_insertable.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_fwd.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_bool.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_parse_context.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_error.h \
+  /usr/lib/llvm-18/include/c++/v1/string_view \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/string_view.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/bounded_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__string/char_traits.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_end.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/search.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/find_first_of.h \
   /usr/lib/llvm-18/include/c++/v1/cstdio \
   /usr/lib/llvm-18/include/c++/v1/stdio.h \
@@ -3535,16 +3614,62 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/lib/llvm-18/include/c++/v1/iosfwd \
   /usr/lib/llvm-18/include/c++/v1/__fwd/fstream.h \
+  /usr/lib/llvm-18/include/c++/v1/__fwd/ios.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/istream.h \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/ostream.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/sstream.h \
   /usr/lib/llvm-18/include/c++/v1/__fwd/streambuf.h \
   /usr/lib/llvm-18/include/c++/v1/__std_mbstate_t.h \
   /usr/lib/llvm-18/include/c++/v1/__mbstate_t.h \
-  /usr/lib/llvm-18/include/c++/v1/__string/extern_template_lists.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_standard_layout.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivial.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_specialization.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_integral.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_integral.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/tables.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_base_10.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__system_error/errc.h \
+  /usr/lib/llvm-18/include/c++/v1/cerrno \
+  /usr/lib/llvm-18/include/c++/v1/errno.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/lib/llvm-18/include/c++/v1/__charconv/traits.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/formatter_output.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_out_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_fill_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_transform.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_in_out_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/projected.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/buffer.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy_n.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/unreachable_sentinel.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/wrap_iter.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/transform.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_to_n_result.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_construct_at.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/parser_std_format_spec.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_arg.h \
+  /usr/lib/llvm-18/include/c++/v1/__variant/monostate.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_string.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/unicode.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/extended_grapheme_cluster_table.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_upper_bound.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/lower_bound.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/half_positive.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/width_estimation_table.h \
+  /usr/lib/llvm-18/include/c++/v1/string \
+  /usr/lib/llvm-18/include/c++/v1/__ios/fpos.h \
+  /usr/lib/llvm-18/include/c++/v1/__string/extern_template_lists.h \
   /usr/lib/llvm-18/include/c++/v1/__type_traits/noexcept_move_assign_container.h \
   /usr/lib/llvm-18/include/c++/v1/climits \
   /usr/lib/llvm-18/lib/clang/18/include/limits.h \
@@ -3556,120 +3681,12 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/lib/llvm-18/include/c++/v1/stdexcept \
-  /usr/lib/llvm-18/include/c++/v1/string_view \
-  /usr/lib/llvm-18/include/c++/v1/__fwd/string_view.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/bounded_iter.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/data.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/empty.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/size.h \
-  ../Database/shortened_url.h \
-  ../Utils/enum_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/type_traits \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const_ref.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_specialization.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_destructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_assignable.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_constructible.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unbounded_array.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h \
-  /usr/lib/llvm-18/include/c++/v1/chrono \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/calendar.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/duration.h \
-  /usr/lib/llvm-18/include/c++/v1/ratio \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_tm.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/hh_mm_ss.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/day.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/file_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/ctime \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/month.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/month_weekday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/weekday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/monthday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/statically_widen.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_fwd.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_parse_context.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_error.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_day.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_weekday.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/high_resolution_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/literals.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/formatter.h \
-  /usr/lib/llvm-18/include/c++/v1/__chrono/ostream.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_functions.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/clamp.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/buffer.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy_n.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_out_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/unreachable_sentinel.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/transform.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_to_n_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/ranges_construct_at.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/concepts.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/move.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_arg.h \
-  /usr/lib/llvm-18/include/c++/v1/__variant/monostate.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_arg_store.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_args.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_context.h \
   /usr/lib/llvm-18/include/c++/v1/locale \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/equal.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/reverse.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/istreambuf_iterator.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/default_sentinel.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/ostreambuf_iterator.h \
   /usr/lib/llvm-18/include/c++/v1/__locale \
-  /usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/reference_wrapper.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/weak_result_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h \
-  /usr/lib/llvm-18/include/c++/v1/typeinfo \
-  /usr/lib/llvm-18/include/c++/v1/__atomic/memory_order.h \
   /usr/lib/llvm-18/include/c++/v1/__mutex/once_flag.h \
   /usr/lib/llvm-18/include/c++/v1/__utility/no_destroy.h \
   /usr/lib/llvm-18/include/c++/v1/clocale \
@@ -3677,19 +3694,15 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/include/locale.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/lib/llvm-18/include/c++/v1/cstdlib \
-  /usr/lib/llvm-18/include/c++/v1/cerrno \
-  /usr/lib/llvm-18/include/c++/v1/errno.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/lib/llvm-18/include/c++/v1/ctime \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/lib/llvm-18/include/c++/v1/ios \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_category.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_code.h \
-  /usr/lib/llvm-18/include/c++/v1/__system_error/errc.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/error_condition.h \
   /usr/lib/llvm-18/include/c++/v1/__system_error/system_error.h \
   /usr/lib/llvm-18/include/c++/v1/__atomic/atomic.h \
@@ -3698,8 +3711,15 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__atomic/contention_t.h \
   /usr/lib/llvm-18/include/c++/v1/__atomic/cxx_atomic_impl.h \
   /usr/lib/llvm-18/include/c++/v1/__atomic/is_always_lock_free.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/duration.h \
+  /usr/lib/llvm-18/include/c++/v1/ratio \
   /usr/lib/llvm-18/include/c++/v1/__thread/poll_with_backoff.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/high_resolution_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h \
   /usr/lib/llvm-18/include/c++/v1/__threading_support \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
@@ -3716,44 +3736,75 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h \
   /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h \
-  /usr/lib/llvm-18/include/c++/v1/optional \
-  /usr/lib/llvm-18/include/c++/v1/__format/format_string.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter_bool.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter_integral.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_integral.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/countl.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/tables.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_base_10.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__charconv/traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/formatter_output.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_fill_n.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_transform.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/in_in_out_result.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/projected.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/parser_std_format_spec.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/unicode.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/extended_grapheme_cluster_table.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_upper_bound.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/lower_bound.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/half_positive.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h \
-  /usr/lib/llvm-18/include/c++/v1/__format/width_estimation_table.h \
-  /usr/lib/llvm-18/include/c++/v1/array \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/swap_ranges.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/temp_value.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h \
+  /usr/lib/llvm-18/include/c++/v1/__split_buffer \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h \
+  /usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/compose.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/default_searcher.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/function.h \
+  /usr/lib/llvm-18/include/c++/v1/__memory/builtin_new_allocator.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/strip_signature.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fn.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fun_ref.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/not_fn.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_binary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_unary_function.h \
+  /usr/lib/llvm-18/include/c++/v1/__functional/unary_negate.h \
+  ../Serialization/mysql_queries.h \
+  ../Database/mysql_struct_info.h \
+  ../Database/shortened_url.h \
+  ../Utils/enum_traits.h \
+  /usr/lib/llvm-18/include/c++/v1/type_traits \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h \
+  /usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h \
+  /usr/lib/llvm-18/include/c++/v1/chrono \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/calendar.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_tm.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/concepts.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/hh_mm_ss.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/day.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/file_clock.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/month.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/month_weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/monthday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/statically_widen.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_day.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/year_month_weekday.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/literals.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/formatter.h \
+  /usr/lib/llvm-18/include/c++/v1/__chrono/ostream.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_functions.h \
+  /usr/lib/llvm-18/include/c++/v1/__algorithm/clamp.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_arg_store.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_args.h \
+  /usr/lib/llvm-18/include/c++/v1/__format/format_context.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_char.h \
   /usr/lib/llvm-18/include/c++/v1/__format/write_escaped.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_for_each.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/in_fun_result.h \
   /usr/lib/llvm-18/include/c++/v1/__format/escaped_output_table.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_floating_point.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/rotate.h \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/move_backward.h \
   /usr/lib/llvm-18/include/c++/v1/__charconv/chars_format.h \
   /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_floating_point.h \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_integer.h \
@@ -3763,9 +3814,7 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__exception/operations.h \
   /usr/lib/llvm-18/include/c++/v1/bitset \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/count.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit/popcount.h \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/fill.h \
-  /usr/lib/llvm-18/include/c++/v1/__bit_reference \
   /usr/lib/llvm-18/include/c++/v1/__chrono/parser_std_format_spec.h \
   /usr/lib/llvm-18/include/c++/v1/sstream \
   /usr/lib/llvm-18/include/c++/v1/istream \
@@ -3783,41 +3832,9 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/push_heap.h \
   /usr/lib/llvm-18/include/c++/v1/deque \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_backward.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/temp_value.h \
-  /usr/lib/llvm-18/include/c++/v1/__split_buffer \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h \
-  /usr/lib/llvm-18/include/c++/v1/vector \
   /usr/lib/llvm-18/include/c++/v1/stack \
   /usr/lib/llvm-18/include/c++/v1/__format/formatter_tuple.h \
   /home/sashka/Projects/workflow/_include/workflow/WFMySQLConnection.h \
-  /usr/lib/llvm-18/include/c++/v1/functional \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binary_negate.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/bind.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/bind_back.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/perfect_forward.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/bind_front.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binder1st.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/binder2nd.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /usr/lib/llvm-18/include/c++/v1/unordered_map \
-  /usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h \
-  /usr/lib/llvm-18/include/c++/v1/__hash_table \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h \
-  /usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /usr/lib/llvm-18/include/c++/v1/__node_handle \
-  /usr/lib/llvm-18/include/c++/v1/__functional/compose.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/default_searcher.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/function.h \
-  /usr/lib/llvm-18/include/c++/v1/__memory/builtin_new_allocator.h \
-  /usr/lib/llvm-18/include/c++/v1/__type_traits/strip_signature.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fn.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/mem_fun_ref.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/not_fn.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_binary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_unary_function.h \
-  /usr/lib/llvm-18/include/c++/v1/__functional/unary_negate.h \
   /home/sashka/Projects/workflow/_include/workflow/URIParser.h \
   /usr/lib/llvm-18/include/c++/v1/map \
   /usr/lib/llvm-18/include/c++/v1/__tree \
@@ -3976,6 +3993,21 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /home/sashka/Projects/workflow/_include/workflow/WFTaskError.h \
   /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h \
   ../RequestHandlers/request_handler.h \
+  /home/sashka/Projects/coost/include/co/log.h \
+  /home/sashka/Projects/coost/include/co/flag.h \
+  /home/sashka/Projects/coost/include/co/def.h \
+  /home/sashka/Projects/coost/include/co/config.h \
+  /home/sashka/Projects/coost/include/co/mem.h \
+  /home/sashka/Projects/coost/include/co/god.h \
+  /home/sashka/Projects/coost/include/co/atomic.h \
+  /home/sashka/Projects/coost/include/co/vector.h \
+  /home/sashka/Projects/coost/include/co/fastring.h \
+  /home/sashka/Projects/coost/include/co/fast.h \
+  /home/sashka/Projects/coost/include/co/__/dtoa_milo.h \
+  /home/sashka/Projects/coost/include/co/hash/murmur_hash.h \
+  /home/sashka/Projects/coost/include/co/def.h \
+  /home/sashka/Projects/coost/include/co/fastream.h \
+  /home/sashka/Projects/workflow/_include/workflow/HttpUtil.h \
   /usr/include/fmt/format.h \
   /usr/lib/llvm-18/include/c++/v1/memory \
   /usr/lib/llvm-18/include/c++/v1/__memory/align.h \
@@ -4009,20 +4041,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__iterator/permutable.h \
   /usr/lib/llvm-18/include/c++/v1/__iterator/sortable.h \
   /usr/lib/llvm-18/include/c++/v1/concepts \
-  /home/sashka/Projects/coost/include/co/log.h \
-  /home/sashka/Projects/coost/include/co/flag.h \
-  /home/sashka/Projects/coost/include/co/def.h \
-  /home/sashka/Projects/coost/include/co/config.h \
-  /home/sashka/Projects/coost/include/co/mem.h \
-  /home/sashka/Projects/coost/include/co/god.h \
-  /home/sashka/Projects/coost/include/co/atomic.h \
-  /home/sashka/Projects/coost/include/co/vector.h \
-  /home/sashka/Projects/coost/include/co/fastring.h \
-  /home/sashka/Projects/coost/include/co/fast.h \
-  /home/sashka/Projects/coost/include/co/__/dtoa_milo.h \
-  /home/sashka/Projects/coost/include/co/hash/murmur_hash.h \
-  /home/sashka/Projects/coost/include/co/def.h \
-  /home/sashka/Projects/coost/include/co/fastream.h \
   /home/sashka/Projects/workflow/_include/workflow/WFHttpServer.h \
   /home/sashka/Projects/workflow/_include/workflow/WFServer.h \
   /usr/lib/llvm-18/include/c++/v1/condition_variable \
@@ -4031,7 +4049,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/stop_state.h \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/atomic_unique_lock.h \
   /usr/lib/llvm-18/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /home/sashka/Projects/workflow/_include/workflow/HttpUtil.h \
   /home/sashka/Projects/workflow/_include/workflow/WFFacilities.h \
   /home/sashka/Projects/workflow/_include/workflow/WFFuture.h \
   /usr/lib/llvm-18/include/c++/v1/future \
@@ -4062,8 +4079,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /home/sashka/Projects/workflow/_include/workflow/WFFacilities.h:
 
-/home/sashka/Projects/workflow/_include/workflow/HttpUtil.h:
-
 /usr/lib/llvm-18/include/c++/v1/__stop_token/atomic_unique_lock.h:
 
 /usr/lib/llvm-18/include/c++/v1/__stop_token/stop_state.h:
@@ -4075,6 +4090,16 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 ../main.cpp:
 
 ../Serialization/shortened_url_serialization.cpp:
+
+/usr/lib/llvm-18/include/c++/v1/unordered_set:
+
+/home/sashka/Projects/coost/include/co/clist.h:
+
+/home/sashka/Projects/coost/include/co/str.h:
+
+/home/sashka/Projects/coost/include/co/json.h:
+
+/home/sashka/Projects/workflow/_include/workflow/HttpUtil.h:
 
 /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h:
 
@@ -4308,45 +4333,9 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /home/sashka/Projects/workflow/_include/workflow/URIParser.h:
 
-/usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_binary_function.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/not_fn.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/mem_fun_ref.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/mem_fn.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/builtin_new_allocator.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/default_searcher.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/compose.h:
-
-/usr/lib/llvm-18/include/c++/v1/__node_handle:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/binder2nd.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/istream_iterator.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/binder1st.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/perfect_forward.h:
-
-/usr/lib/llvm-18/include/c++/v1/functional:
-
 /home/sashka/Projects/workflow/_include/workflow/WFMySQLConnection.h:
 
 /usr/lib/llvm-18/include/c++/v1/stack:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h:
 
 /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_backward.h:
 
@@ -4372,8 +4361,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/sstream:
 
-/usr/lib/llvm-18/include/c++/v1/__bit_reference:
-
 /usr/lib/llvm-18/include/c++/v1/__algorithm/fill.h:
 
 /usr/lib/llvm-18/include/c++/v1/__exception/operations.h:
@@ -4383,8 +4370,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/include/openssl/bnerr.h:
 
 /usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_floating_point.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/move_backward.h:
 
 /usr/lib/llvm-18/include/c++/v1/__format/formatter_floating_point.h:
 
@@ -4396,69 +4381,91 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__format/formatter_char.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/swap_ranges.h:
+/usr/lib/llvm-18/include/c++/v1/__format/format_context.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
+/usr/lib/llvm-18/include/c++/v1/__format/format_arg_store.h:
 
-/usr/include/openssl/core.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/ostream.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/formatter.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/literals.h:
 
-/usr/lib/llvm-18/include/c++/v1/array:
+/usr/lib/llvm-18/include/c++/v1/__format/format_args.h:
 
-/usr/lib/llvm-18/include/c++/v1/__split_buffer:
+/usr/lib/llvm-18/include/c++/v1/__chrono/year_month_day.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/width_estimation_table.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/year_month.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/half_positive.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/year.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/lower_bound.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/statically_widen.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_upper_bound.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/monthday.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/extended_grapheme_cluster_table.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/month_weekday.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/unicode.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/month.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/parser_std_format_spec.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/day.h:
 
-/usr/lib/llvm-18/include/c++/v1/__iterator/projected.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/hh_mm_ss.h:
 
-/usr/lib/llvm-18/include/c++/v1/concepts:
+/usr/lib/llvm-18/include/c++/v1/chrono:
 
-/home/sashka/Projects/workflow/_include/workflow/CommScheduler.h:
+/home/sashka/Projects/workflow/_include/workflow/SSLWrapper.h:
 
-/home/sashka/Projects/workflow/_include/workflow/redis_parser.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_transform.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_fill_n.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
+/usr/lib/llvm-18/include/c++/v1/__bit/endian.h:
 
-/home/sashka/Projects/workflow/_include/workflow/MySQLResult.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h:
 
-/usr/lib/llvm-18/include/c++/v1/__charconv/traits.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h:
 
-/usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_base_10.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h:
 
-../RequestHandlers/request_handler.cpp:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h:
 
-/usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_integral.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/formatter_bool.h:
+/usr/lib/llvm-18/include/c++/v1/future:
 
-/usr/lib/llvm-18/include/c++/v1/__format/formatter.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/format_string.h:
+/usr/lib/llvm-18/include/c++/v1/type_traits:
 
-/usr/lib/llvm-18/include/c++/v1/optional:
+../Database/shortened_url.h:
 
-/usr/lib/llvm-18/include/c++/v1/__hash_table:
+../Serialization/mysql_queries.h:
 
-/usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_binary_function.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/not_fn.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/mem_fun_ref.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/mem_fn.h:
+
+/usr/include/openssl/asn1err.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/strip_signature.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/builtin_new_allocator.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/default_searcher.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/compose.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/move_sentinel.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/move_iterator.h:
 
 /usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_arg.h:
 
@@ -4482,7 +4489,17 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__threading_support:
 
+/usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/high_resolution_clock.h:
+
 /usr/lib/llvm-18/include/c++/v1/__thread/poll_with_backoff.h:
+
+/usr/lib/llvm-18/include/c++/v1/ratio:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/duration.h:
 
 /usr/lib/llvm-18/include/c++/v1/__atomic/is_always_lock_free.h:
 
@@ -4498,17 +4515,9 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__system_error/system_error.h:
 
-/usr/lib/llvm-18/include/c++/v1/__system_error/errc.h:
-
 /usr/lib/llvm-18/include/c++/v1/__atomic/check_memory_order.h:
 
 /usr/lib/llvm-18/include/c++/v1/__system_error/error_category.h:
-
-/usr/lib/llvm-18/include/c++/v1/ios:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/usr/include/asm-generic/errno-base.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
@@ -4537,10 +4546,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unbounded_array.h:
-
-/usr/lib/llvm-18/include/c++/v1/__charconv/tables.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/transform.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -4585,6 +4590,8 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/lib/llvm-18/include/c++/v1/__math/exponential_functions.h:
 
 /usr/lib/llvm-18/include/c++/v1/__atomic/memory_order.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/lower_bound.h:
 
 /usr/lib/llvm-18/include/c++/v1/__math/trigonometric_functions.h:
 
@@ -4632,6 +4639,10 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/endian.h:
 
+/usr/lib/llvm-18/include/c++/v1/__format/format_functions.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
 /usr/lib/llvm-18/include/c++/v1/__compare/common_comparison_category.h:
 
 /usr/lib/llvm-18/include/c++/v1/__format/buffer.h:
@@ -4664,7 +4675,13 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/usr/lib/llvm-18/include/c++/v1/__format/extended_grapheme_cluster_table.h:
+
 /usr/lib/llvm-18/include/c++/v1/__bit/bit_cast.h:
+
+/home/sashka/Projects/workflow/_include/workflow/MySQLResult.h:
+
+/usr/lib/llvm-18/include/c++/v1/__charconv/traits.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_copy_constructible.h:
 
@@ -4674,13 +4691,9 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__math/traits.h:
 
+/home/sashka/Projects/coost/include/co/table.h:
+
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/binary_negate.h:
-
-/usr/lib/llvm-18/include/c++/v1/__math/fma.h:
-
-/usr/lib/llvm-18/include/c++/v1/__bit/rotate.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_copy_assignable.h:
 
@@ -4698,15 +4711,25 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__concepts/totally_ordered.h:
 
+/usr/lib/llvm-18/include/c++/v1/__iterator/ranges_iterator_traits.h:
+
 /usr/lib/llvm-18/include/c++/v1/stdlib.h:
 
 /home/sashka/Projects/workflow/_include/workflow/HttpMessage.h:
 
 /usr/lib/llvm-18/include/c++/v1/__math/copysign.h:
 
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h:
+
+/usr/lib/llvm-18/include/c++/v1/__tuple/tuple_like_ext.h:
+
 /usr/lib/llvm-18/include/c++/v1/__tuple/make_tuple_types.h:
 
 /usr/lib/llvm-18/include/c++/v1/__tuple/sfinae_helpers.h:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h:
+
+/usr/lib/llvm-18/include/c++/v1/__compare/synth_three_way.h:
 
 /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator.h:
 
@@ -4718,9 +4741,7 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/in_in_out_result.h:
-
-/usr/lib/llvm-18/include/c++/v1/__format/format_parse_context.h:
+/usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_base_10.h:
 
 /usr/lib/llvm-18/include/c++/v1/__format/formatter_integer.h:
 
@@ -4728,11 +4749,17 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__ranges/size.h:
 
+/usr/lib/llvm-18/include/c++/v1/__algorithm/swap_ranges.h:
+
 /usr/lib/llvm-18/include/c++/v1/bit:
 
 /usr/lib/llvm-18/include/c++/v1/__math/error_functions.h:
 
 /usr/lib/llvm-18/include/c++/v1/__iterator/readable_traits.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h:
+
+/usr/lib/llvm-18/include/c++/v1/__format/formatter_integral.h:
 
 /usr/lib/llvm-18/include/c++/v1/__memory/uses_allocator_construction.h:
 
@@ -4766,6 +4793,8 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__concepts/semiregular.h:
 
+/usr/lib/llvm-18/include/c++/v1/set:
+
 /usr/lib/llvm-18/include/c++/v1/__concepts/regular.h:
 
 /usr/lib/llvm-18/include/c++/v1/__math/fdim.h:
@@ -4775,8 +4804,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/lib/llvm-18/include/c++/v1/__availability:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_member_object_pointer.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/day.h:
 
 /usr/lib/llvm-18/include/c++/v1/__concepts/derived_from.h:
 
@@ -4792,11 +4819,11 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__math/hyperbolic_functions.h:
 
-/usr/lib/llvm-18/include/c++/v1/__functional/identity.h:
-
 /usr/include/openssl/ssl2.h:
 
 /usr/lib/llvm-18/include/c++/v1/__ranges/access.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
@@ -4807,8 +4834,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/lib/llvm-18/include/c++/v1/__utility/swap.h:
 
 /usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_range.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/year.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_move_constructible.h:
 
@@ -4842,6 +4867,8 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
+/home/sashka/Projects/coost/include/co/error.h:
+
 /usr/lib/llvm-18/include/c++/v1/__functional/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
@@ -4858,17 +4885,31 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__functional/weak_result_type.h:
 
+/usr/lib/llvm-18/include/c++/v1/__node_handle:
+
 /usr/lib/llvm-18/lib/clang/18/include/__stddef_nullptr_t.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/lib/llvm-18/include/c++/v1/__concepts/invocable.h:
 
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h:
+
+/usr/lib/llvm-18/include/c++/v1/__bit/countl.h:
+
+/usr/lib/llvm-18/include/c++/v1/__concepts/equality_comparable.h:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/year_month_weekday.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy_n.h:
+
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
+/usr/lib/llvm-18/include/c++/v1/__functional/perfect_forward.h:
+
 /usr/lib/llvm-18/include/c++/v1/__compare/compare_partial_order_fallback.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/bind_back.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/find_if.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/make_const_lvalue_ref.h:
 
@@ -4900,10 +4941,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_arithmetic.h:
 
-/usr/lib/llvm-18/include/c++/v1/__compare/synth_three_way.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/time_point.h:
-
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_floating_point.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -4916,11 +4953,9 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
+/usr/lib/llvm-18/include/c++/v1/__format/parser_std_format_spec.h:
+
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h:
-
-../Database/mysql_struct_info.h:
 
 /usr/lib/llvm-18/include/c++/v1/__concepts/movable.h:
 
@@ -4956,6 +4991,8 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__iterator/incrementable_traits.h:
 
+/usr/lib/llvm-18/include/c++/v1/__type_traits/make_32_64_or_128_bit.h:
+
 /usr/lib/llvm-18/include/c++/v1/__utility/auto_cast.h:
 
 /usr/lib/llvm-18/include/c++/v1/__fwd/get.h:
@@ -4978,10 +5015,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_union.h:
 
-/usr/lib/llvm-18/include/c++/v1/unordered_map:
-
-../Database/MYSQL.cpp:
-
 /usr/lib/llvm-18/lib/clang/18/include/__stddef_ptrdiff_t.h:
 
 /usr/include/openssl/types.h:
@@ -4998,7 +5031,9 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__iterator/prev.h:
 
-/usr/lib/llvm-18/include/c++/v1/__chrono/ostream.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/calendar.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/common_type.h:
 
@@ -5036,13 +5071,15 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__ranges/enable_borrowed_range.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/formatter_output.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+/usr/lib/llvm-18/include/c++/v1/__iterator/erase_if_container.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/type_list.h:
 
 /usr/lib/llvm-18/include/c++/v1/__ranges/view_interface.h:
+
+../Database/mysql_struct_info.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/is_permutation.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
@@ -5054,9 +5091,9 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_member_pointer.h:
 
-/usr/lib/llvm-18/include/c++/v1/__functional/boyer_moore_searcher.h:
+/usr/lib/llvm-18/include/c++/v1/__split_buffer:
 
-/usr/lib/llvm-18/include/c++/v1/__utility/to_underlying.h:
+/usr/lib/llvm-18/include/c++/v1/__format/width_estimation_table.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_function.h:
 
@@ -5067,10 +5104,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/lib/llvm-18/include/c++/v1/__utility/is_pointer_in_range.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/bind.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_default_constructible.h:
 
@@ -5100,6 +5133,8 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/integral_constant.h:
 
+/usr/lib/llvm-18/include/c++/v1/__format/formatter_bool.h:
+
 /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_reference.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unsigned_integer.h:
@@ -5110,23 +5145,17 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/lib/clang/18/include/__stdarg___gnuc_va_list.h:
 
-/usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_result.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h:
-
 /usr/lib/llvm-18/include/c++/v1/__bit/bit_log2.h:
 
 /usr/include/x86_64-linux-gnu/sys/eventfd.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
+/usr/lib/llvm-18/include/c++/v1/__system_error/errc.h:
+
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_core_convertible.h:
 
 /usr/lib/llvm-18/include/c++/v1/__concepts/boolean_testable.h:
-
-/usr/lib/llvm-18/include/c++/v1/future:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_union.h:
 
 /usr/lib/llvm-18/include/c++/v1/__utility/cmp.h:
 
@@ -5147,6 +5176,12 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_signed.h:
 
 /usr/lib/llvm-18/include/c++/v1/__fwd/fstream.h:
+
+/usr/lib/llvm-18/include/c++/v1/condition_variable:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h:
+
+/usr/lib/llvm-18/include/c++/v1/__fwd/ios.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_unsigned.h:
 
@@ -5206,23 +5241,17 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/add_cv.h:
 
-/home/sashka/Projects/workflow/_include/workflow/SSLWrapper.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_default_constructible.h:
+/usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_scoped_enum.h:
+/usr/lib/llvm-18/include/c++/v1/__compare/compare_three_way.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_object.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/high_resolution_clock.h:
 
 /usr/lib/llvm-18/include/c++/v1/__verbose_abort:
 
 /usr/lib/llvm-18/include/c++/v1/__utility/exchange.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/lib/llvm-18/include/c++/v1/__format/format_functions.h:
 
 /usr/lib/llvm-18/include/c++/v1/__concepts/class_or_enum.h:
 
@@ -5238,11 +5267,11 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_null_pointer.h:
 
+../RequestHandlers/request_handler.cpp:
+
+/usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_integral.h:
+
 /usr/lib/llvm-18/lib/clang/18/include/limits.h:
-
-/usr/lib/llvm-18/include/c++/v1/__format/formatter_integral.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_constructible.h:
 
 /usr/lib/llvm-18/include/c++/v1/__fwd/subrange.h:
 
@@ -5278,8 +5307,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_move_assignable.h:
 
-/usr/lib/llvm-18/include/c++/v1/__chrono/formatter.h:
-
 /usr/lib/llvm-18/include/c++/v1/__iterator/counted_iterator.h:
 
 /usr/lib/llvm-18/include/c++/v1/__algorithm/reverse.h:
@@ -5302,17 +5329,15 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h:
 
+/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_upper_bound.h:
+
 /usr/lib/llvm-18/include/c++/v1/initializer_list:
 
-../Serialization/mysql_queries.h:
+/usr/lib/llvm-18/include/c++/v1/functional:
 
-/usr/include/asm-generic/sockios.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_tm.h:
 
-/usr/lib/llvm-18/include/c++/v1/__utility/as_const.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/max.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/search.h:
 
 /usr/lib/llvm-18/include/c++/v1/cctype:
 
@@ -5324,149 +5349,15 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__memory/construct_at.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/min.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_class.h:
 
-/usr/include/x86_64-linux-gnu/openssl/configuration.h:
+/usr/lib/llvm-18/include/c++/v1/__iterator/advance.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_callable.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/function.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/remove.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h:
-
-/usr/lib/llvm-18/include/c++/v1/__math/gamma.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h:
-
-/usr/lib/llvm-18/include/c++/v1/cmath:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/conjunction.h:
-
-/usr/lib/llvm-18/include/c++/v1/stddef.h:
-
-/usr/lib/llvm-18/include/c++/v1/__bit/countr.h:
-
-/usr/lib/llvm-18/include/c++/v1/__fwd/bit_reference.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/ostreambuf_iterator.h:
-
-/usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h:
-
-/usr/lib/llvm-18/include/c++/v1/__fwd/string.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/hh_mm_ss.h:
-
-/home/sashka/Projects/coost/include/co/hash/murmur_hash.h:
-
-/usr/lib/llvm-18/include/c++/v1/__bit/invert_if.h:
-
-/usr/lib/llvm-18/include/c++/v1/__variant/monostate.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/access.h:
-
-/usr/include/openssl/bn.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/voidify.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_constructible.h:
-
-/usr/lib/llvm-18/include/c++/v1/new:
-
-/usr/lib/llvm-18/include/c++/v1/__stop_token/stop_source.h:
-
-/usr/include/openssl/http.h:
-
-/usr/lib/llvm-18/include/c++/v1/__exception/exception.h:
-
-/usr/lib/llvm-18/include/c++/v1/__assert:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/datasizeof.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h:
-
-/usr/include/time.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
-
-/home/sashka/Projects/coost/include/co/god.h:
-
-/usr/include/ctype.h:
-
-/home/sashka/Projects/workflow/_include/workflow/Communicator.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/lib/llvm-18/include/c++/v1/errno.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/wchar.h:
-
-/usr/lib/llvm-18/lib/clang/18/include/stdarg.h:
-
-../Database/MYSQL.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/parser_std_format_spec.h:
-
-/usr/include/math.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/lib/llvm-18/include/c++/v1/__undef_macros:
-
-/usr/lib/llvm-18/include/c++/v1/ctype.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_swappable.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/remove_if.h:
-
-/usr/include/openssl/asn1err.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/strip_signature.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/rank.h:
-
-/usr/lib/llvm-18/include/c++/v1/limits:
-
-/usr/lib/llvm-18/include/c++/v1/__format/enable_insertable.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h:
-
-/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h:
-
-/usr/lib/llvm-18/include/c++/v1/__fwd/hash.h:
-
-/usr/lib/llvm-18/include/c++/v1/__concepts/arithmetic.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/concepts.h:
-
-/usr/lib/llvm-18/include/c++/v1/__format/range_formatter.h:
-
-/usr/lib/llvm-18/include/c++/v1/string.h:
-
-/usr/include/string.h:
-
-/usr/include/strings.h:
-
-/usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h:
+/usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_convertible.h:
 
@@ -5488,85 +5379,49 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/maybe_const.h:
 
+/usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h:
+
 /usr/lib/llvm-18/include/c++/v1/__atomic/contention_t.h:
 
 /usr/lib/llvm-18/include/c++/v1/__fwd/string_view.h:
 
-/usr/lib/llvm-18/include/c++/v1/__memory/allocator_destructor.h:
+/usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h:
 
-/usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_class.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/advance.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/function.h:
-
-/usr/lib/llvm-18/include/c++/v1/__utility/convert_to_integral.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy_n.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/year_month_weekday.h:
+/usr/include/linux/errno.h:
 
 /usr/lib/llvm-18/include/c++/v1/__iterator/iter_swap.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/add_lvalue_reference.h:
+/usr/include/x86_64-linux-gnu/openssl/configuration.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_callable.h:
 
-/usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/count.h:
+/usr/lib/llvm-18/include/c++/v1/__math/fma.h:
 
-/usr/lib/llvm-18/include/c++/v1/__functional/operations.h:
+/usr/lib/llvm-18/include/c++/v1/__bit/rotate.h:
 
-/usr/lib/llvm-18/include/c++/v1/__memory/assume_aligned.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/binary_negate.h:
 
-/usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/lib/llvm-18/include/c++/v1/__ranges/empty.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/bind.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/unary_function.h:
 
-/usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_unary_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/openssl/pemerr.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_constructible.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h:
-
-/usr/lib/llvm-18/include/c++/v1/vector:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/concepts.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h:
-
-/usr/lib/llvm-18/lib/clang/18/include/stddef.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_equality_comparable.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_iterator_concept.h:
+/usr/include/asm-generic/errno-base.h:
 
 /usr/lib/llvm-18/include/c++/v1/tuple:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/wrap_iter.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h:
 
 /home/sashka/Projects/coost/include/co/atomic.h:
 
 /usr/lib/llvm-18/include/c++/v1/format:
 
 /usr/lib/llvm-18/include/c++/v1/__iterator/data.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_empty.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/back_insert_iterator.h:
 
 /home/sashka/Projects/coost/include/co/flag.h:
 
@@ -5580,21 +5435,137 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__algorithm/in_out_result.h:
 
+/usr/lib/llvm-18/include/c++/v1/__algorithm/find_if.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/bind_back.h:
+
+/usr/lib/llvm-18/include/c++/v1/__format/format_string.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/istream_iterator.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/binder1st.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/binder2nd.h:
+
+/usr/lib/llvm-18/include/c++/v1/__utility/to_underlying.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/boyer_moore_searcher.h:
+
 /usr/lib/llvm-18/include/c++/v1/__ranges/from_range.h:
 
-/usr/include/wctype.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/fill_n.h:
 
-/usr/lib/llvm-18/include/c++/v1/__chrono/file_clock.h:
+../Utils/enum_traits.h:
 
-/usr/lib/llvm-18/include/c++/v1/string:
+/usr/lib/llvm-18/include/c++/v1/__functional/hash.h:
 
-/usr/lib/llvm-18/include/c++/v1/__string/char_traits.h:
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg_va_copy.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/copy_n.h:
+/usr/lib/llvm-18/include/c++/v1/__fwd/hash.h:
+
+/home/sashka/Projects/coost/include/co/stl.h:
+
+/usr/lib/llvm-18/include/c++/v1/__concepts/arithmetic.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/concepts.h:
+
+/usr/lib/llvm-18/include/c++/v1/__format/range_formatter.h:
+
+/usr/lib/llvm-18/include/c++/v1/string.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/count.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/operations.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/add_lvalue_reference.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/iterator.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/shared_ptr.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/lib/llvm-18/include/c++/v1/__utility/as_const.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/max.h:
+
+/usr/lib/llvm-18/include/c++/v1/__stop_token/stop_source.h:
+
+/usr/include/openssl/http.h:
+
+/usr/lib/llvm-18/include/c++/v1/__exception/exception.h:
+
+/usr/lib/llvm-18/include/c++/v1/__fwd/string.h:
+
+/usr/lib/llvm-18/include/c++/v1/__string/constexpr_c_functions.h:
+
+/usr/lib/llvm-18/include/c++/v1/__fwd/memory_resource.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/access.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h:
+
+/usr/include/openssl/bn.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/voidify.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_constructible.h:
+
+/usr/lib/llvm-18/include/c++/v1/new:
+
+/usr/include/openssl/pemerr.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_constructible.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/allocate_at_least.h:
+
+/usr/lib/llvm-18/include/c++/v1/bitset:
+
+/usr/lib/llvm-18/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_fallbacks.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/copy.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/remove.h:
+
+/usr/lib/llvm-18/include/c++/v1/__math/gamma.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_copy.h:
 
 /usr/lib/llvm-18/include/c++/v1/__algorithm/copy_move_common.h:
 
 /usr/lib/llvm-18/include/c++/v1/__mbstate_t.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/unwrap_iter.h:
+
+/usr/lib/llvm-18/include/c++/v1/__assert:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/datasizeof.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory_resource/memory_resource.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_equality_comparable.h:
+
+/usr/include/time.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_final.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h:
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_assignable.h:
 
@@ -5604,33 +5575,199 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/fill_n.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/min.h:
 
-/usr/lib/llvm-18/include/c++/v1/__charconv/chars_format.h:
+/usr/lib/llvm-18/include/c++/v1/optional:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/find_end.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/move.h:
 
-/usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_tm.h:
+/usr/lib/llvm-18/include/c++/v1/__iterator/reverse_iterator.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/search.h:
+/usr/lib/llvm-18/include/c++/v1/__memory/assume_aligned.h:
+
+/usr/lib/llvm-18/include/c++/v1/__ranges/subrange.h:
+
+/usr/lib/llvm-18/include/c++/v1/__ranges/empty.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_constructible.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
+
+/usr/lib/llvm-18/include/c++/v1/__system_error/error_condition.h:
+
+/usr/include/stdio.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/unique_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/home/sashka/Projects/workflow/_include/workflow/WFTask.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h:
+
+/usr/lib/llvm-18/include/c++/v1/utility:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h:
+
+/usr/lib/llvm-18/include/c++/v1/typeinfo:
+
+/usr/lib/llvm-18/include/c++/v1/array:
+
+/usr/lib/llvm-18/include/c++/v1/__format/concepts.h:
+
+/usr/lib/llvm-18/include/c++/v1/__utility/piecewise_construct.h:
+
+/usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/equal.h:
+
+/usr/include/openssl/core.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/lexicographical_compare_three_way.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/size.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
 /usr/lib/llvm-18/include/c++/v1/__chrono/weekday.h:
 
-/usr/lib/llvm-18/include/c++/v1/stdexcept:
-
 /usr/lib/llvm-18/include/c++/v1/__type_traits/remove_const_ref.h:
 
-/usr/lib/llvm-18/include/c++/v1/thread:
+/usr/lib/llvm-18/include/c++/v1/stdexcept:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/find_first_of.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_swappable.h:
 
-/home/sashka/Projects/coost/include/co/log.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/remove_if.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/format_arg.h:
+/usr/lib/llvm-18/include/c++/v1/__iterator/empty.h:
+
+/usr/lib/llvm-18/include/c++/v1/list:
 
 /usr/lib/llvm-18/include/c++/v1/cstdio:
 
-/usr/lib/llvm-18/include/c++/v1/__iterator/empty.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/bind_front.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h:
+
+../Database/MYSQL.cpp:
+
+/usr/lib/llvm-18/include/c++/v1/unordered_map:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/is_transparent.h:
+
+/usr/lib/llvm-18/include/c++/v1/__atomic/fence.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/bounded_iter.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/__stdarg___va_copy.h:
+
+/usr/lib/llvm-18/include/c++/v1/__hash_table:
+
+/usr/lib/llvm-18/lib/clang/18/include/stddef.h:
+
+/usr/lib/llvm-18/include/c++/v1/__memory/swap_allocator.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/max_element.h:
+
+/usr/include/x86_64-linux-gnu/bits/eventfd.h:
+
+/usr/lib/llvm-18/include/c++/v1/__tuple/tuple_element.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_move_constructible.h:
+
+/usr/include/linux/limits.h:
+
+../Database/MYSQL.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/is_allocator.h:
+
+/usr/lib/llvm-18/lib/clang/18/include/stdarg.h:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/concepts.h:
+
+/usr/lib/llvm-18/include/c++/v1/vector:
+
+/usr/lib/llvm-18/include/c++/v1/cmath:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/conjunction.h:
+
+/usr/lib/llvm-18/include/c++/v1/stddef.h:
+
+/usr/lib/llvm-18/include/c++/v1/__bit/countr.h:
+
+/home/sashka/Projects/coost/include/co/hash/murmur_hash.h:
+
+/usr/lib/llvm-18/include/c++/v1/__variant/monostate.h:
+
+/usr/lib/llvm-18/include/c++/v1/__bit/invert_if.h:
+
+/usr/lib/llvm-18/include/c++/v1/__fwd/bit_reference.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/ostreambuf_iterator.h:
+
+/usr/lib/llvm-18/include/c++/v1/__type_traits/has_unique_object_representation.h:
+
+/usr/lib/llvm-18/include/c++/v1/__undef_macros:
+
+/usr/lib/llvm-18/include/c++/v1/ctype.h:
+
+/home/sashka/Projects/coost/include/co/god.h:
+
+/usr/include/ctype.h:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/file_clock.h:
+
+/usr/include/wctype.h:
+
+/usr/lib/llvm-18/include/c++/v1/__format/formatter.h:
+
+/home/sashka/Projects/workflow/_include/workflow/Communicator.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/lib/llvm-18/include/c++/v1/errno.h:
+
+/usr/lib/llvm-18/include/c++/v1/__chrono/parser_std_format_spec.h:
+
+/usr/include/math.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/move_backward.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/lib/llvm-18/include/c++/v1/__bit_reference:
+
+/home/sashka/Projects/workflow/_include/workflow/MySQLMessage.h:
+
+/usr/lib/llvm-18/include/c++/v1/cstdlib:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/copy_n.h:
+
+/usr/lib/llvm-18/include/c++/v1/limits:
+
+/usr/lib/llvm-18/include/c++/v1/__format/enable_insertable.h:
+
+/usr/lib/llvm-18/include/c++/v1/__stop_token/intrusive_list_view.h:
+
+/usr/include/openssl/core_dispatch.h:
+
+/usr/lib/llvm-18/include/c++/v1/__format/format_fwd.h:
+
+/home/sashka/Projects/coost/include/co/fastring.h:
+
+/usr/lib/llvm-18/include/c++/v1/string_view:
 
 /usr/lib/llvm-18/include/c++/v1/__stop_token/stop_token.h:
 
@@ -5642,15 +5779,23 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/stdio.h:
 
-/home/sashka/Projects/coost/include/co/fastring.h:
+/usr/lib/llvm-18/include/c++/v1/__format/unicode.h:
 
-/usr/lib/llvm-18/include/c++/v1/string_view:
+/usr/lib/llvm-18/include/c++/v1/string:
 
-/usr/lib/llvm-18/include/c++/v1/__system_error/error_condition.h:
+/usr/lib/llvm-18/include/c++/v1/__string/char_traits.h:
 
-/usr/include/stdio.h:
+/usr/lib/llvm-18/include/c++/v1/__charconv/chars_format.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_constructible.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/find_end.h:
+
+/usr/lib/llvm-18/include/c++/v1/thread:
+
+/usr/lib/llvm-18/include/c++/v1/__algorithm/find_first_of.h:
+
+/home/sashka/Projects/coost/include/co/log.h:
+
+/usr/lib/llvm-18/include/c++/v1/__format/format_arg.h:
 
 /usr/include/openssl/dtls1.h:
 
@@ -5658,9 +5803,15 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/lib/llvm-18/include/c++/v1/__ios/fpos.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/lib/llvm-18/include/c++/v1/iosfwd:
+/usr/lib/llvm-18/include/c++/v1/__memory/allocator_arg_t.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/wrap_iter.h:
+
+/usr/lib/llvm-18/include/c++/v1/__functional/pointer_to_unary_function.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/openssl/srtp.h:
 
@@ -5672,9 +5823,7 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__fwd/sstream.h:
 
-/usr/lib/llvm-18/include/c++/v1/chrono:
-
-/usr/lib/llvm-18/include/c++/v1/__string/extern_template_lists.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_fill_n.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
@@ -5682,145 +5831,39 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_standard_layout.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_move_constructible.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/transform.h:
 
-/usr/include/linux/limits.h:
+/usr/lib/llvm-18/include/c++/v1/__charconv/tables.h:
 
-/usr/include/x86_64-linux-gnu/bits/eventfd.h:
+/usr/include/asm-generic/errno.h:
 
-/usr/lib/llvm-18/include/c++/v1/__tuple/tuple_element.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/iter_swap.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/can_extract_key.h:
+/usr/lib/llvm-18/include/c++/v1/__charconv/to_chars_result.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/has_virtual_destructor.h:
+/usr/include/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h:
 
-/usr/lib/llvm-18/include/c++/v1/__iterator/default_sentinel.h:
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+/usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/usr/lib/llvm-18/include/c++/v1/__atomic/fence.h:
+/usr/lib/llvm-18/include/c++/v1/__format/formatter_output.h:
 
-/usr/lib/llvm-18/include/c++/v1/__iterator/bounded_iter.h:
+/usr/lib/llvm-18/include/c++/v1/concepts:
 
-/home/sashka/Projects/workflow/_include/workflow/WFTask.h:
+/home/sashka/Projects/workflow/_include/workflow/CommScheduler.h:
 
-/usr/lib/llvm-18/lib/clang/18/include/__stddef_size_t.h:
+/home/sashka/Projects/workflow/_include/workflow/redis_parser.h:
 
-/usr/lib/llvm-18/include/c++/v1/utility:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/ranges_transform.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/type_identity.h:
+/usr/lib/llvm-18/include/c++/v1/__format/format_parse_context.h:
 
-/usr/lib/llvm-18/include/c++/v1/__functional/bind_front.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/in_in_out_result.h:
 
-/usr/lib/llvm-18/include/c++/v1/__iterator/reverse_access.h:
-
-/usr/lib/llvm-18/include/c++/v1/__iterator/size.h:
-
-../Database/shortened_url.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/hash.h:
-
-../Utils/enum_traits.h:
-
-/usr/lib/llvm-18/include/c++/v1/type_traits:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/alignment_of.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/compressed_pair.h:
-
-/usr/lib/llvm-18/include/c++/v1/__compare/compare_three_way.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_abstract.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_aggregate.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_bounded_array.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/month_weekday.h:
-
-/usr/lib/llvm-18/include/c++/v1/__bit/countl.h:
-
-/usr/lib/llvm-18/include/c++/v1/__concepts/equality_comparable.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_char_like_type.h:
-
-/usr/lib/llvm-18/include/c++/v1/__tuple/tuple_like_ext.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_compound.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_fundamental.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_literal_type.h:
-
-/usr/lib/llvm-18/include/c++/v1/__bit/endian.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_convertible.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/move.h:
-
-/usr/lib/llvm-18/include/c++/v1/condition_variable:
-
-/usr/lib/llvm-18/include/c++/v1/__fwd/ios.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_pod.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_polymorphic.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_copy_constructible.h:
-
-/usr/lib/llvm-18/include/c++/v1/__type_traits/is_trivially_move_assignable.h:
-
-/usr/lib/llvm-18/lib/clang/18/include/__stddef_wchar_t.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/calendar.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/duration.h:
-
-/usr/lib/llvm-18/include/c++/v1/locale.h:
-
-/usr/lib/llvm-18/include/c++/v1/ratio:
-
-/usr/include/linux/errno.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/convert_to_timespec.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/system_clock.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/month.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/monthday.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/statically_widen.h:
-
-/usr/lib/llvm-18/include/c++/v1/__stop_token/intrusive_list_view.h:
-
-/usr/include/openssl/core_dispatch.h:
-
-/usr/lib/llvm-18/include/c++/v1/__format/format_fwd.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/year_month.h:
-
-/usr/lib/llvm-18/include/c++/v1/__format/format_args.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/year_month_day.h:
-
-/usr/lib/llvm-18/include/c++/v1/bitset:
-
-/usr/lib/llvm-18/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_fallbacks.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/auto_ptr.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/steady_clock.h:
-
-/usr/lib/llvm-18/include/c++/v1/__chrono/literals.h:
+/usr/lib/llvm-18/include/c++/v1/__iterator/projected.h:
 
 /usr/lib/llvm-18/include/c++/v1/__iterator/unreachable_sentinel.h:
 
@@ -5836,31 +5879,31 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__mutex/once_flag.h:
 
-/usr/lib/llvm-18/include/c++/v1/__type_traits/result_of.h:
+/usr/lib/llvm-18/include/c++/v1/__algorithm/half_positive.h:
 
-/usr/lib/llvm-18/include/c++/v1/__memory/uninitialized_algorithms.h:
+/usr/lib/llvm-18/include/c++/v1/__type_traits/aligned_storage.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/format_arg_store.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/format_context.h:
+/usr/include/wchar.h:
 
-/usr/lib/llvm-18/include/c++/v1/__format/concepts.h:
+/usr/lib/llvm-18/include/c++/v1/__functional/ranges_operations.h:
 
-/usr/lib/llvm-18/include/c++/v1/__utility/piecewise_construct.h:
+/usr/lib/llvm-18/include/c++/v1/iosfwd:
 
-/usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h:
+/usr/lib/llvm-18/include/c++/v1/__ios/fpos.h:
 
-/usr/lib/llvm-18/include/c++/v1/__algorithm/equal.h:
+/usr/lib/llvm-18/include/c++/v1/__string/extern_template_lists.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/lib/llvm-18/include/c++/v1/__iterator/default_sentinel.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/lib/llvm-18/include/c++/v1/__iterator/istreambuf_iterator.h:
-
-/usr/lib/llvm-18/include/c++/v1/__functional/binary_function.h:
-
-/usr/lib/llvm-18/include/c++/v1/__memory/allocation_guard.h:
-
-/usr/lib/llvm-18/include/c++/v1/typeinfo:
 
 /usr/lib/llvm-18/include/c++/v1/__utility/no_destroy.h:
 
@@ -5868,18 +5911,10 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/clocale:
 
+/usr/lib/llvm-18/include/c++/v1/locale.h:
+
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/home/sashka/Projects/workflow/_include/workflow/MySQLMessage.h:
-
-/usr/lib/llvm-18/include/c++/v1/cstdlib:
-
-/usr/include/errno.h:
-
-/usr/lib/llvm-18/include/c++/v1/__algorithm/iterator_operations.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/asm-generic/errno.h:
+/usr/lib/llvm-18/include/c++/v1/ios:
