@@ -261,7 +261,7 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: \
   /usr/lib/llvm-18/bin/../include/c++/v1/__compare/compare_weak_order_fallback.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__compare/is_eq.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/initializer_list \
-  /home/sashka/Projects/LinkShortener/Database/../Serialization/mysql_serialization.h \
+  /home/sashka/Projects/LinkShortener/Database/../Serialization/mysql_queries.h \
   /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/string \
   /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/max.h \
@@ -829,4 +829,4 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: \
   /home/sashka/Projects/workflow/_include/workflow/mysql_types.h \
   /home/sashka/Projects/workflow/_include/workflow/MySQLResult.inl \
   /home/sashka/Projects/workflow/_include/workflow/mysql_byteorder.h \
-  /home/sashka/Projects/LinkShortener/Serialization/mysql_serialization.h
+  /home/sashka/Projects/LinkShortener/Serialization/mysql_queries.h

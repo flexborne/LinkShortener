@@ -269,7 +269,7 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/is_eq.h \
   /usr/lib/llvm-18/include/c++/v1/initializer_list \
-  ../Serialization/mysql_serialization.h \
+  ../Serialization/mysql_queries.h \
   ../Database/mysql_struct_info.h \
   /usr/lib/llvm-18/include/c++/v1/string \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
@@ -886,7 +886,7 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o: ../Database/MYSQL.cpp \
   /home/sashka/Projects/workflow/_include/workflow/mysql_types.h \
   /home/sashka/Projects/workflow/_include/workflow/MySQLResult.inl \
   /home/sashka/Projects/workflow/_include/workflow/mysql_byteorder.h \
-  ../Serialization/mysql_serialization.h
+  ../Serialization/mysql_queries.h
 
 CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o: ../RequestHandlers/dao.cpp \
   ../RequestHandlers/dao.h \
@@ -1486,7 +1486,7 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o: ../RequestHandlers/dao.c
   /usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h \
   /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h \
   ../Database/MYSQL.h \
-  ../Serialization/mysql_serialization.h \
+  ../Serialization/mysql_queries.h \
   ../Database/mysql_struct_info.h \
   ../Database/shortened_url.h \
   ../Utils/enum_traits.h \
@@ -2503,7 +2503,7 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: ../RequestHa
   /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h
 
 CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.o: ../Serialization/shortened_url_serialization.cpp \
-  ../Serialization/mysql_serialization.h \
+  ../Serialization/mysql_queries.h \
   ../Database/mysql_struct_info.h \
   /usr/lib/llvm-18/include/c++/v1/string \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
@@ -3411,7 +3411,7 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
   /usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h \
   /usr/lib/llvm-18/include/c++/v1/__compare/is_eq.h \
   /usr/lib/llvm-18/include/c++/v1/initializer_list \
-  ../Serialization/mysql_serialization.h \
+  ../Serialization/mysql_queries.h \
   ../Database/mysql_struct_info.h \
   /usr/lib/llvm-18/include/c++/v1/string \
   /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h \
@@ -4578,8 +4578,6 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 
 /usr/lib/llvm-18/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
-../Serialization/mysql_serialization.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
@@ -5305,6 +5303,8 @@ CMakeFiles/LinkShortener.dir/main.cpp.o: ../main.cpp \
 /usr/lib/llvm-18/include/c++/v1/__algorithm/comp_ref_type.h:
 
 /usr/lib/llvm-18/include/c++/v1/initializer_list:
+
+../Serialization/mysql_queries.h:
 
 /usr/include/asm-generic/sockios.h:
 

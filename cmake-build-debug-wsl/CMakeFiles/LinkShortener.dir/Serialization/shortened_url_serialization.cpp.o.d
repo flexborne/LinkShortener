@@ -1,6 +1,6 @@
 CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.o: \
   /home/sashka/Projects/LinkShortener/Serialization/shortened_url_serialization.cpp \
-  /home/sashka/Projects/LinkShortener/Serialization/mysql_serialization.h \
+  /home/sashka/Projects/LinkShortener/Serialization/mysql_queries.h \
   /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/string \
   /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/max.h \

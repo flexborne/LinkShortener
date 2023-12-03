@@ -171,3 +171,19 @@ D1203 14:53:14.750 83878 MYSQL.cpp:44] [MYSQL::init] successful
 E1203 14:53:14.750 83884 MYSQL.cpp:24] [MYSQL] Task failed with error: Connection refused
 D1203 14:53:14.750 83878 main.cpp:80] db url: mysql://root:root@localhost:3306/db
 E1203 14:53:14.750 83899 MYSQL.cpp:85] [MYSQL] Task failed with error: Connection refused
+D1203 14:55:13.271 84154 MYSQL.cpp:44] [MYSQL::init] successful
+D1203 14:55:13.271 84154 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 14:55:13.271 84160 MYSQL.cpp:24] [MYSQL] Task failed with error: Connection refused
+E1203 14:55:13.271 84170 MYSQL.cpp:85] [MYSQL] Task failed with error: Connection refused
+D1203 15:55:54.252 85905 MYSQL.cpp:57] [MYSQL::init] successful
+D1203 15:55:54.252 85905 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 15:55:54.252 85911 MYSQL.cpp:24] [MYSQL] Task failed with error: Connection refused
+E1203 15:55:54.252 85921 MYSQL.cpp:98] [MYSQL] Task failed with error: Connection refused
+D1203 16:04:21.749 87115 MYSQL.cpp:58] [MYSQL::init] successful
+D1203 16:04:21.749 87115 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 16:04:21.749 87127 MYSQL.cpp:99] [MYSQL] Task failed with error: Connection refused
+E1203 16:04:21.749 87121 MYSQL.cpp:24] [MYSQL] Task failed with error: Connection refused
+D1203 16:07:39.297 87713 MYSQL.cpp:59] [MYSQL::init] successful
+D1203 16:07:39.297 87713 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 16:07:39.297 87719 MYSQL.cpp:24] [MYSQL] Task failed with error: Connection refused
+E1203 16:07:39.297 87730 MYSQL.cpp:100] [MYSQL] Task failed with error: Resource temporarily unavailable

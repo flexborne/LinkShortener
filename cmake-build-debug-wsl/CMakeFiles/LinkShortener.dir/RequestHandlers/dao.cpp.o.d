@@ -579,7 +579,7 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o: \
   /usr/lib/llvm-18/bin/../include/c++/v1/__expected/unexpect.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__expected/unexpected.h \
   /home/sashka/Projects/LinkShortener/Database/MYSQL.h \
-  /home/sashka/Projects/LinkShortener/Database/../Serialization/mysql_serialization.h \
+  /home/sashka/Projects/LinkShortener/Database/../Serialization/mysql_queries.h \
   /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h \
   /home/sashka/Projects/LinkShortener/Database/shortened_url.h \
   /home/sashka/Projects/LinkShortener/Utils/enum_traits.h \

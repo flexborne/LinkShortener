@@ -270,7 +270,7 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o
  /usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h
  /usr/lib/llvm-18/include/c++/v1/__compare/is_eq.h
  /usr/lib/llvm-18/include/c++/v1/initializer_list
- /home/sashka/Projects/LinkShortener/Serialization/mysql_serialization.h
+ /home/sashka/Projects/LinkShortener/Serialization/mysql_queries.h
  /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h
  /usr/lib/llvm-18/include/c++/v1/string
  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h
@@ -887,7 +887,7 @@ CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o
  /home/sashka/Projects/workflow/_include/workflow/mysql_types.h
  /home/sashka/Projects/workflow/_include/workflow/MySQLResult.inl
  /home/sashka/Projects/workflow/_include/workflow/mysql_byteorder.h
- /home/sashka/Projects/LinkShortener/Serialization/mysql_serialization.h
+ /home/sashka/Projects/LinkShortener/Serialization/mysql_queries.h
 
 CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o
  /home/sashka/Projects/LinkShortener/RequestHandlers/dao.cpp
@@ -1488,7 +1488,7 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o
  /usr/lib/llvm-18/include/c++/v1/__expected/unexpect.h
  /usr/lib/llvm-18/include/c++/v1/__expected/unexpected.h
  /home/sashka/Projects/LinkShortener/Database/MYSQL.h
- /home/sashka/Projects/LinkShortener/Serialization/mysql_serialization.h
+ /home/sashka/Projects/LinkShortener/Serialization/mysql_queries.h
  /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h
  /home/sashka/Projects/LinkShortener/Database/shortened_url.h
  /home/sashka/Projects/LinkShortener/Utils/enum_traits.h
@@ -2507,7 +2507,7 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o
 
 CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.o
  /home/sashka/Projects/LinkShortener/Serialization/shortened_url_serialization.cpp
- /home/sashka/Projects/LinkShortener/Serialization/mysql_serialization.h
+ /home/sashka/Projects/LinkShortener/Serialization/mysql_queries.h
  /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h
  /usr/lib/llvm-18/include/c++/v1/string
  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h
@@ -3416,7 +3416,7 @@ CMakeFiles/LinkShortener.dir/main.cpp.o
  /usr/lib/llvm-18/include/c++/v1/__compare/compare_weak_order_fallback.h
  /usr/lib/llvm-18/include/c++/v1/__compare/is_eq.h
  /usr/lib/llvm-18/include/c++/v1/initializer_list
- /home/sashka/Projects/LinkShortener/Serialization/mysql_serialization.h
+ /home/sashka/Projects/LinkShortener/Serialization/mysql_queries.h
  /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h
  /usr/lib/llvm-18/include/c++/v1/string
  /usr/lib/llvm-18/include/c++/v1/__algorithm/max.h

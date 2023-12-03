@@ -2,7 +2,7 @@
 
 #include "crud_interface.h"
 
-#include "../Serialization/mysql_serialization.h"
+#include "../Serialization/mysql_queries.h"
 
 #include "shortened_url.h"
 #include "mysql_struct_info.h"
@@ -20,7 +20,15 @@ class MYSQL : public CRUD {
   /// @brief inserts record into db
   void create_impl(Data data);
 
+  //using ReadResult = std::expeceted<
   void read_impl(MYSQLInfo<Data>::PrimaryKey key);
+
+
+  /// @brief read only column
+  void read_impl(MYSQLInfo<Data>::PrimaryKey key, MYSQLInfo<Data>::Column column);
+
+  /// @brief custom query execution for specific situations
+  void exec_custom_query(const std::string& query, mysql_callback_t callback);
 
   /// @brief init connection
   int init(const std::string& url);
@@ -31,7 +39,6 @@ class MYSQL : public CRUD {
 
  private:
   WFMySQLConnection conn{1};
-  inline static const std::string TABLE = "table";
 };
 }  // namespace db
 
