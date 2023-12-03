@@ -1,5 +1,7 @@
 #include "request_handler.h"
 
+#include "dao.h"
+
 namespace request {
 
 void reply_unsupported_method(protocol::HttpResponse* resp) {
@@ -20,7 +22,13 @@ void Router::add_handler(const char* route, handle_func handler) {
 
 void ShortenURL::handle_get(protocol::HttpRequest* req,
                             protocol::HttpResponse* resp) const {
+  //req.get_b
   resp->append_output_body("fuckYou)");
+}
+
+void ShortenURL::handle_post(protocol::HttpRequest* req,
+                             protocol::HttpResponse* resp) const {
+
 }
 
 auto _ = {register_request_handler<ShortenURL>("/")};

@@ -5,22 +5,22 @@
 class CRUD {
  public:
   template <class... Args>
-  auto create(this auto& self, Args&&... args) {
-    return self.create(std::forward<Args>(args)...);
+  void create(this auto& self, Args&&... args) {
+    self.create_impl(std::forward<Args>(args)...);
   }
 
   template <class... Args>
-  auto read(this auto& self, Args&&... args) {
-    return self.readImpl(std::forward<Args>(args)...);
+  void read(this auto& self, Args&&... args) {
+    self.read_impl(std::forward<Args>(args)...);
   }
 
   template <class... Args>
-  auto update(this auto& self, Args&&... args) {
-    return self.updateImpl(std::forward<Args>(args)...);
+  void update(this auto& self, Args&&... args) {
+    self.update_impl(std::forward<Args>(args)...);
   }
 
   template <class... Args>
-  auto delete_(this auto& self, Args&&... args) {
-    return self.deleteImpl(std::forward<Args>(args)...);
+  void delete_(this auto& self, Args&&... args) {
+    self.delete_impl(std::forward<Args>(args)...);
   }
 };

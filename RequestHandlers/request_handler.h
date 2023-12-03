@@ -12,11 +12,13 @@ namespace request {
 namespace status_codes {
 constexpr inline char const* UNIMPLEMENTED = "501";
 constexpr inline char const* OK = "200";
+constexpr inline char const* NOT_FOUND = "404";
 }  // namespace status_codes
 
 namespace default_messages {
 constexpr inline char const* UNSUPPORTED_URI = "Unsupported uri";
 constexpr inline char const* UNSUPPORTED_METHOD = "Unsupported method";
+constexpr inline char const* NOT_FOUND = "Resource not found";
 }  // namespace default_messages
 
 void reply_unsupported_method(protocol::HttpResponse* resp);
@@ -26,7 +28,7 @@ void reply_unsupported_method(protocol::HttpResponse* resp);
 struct RequestHandlerBase {
   void handle_request(this const auto& self, protocol::HttpRequest* req,
                       protocol::HttpResponse* resp) {
-    // Macro to check and call a member function if it exists
+// Macro to check and call a member function if it exists
 #define HANDLE_IF_EXISTS_OR_ERROR(handler_method)               \
   if constexpr (requires { self.handler_method(req, resp); }) { \
     self.handler_method(req, resp);                             \
@@ -55,6 +57,9 @@ struct RequestHandlerBase {
 
 struct ShortenURL : RequestHandlerBase {
   void handle_get(protocol::HttpRequest* req,
+                  protocol::HttpResponse* resp) const;
+
+  void handle_post(protocol::HttpRequest* req,
                   protocol::HttpResponse* resp) const;
 };
 

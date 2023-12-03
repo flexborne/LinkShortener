@@ -2,50 +2,37 @@
 
 #include "crud_interface.h"
 
-#include "../Serialization/bson.h"
+#include "../Serialization/mysql_serialization.h"
+
+#include "shortened_url.h"
+#include "mysql_struct_info.h"
 
 #include "workflow/WFMySQLConnection.h"
 
 namespace db {
+/// @brief mysql connector, that handles records of type @a Data
+/// able to retrieve by primary key, add record, delete etc.
+template <class Data>
 class MYSQL : public CRUD {
  public:
   MYSQL() = default;
 
-  void create(int a);
+  /// @brief inserts record into db
+  void create_impl(Data data);
 
-  void read();
-
-  // public:
-//  template <class T>
-//  void createImpl(const T& t) {
-//    auto result =
-//        collection_.insert_one(serialization::convert_to_bson_document(t));
-//    if (!result) {
-//      spdlog::error("Database insertion failed");
-//    }
-//  }
-//
-//  template <class... Args>
-//  void createImpl(Args&&... args) {
-//    std::vector<bsoncxx::document::value> documents;
-//    documents.reserve(sizeof...(args));
-//
-//    (documents.push_back(
-//         serialization::convert_to_bson_document(std::forward<Args>(args))),
-//     ...);
-//
-//    auto result = collection_.insert_many(documents);
-//
-//    if (!result) {
-//      spdlog::error("Database insertion failed");
-//    }
-//  }
+  void read_impl(MYSQLInfo<Data>::PrimaryKey key);
 
   /// @brief init connection
   int init(const std::string& url);
+
+  /// @brief creates required table in database for storing records
+  /// @note blocking because table should always exist in order to store data
+  void create_required_table();
 
  private:
   WFMySQLConnection conn{1};
   inline static const std::string TABLE = "table";
 };
-}  // namespace database
+}  // namespace db
+
+extern template class db::MYSQL<ShortenedUrl>;

@@ -21,7 +21,8 @@ target_link_libraries(${PROJECT_NAME} PRIVATE Serialization)
 target_link_libraries(${PROJECT_NAME} PRIVATE Utils)
 
 
-list(APPEND CMAKE_PREFIX_PATH  "/home/sashka/Projects/coost/build/src")
+list(APPEND CMAKE_PREFIX_PATH  "/home/sashka/Projects/coost/cmake-build-release-wsl/src")
+
 #set(CMAKE_FIND_DEBUG_MODE ON)
 message(STATUS "CMAKE_MODULE_PATH: ${CMAKE_MODULE_PATH}")
 
@@ -38,15 +39,15 @@ find_package(OpenSSL REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${OPENSSL_LIBRARIES})
 
 
-# fmt
-find_package(fmt REQUIRED)
-target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt)
-
 # Workflow
 find_library(LIBRT rt)
 find_package(OpenSSL REQUIRED)
 
+#list(APPEND CMAKE_PREFIX_PATH  "/home/sashka/Projects/workflow/cmake-build-release-wsl")
+#set(workflow_DIR "/home/sashka/Projects/workflow/cmake-build-release-wsl")
+set(CMAKE_FIND_DEBUG_MODE ON)
 find_package(workflow REQUIRED CONFIG HINTS ..)
+message(STATUS "WORKFLOW_LIB_DIR is ${WORKFLOW_LIB_DIR}")
 
 set(WORKFLOW_LIB workflow pthread OpenSSL::SSL OpenSSL::Crypto ${LIBRT})
 

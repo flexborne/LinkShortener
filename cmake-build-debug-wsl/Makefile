@@ -129,6 +129,19 @@ LinkShortener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/build
 .PHONY : LinkShortener/fast
 
+#=============================================================================
+# Target rules for targets named Database
+
+# Build rule for target.
+Database: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Database
+.PHONY : Database
+
+# fast build rule for target.
+Database/fast:
+	$(MAKE) $(MAKESILENT) -f Database/CMakeFiles/Database.dir/build.make Database/CMakeFiles/Database.dir/build
+.PHONY : Database/fast
+
 Database/MYSQL.o: Database/MYSQL.cpp.o
 .PHONY : Database/MYSQL.o
 
@@ -153,29 +166,29 @@ Database/MYSQL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.s
 .PHONY : Database/MYSQL.cpp.s
 
-RequestHandlers/DAO.o: RequestHandlers/DAO.cpp.o
-.PHONY : RequestHandlers/DAO.o
+RequestHandlers/dao.o: RequestHandlers/dao.cpp.o
+.PHONY : RequestHandlers/dao.o
 
 # target to build an object file
-RequestHandlers/DAO.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.o
-.PHONY : RequestHandlers/DAO.cpp.o
+RequestHandlers/dao.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o
+.PHONY : RequestHandlers/dao.cpp.o
 
-RequestHandlers/DAO.i: RequestHandlers/DAO.cpp.i
-.PHONY : RequestHandlers/DAO.i
+RequestHandlers/dao.i: RequestHandlers/dao.cpp.i
+.PHONY : RequestHandlers/dao.i
 
 # target to preprocess a source file
-RequestHandlers/DAO.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.i
-.PHONY : RequestHandlers/DAO.cpp.i
+RequestHandlers/dao.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.i
+.PHONY : RequestHandlers/dao.cpp.i
 
-RequestHandlers/DAO.s: RequestHandlers/DAO.cpp.s
-.PHONY : RequestHandlers/DAO.s
+RequestHandlers/dao.s: RequestHandlers/dao.cpp.s
+.PHONY : RequestHandlers/dao.s
 
 # target to generate assembly for a file
-RequestHandlers/DAO.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/DAO.cpp.s
-.PHONY : RequestHandlers/DAO.cpp.s
+RequestHandlers/dao.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.s
+.PHONY : RequestHandlers/dao.cpp.s
 
 RequestHandlers/request_handler.o: RequestHandlers/request_handler.cpp.o
 .PHONY : RequestHandlers/request_handler.o
@@ -201,29 +214,29 @@ RequestHandlers/request_handler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.s
 .PHONY : RequestHandlers/request_handler.cpp.s
 
-Serialization/db_record_bson.o: Serialization/db_record_bson.cpp.o
-.PHONY : Serialization/db_record_bson.o
+Serialization/shortened_url_serialization.o: Serialization/shortened_url_serialization.cpp.o
+.PHONY : Serialization/shortened_url_serialization.o
 
 # target to build an object file
-Serialization/db_record_bson.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.o
-.PHONY : Serialization/db_record_bson.cpp.o
+Serialization/shortened_url_serialization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.o
+.PHONY : Serialization/shortened_url_serialization.cpp.o
 
-Serialization/db_record_bson.i: Serialization/db_record_bson.cpp.i
-.PHONY : Serialization/db_record_bson.i
+Serialization/shortened_url_serialization.i: Serialization/shortened_url_serialization.cpp.i
+.PHONY : Serialization/shortened_url_serialization.i
 
 # target to preprocess a source file
-Serialization/db_record_bson.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.i
-.PHONY : Serialization/db_record_bson.cpp.i
+Serialization/shortened_url_serialization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.i
+.PHONY : Serialization/shortened_url_serialization.cpp.i
 
-Serialization/db_record_bson.s: Serialization/db_record_bson.cpp.s
-.PHONY : Serialization/db_record_bson.s
+Serialization/shortened_url_serialization.s: Serialization/shortened_url_serialization.cpp.s
+.PHONY : Serialization/shortened_url_serialization.s
 
 # target to generate assembly for a file
-Serialization/db_record_bson.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/db_record_bson.cpp.s
-.PHONY : Serialization/db_record_bson.cpp.s
+Serialization/shortened_url_serialization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.s
+.PHONY : Serialization/shortened_url_serialization.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -257,19 +270,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Database"
 	@echo "... LinkShortener"
 	@echo "... Database/MYSQL.o"
 	@echo "... Database/MYSQL.i"
 	@echo "... Database/MYSQL.s"
-	@echo "... RequestHandlers/DAO.o"
-	@echo "... RequestHandlers/DAO.i"
-	@echo "... RequestHandlers/DAO.s"
+	@echo "... RequestHandlers/dao.o"
+	@echo "... RequestHandlers/dao.i"
+	@echo "... RequestHandlers/dao.s"
 	@echo "... RequestHandlers/request_handler.o"
 	@echo "... RequestHandlers/request_handler.i"
 	@echo "... RequestHandlers/request_handler.s"
-	@echo "... Serialization/db_record_bson.o"
-	@echo "... Serialization/db_record_bson.i"
-	@echo "... Serialization/db_record_bson.s"
+	@echo "... Serialization/shortened_url_serialization.o"
+	@echo "... Serialization/shortened_url_serialization.i"
+	@echo "... Serialization/shortened_url_serialization.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -2,15 +2,19 @@
 
 #include <fmt/core.h>
 
-#include "../Serialization/bson.h"
+#include "../Serialization/mysql_serialization.h"
 
 #include <fmt/format.h>
-#include "co/log.h"
 #include "co/cout.h"
+#include "co/log.h"
+#include "shortened_url.h"
 #include "workflow/MySQLResult.h"
-#include "db_record.h"
 
-void db::MYSQL::read() {
+#include "mysql_struct_info.h"
+#include "mysql_serialization.h"
+
+template <class Data>
+void db::MYSQL<Data>::read_impl(MYSQLInfo<Data>::PrimaryKey key) {
 
   auto callback = [](WFMySQLTask* task)
   {
@@ -29,11 +33,12 @@ void db::MYSQL::read() {
 
   };
 
-  auto* task = conn.create_query_task(URLS_TABLE_CREATION_QUERY, callback);
+  auto* task = conn.create_query_task(MYSQLInfo<Data>::TABLE_CREATION_QUERY, callback);
   task->start();
 }
 
-int db::MYSQL::init(const std::string& url) {
+template <class Data>
+int db::MYSQL<Data>::init(const std::string& url) {
   int res = conn.init(url);
   if (res == 0) {
     DLOG << "[MYSQL::init] successful";
@@ -44,7 +49,31 @@ int db::MYSQL::init(const std::string& url) {
   return res;
 }
 
-void db::MYSQL::create(int a) {
+template <class Data>
+void db::MYSQL<Data>::create_required_table() {
+  auto callback = [](WFMySQLTask* task)
+  {
+    cout << "HI from callback2" << endl;
+    if (task->get_state() != WFT_STATE_SUCCESS)
+    {
+      ELOG << "[MYSQL] Task failed with error: " << WFGlobal::get_error_string(task->get_state(), task->get_error());
+      return;
+    }
+    cout << "EVERYTHING IS FINE";
+    auto* resp = task->get_resp();
+    LOG << resp->get_info() << "\n" << resp->get_affected_rows();
+    cout << "VERY FINE";
+    LOG << "KEK";
+    //cout << task->get_resp()->
+
+  };
+
+  auto* task = conn.create_query_task(MYSQLInfo<Data>::TABLE_CREATION_QUERY, callback);
+  task->start();
+}
+
+template <class Data>
+void db::MYSQL<Data>::create_impl(Data data) {
     protocol::MySQLCell cell;
     //conn.init("mysql://root:root@localhost:3306/db?\n");
     std::string query = "SHOW TABLES;";
@@ -64,8 +93,8 @@ void db::MYSQL::create(int a) {
       //std::terminate();
     };
 
-    WFMySQLTask *task = WFTaskFactory::create_mysql_task("mysql://root:root@localhost:3306/db?", 1, callback);
-    task->get_req()->set_query("SHOW TABLES;");
-   // WFMySQLTask* task = conn.create_query_task(query, callback);
+    WFMySQLTask* task = conn.create_query_task(serialization::mysql::insert_record_query(std::move(data)), callback);
     task->start();
 }
+
+template class db::MYSQL<ShortenedUrl>;

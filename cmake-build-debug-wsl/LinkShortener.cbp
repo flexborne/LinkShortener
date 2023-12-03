@@ -5,7 +5,7 @@
 		<Option title="LinkShortener"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\build\;CMake Files\..\coost\build\src\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\cmake-build-release-wsl\;CMake Files\..\coost\cmake-build-release-wsl\src\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"/>
@@ -24,8 +24,6 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add option="-DFMT_LOCALE"/>
-					<Add option="-DFMT_SHARED"/>
 					<Add directory="/home/sashka/Projects/workflow/_include"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>
@@ -54,8 +52,6 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add option="-DFMT_LOCALE"/>
-					<Add option="-DFMT_SHARED"/>
 					<Add directory="/home/sashka/Projects/workflow/_include"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>
@@ -104,10 +100,10 @@
 		<Unit filename="/home/sashka/Projects/LinkShortener/Database/MYSQL.h">
 			<Option target="LinkShortener"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/DAO.cpp">
+		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/dao.cpp">
 			<Option target="LinkShortener"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/DAO.h">
+		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/dao.h">
 			<Option target="LinkShortener"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/request_handler.cpp">
@@ -116,7 +112,7 @@
 		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/request_handler.h">
 			<Option target="LinkShortener"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/Serialization/db_record_bson.cpp">
+		<Unit filename="/home/sashka/Projects/LinkShortener/Serialization/shortened_url_serialization.cpp">
 			<Option target="LinkShortener"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/main.cpp">
@@ -128,26 +124,17 @@
 		<Unit filename="/home/sashka/Projects/LinkShortener/Database/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Database\"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/build/src/coostConfig.cmake">
-			<Option virtualFolder="CMake Files\..\coost\build\src\"/>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/cmake-build-release-wsl/src/coostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\coost\cmake-build-release-wsl\src\"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/build/src/coostConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\coost\build\src\"/>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/cmake-build-release-wsl/src/coostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\coost\cmake-build-release-wsl\src\"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/build/src/coostTargets.cmake">
-			<Option virtualFolder="CMake Files\..\coost\build\src\"/>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../coost/cmake-build-release-wsl/src/coostTargets.cmake">
+			<Option virtualFolder="CMake Files\..\coost\cmake-build-release-wsl\src\"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/../../../../usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\fmt\"/>
+		<Unit filename="/home/sashka/Projects/LinkShortener/../workflow/workflow-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\workflow\"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/../workflow/workflow-config.cmake">
 			<Option virtualFolder="CMake Files\..\workflow\"/>

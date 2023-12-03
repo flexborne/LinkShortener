@@ -147,3 +147,27 @@ I1203 00:19:31.345 23304 MYSQL.cpp:63] KEK
 I1203 00:19:31.345 23303 MYSQL.cpp:25] 
 0
 I1203 00:19:31.345 23303 MYSQL.cpp:27] KEK
+D1203 12:37:00.163 72098 MYSQL.cpp:39] [MYSQL::init] successful
+D1203 12:37:00.163 72098 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 12:37:00.163 72104 MYSQL.cpp:20] [MYSQL] Task failed with error: Connection refused
+E1203 12:37:00.163 72106 MYSQL.cpp:56] [MYSQL] Task failed with error: Connection refused
+D1203 12:37:09.153 72524 MYSQL.cpp:39] [MYSQL::init] successful
+D1203 12:37:09.153 72524 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 12:37:09.153 72530 MYSQL.cpp:20] [MYSQL] Task failed with error: Connection refused
+E1203 12:37:09.153 72543 MYSQL.cpp:56] [MYSQL] Task failed with error: Connection refused
+D1203 13:59:01.900 76704 MYSQL.cpp:39] [MYSQL::init] successful
+D1203 13:59:01.900 76704 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 13:59:01.900 76716 MYSQL.cpp:20] [MYSQL] Task failed with error: Connection refused
+E1203 13:59:01.900 76723 MYSQL.cpp:56] [MYSQL] Task failed with error: Resource temporarily unavailable
+D1203 13:59:50.942 77032 MYSQL.cpp:39] [MYSQL::init] successful
+D1203 13:59:50.942 77032 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 13:59:50.942 77038 MYSQL.cpp:20] [MYSQL] Task failed with error: Connection refused
+E1203 13:59:50.942 77040 MYSQL.cpp:56] [MYSQL] Task failed with error: Resource temporarily unavailable
+D1203 14:02:28.548 77535 MYSQL.cpp:39] [MYSQL::init] successful
+D1203 14:02:28.548 77535 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 14:02:28.548 77558 MYSQL.cpp:56] [MYSQL] Task failed with error: Resource temporarily unavailable
+E1203 14:02:28.548 77541 MYSQL.cpp:20] [MYSQL] Task failed with error: Connection refused
+D1203 14:53:14.750 83878 MYSQL.cpp:44] [MYSQL::init] successful
+E1203 14:53:14.750 83884 MYSQL.cpp:24] [MYSQL] Task failed with error: Connection refused
+D1203 14:53:14.750 83878 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1203 14:53:14.750 83899 MYSQL.cpp:85] [MYSQL] Task failed with error: Connection refused

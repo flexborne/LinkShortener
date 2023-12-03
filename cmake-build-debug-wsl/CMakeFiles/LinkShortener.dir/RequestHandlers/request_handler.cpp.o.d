@@ -712,4 +712,11 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o: \
   /home/sashka/Projects/workflow/_include/workflow/IOService_linux.h \
   /usr/include/x86_64-linux-gnu/sys/eventfd.h \
   /usr/include/x86_64-linux-gnu/bits/eventfd.h \
-  /home/sashka/Projects/workflow/_include/workflow/http_parser.h
+  /home/sashka/Projects/workflow/_include/workflow/http_parser.h \
+  /home/sashka/Projects/LinkShortener/RequestHandlers/dao.h \
+  /home/sashka/Projects/LinkShortener/Utils/crud_interface.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/expected \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__expected/bad_expected_access.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__expected/expected.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__expected/unexpect.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__expected/unexpected.h

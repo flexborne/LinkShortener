@@ -1,24 +1,16 @@
 C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang-18 '-DCMAKE_CXX_COMPILER=/usr/bin/clang++-18' -G 'CodeBlocks - Unix Makefiles' -S /home/sashka/Projects/LinkShortener -B /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"
--- The C compiler identification is Clang 18.0.0
--- The CXX compiler identification is Clang 18.0.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/clang-18 - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/clang++-18 - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 -- CMAKE_MODULE_PATH: 
 -- CMAKE_MODULE_PATH: 
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE  
--- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+CMake Debug Log at CMakeLists.txt:49 (find_package):
+    /home/sashka/Projects/workflow/workflowConfig.cmake
+    /home/sashka/Projects/workflow/workflow-config.cmake
+
+
+
+CMake Debug Log at CMakeLists.txt:49 (find_package):
+
+
+-- WORKFLOW_LIB_DIR is /home/sashka/Projects/workflow/_lib
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl
