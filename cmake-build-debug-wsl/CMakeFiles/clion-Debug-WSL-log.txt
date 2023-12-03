@@ -1,13 +1,109 @@
 C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang-18 '-DCMAKE_CXX_COMPILER=/usr/bin/clang++-18' -G 'CodeBlocks - Unix Makefiles' -S /home/sashka/Projects/LinkShortener -B /home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"
+-- The C compiler identification is Clang 18.0.0
+-- The CXX compiler identification is Clang 18.0.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/clang-18 - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/clang++-18 - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- CMAKE_MODULE_PATH: 
 -- CMAKE_MODULE_PATH: 
-CMake Debug Log at CMakeLists.txt:49 (find_package):
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+CMake Debug Log at CMakeLists.txt:48 (find_package):
+  <PackageName>_ROOT CMake variable [CMAKE_FIND_USE_PACKAGE_ROOT_PATH].
+
+    none
+
+  CMAKE_PREFIX_PATH variable [CMAKE_FIND_USE_CMAKE_PATH].
+
+    /home/sashka/Projects/coost/cmake-build-release-wsl/src
+
+  
+
+  CMAKE_FRAMEWORK_PATH and CMAKE_APPBUNDLE_PATH variables
+  [CMAKE_FIND_USE_CMAKE_PATH].
+
+  
+
+  Env variable workflow_DIR [CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH].
+
+    none
+
+  CMAKE_PREFIX_PATH env variable [CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH].
+
+    none
+
+  CMAKE_FRAMEWORK_PATH and CMAKE_APPBUNDLE_PATH env variables
+  [CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH].
+
+    none
+
+  Paths specified by the find_package HINTS option.
+
+    /home/sashka/Projects
+
+  
+
+  Standard system environment variables
+  [CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH].
+
+    /usr/local
+    /usr
+    /
+    /usr/games
+    /usr/local/games
+    /usr/lib/wsl/lib
+
+  
+
+  CMake User Package Registry [CMAKE_FIND_USE_PACKAGE_REGISTRY].
+
+    none
+
+  CMake variables defined in the Platform file
+  [CMAKE_FIND_USE_CMAKE_SYSTEM_PATH].
+
+    /usr/X11R6
+    /usr/pkg
+    /opt
+
+  
+
+  CMake System Package Registry
+  [CMAKE_FIND_PACKAGE_NO_SYSTEM_PACKAGE_REGISTRY].
+
+    none
+
+  Paths specified by the find_package PATHS option.
+
+    none
+
+  find_package considered the following locations for the Config module:
+
+    /home/sashka/Projects/coost/cmake-build-release-wsl/src/workflowConfig.cmake
+    /home/sashka/Projects/coost/cmake-build-release-wsl/src/workflow-config.cmake
+    /home/sashka/Projects/workflowConfig.cmake
+    /home/sashka/Projects/workflow-config.cmake
     /home/sashka/Projects/workflow/workflowConfig.cmake
+    /home/sashka/Projects/workflow/workflow-config.cmake
+
+  The file was found at
+
     /home/sashka/Projects/workflow/workflow-config.cmake
 
 
 
-CMake Debug Log at CMakeLists.txt:49 (find_package):
+CMake Debug Log at CMakeLists.txt:48 (find_package):
 
 
 -- WORKFLOW_LIB_DIR is /home/sashka/Projects/workflow/_lib

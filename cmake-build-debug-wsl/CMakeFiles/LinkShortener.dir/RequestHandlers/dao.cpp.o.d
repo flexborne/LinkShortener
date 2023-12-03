@@ -578,30 +578,8 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o: \
   /usr/lib/llvm-18/bin/../include/c++/v1/__expected/expected.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__expected/unexpect.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__expected/unexpected.h \
-  /home/sashka/Projects/LinkShortener/Database/MYSQL.h \
-  /home/sashka/Projects/LinkShortener/Database/../Serialization/mysql_queries.h \
-  /home/sashka/Projects/LinkShortener/Database/mysql_struct_info.h \
+  /home/sashka/Projects/LinkShortener/Database/urls_table_handler.h \
   /home/sashka/Projects/LinkShortener/Database/shortened_url.h \
-  /home/sashka/Projects/LinkShortener/Utils/enum_traits.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/type_traits \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/aligned_union.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/alignment_of.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/has_virtual_destructor.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_abstract.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_aggregate.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_char_like_type.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_compound.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_fundamental.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_literal_type.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_nothrow_convertible.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_pod.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_polymorphic.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_scoped_enum.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_trivially_constructible.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_trivially_default_constructible.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/rank.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/result_of.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/chrono \
   /usr/lib/llvm-18/bin/../include/c++/v1/__chrono/calendar.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__chrono/convert_to_tm.h \
@@ -642,25 +620,12 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o: \
   /usr/lib/llvm-18/bin/../include/c++/v1/bitset \
   /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/count.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/fill.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_char_like_type.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__chrono/parser_std_format_spec.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/sstream \
   /usr/lib/llvm-18/bin/../include/c++/v1/istream \
   /usr/lib/llvm-18/bin/../include/c++/v1/__chrono/tzdb.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__chrono/tzdb_list.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/format \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__format/container_adaptor.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__format/range_default_formatter.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__format/range_formatter.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__ranges/ref_view.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/queue \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/make_heap.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/sift_down.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/pop_heap.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/push_heap.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/deque \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__algorithm/copy_backward.h \
-  /usr/lib/llvm-18/bin/../include/c++/v1/stack \
-  /usr/lib/llvm-18/bin/../include/c++/v1/__format/formatter_tuple.h \
   /home/sashka/Projects/workflow/_include/workflow/WFMySQLConnection.h \
   /home/sashka/Projects/workflow/_include/workflow/URIParser.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/map \
@@ -781,4 +746,23 @@ CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o: \
   /home/sashka/Projects/workflow/_include/workflow/WFNameService.h \
   /home/sashka/Projects/workflow/_include/workflow/WFDnsResolver.h \
   /home/sashka/Projects/workflow/_include/workflow/WFTaskError.h \
-  /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h
+  /home/sashka/Projects/workflow/_include/workflow/WFHttpServerTask.h \
+  /home/sashka/Projects/LinkShortener/Utils/enum_traits.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/type_traits \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/aligned_union.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/alignment_of.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/has_unique_object_representation.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/has_virtual_destructor.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_abstract.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_aggregate.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_compound.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_fundamental.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_literal_type.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_nothrow_convertible.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_pod.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_polymorphic.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_scoped_enum.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_trivially_constructible.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/is_trivially_default_constructible.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/rank.h \
+  /usr/lib/llvm-18/bin/../include/c++/v1/__type_traits/result_of.h

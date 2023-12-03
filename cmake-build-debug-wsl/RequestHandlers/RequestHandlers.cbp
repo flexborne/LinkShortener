@@ -5,7 +5,7 @@
 		<Option title="RequestHandlers"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\cmake-build-release-wsl\;CMake Files\..\coost\cmake-build-release-wsl\src\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\cmake-build-release-wsl\;CMake Files\..\coost\cmake-build-release-wsl\src\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Utils\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl/RequestHandlers"/>
@@ -41,9 +41,6 @@
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\RequestHandlers\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/Serialization/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Serialization\"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/Utils/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Utils\"/>

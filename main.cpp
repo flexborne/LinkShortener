@@ -1,5 +1,3 @@
-
-#include "MYSQL.h"
 #include "RequestHandlers/request_handler.h"
 #include "shortened_url.h"
 
@@ -15,11 +13,14 @@
 
 #include <format>
 #include "co/flag.h"
-#include "MYSQL.h"
 #include "co/log.h"
 #include "co/cout.h"
 
 #include "co/god.h"
+#include "urls_table_handler.h"
+
+#include <thread>
+#include "config.h"
 
 struct ServerConfig {
   constexpr static uint16_t port_num = 443;
@@ -64,20 +65,19 @@ DEF_string(dbHost, "localhost", "dbHost");
 
 int main(int argc, char** argv) try {
   god::bless_no_bugs();
-  db::MYSQL<ShortenedUrl> connector{};
+  db::UrlsTableHandler table_handler{};
 
   flag::parse(argc, argv);
   cout << FLG_dbName << endl;
 
-  std::string dbURL = std::format("mysql://{}:{}@{}:{}/{}", FLG_dbUser.data(),
+  Config::dbUrl = std::format("mysql://{}:{}@{}:{}/{}", FLG_dbUser.data(),
                                   FLG_dbPassword.data(), FLG_dbHost.data(), FLG_dbPort, FLG_dbName.data());
 
-  cout << dbURL << endl;
-  int res = connector.init(dbURL);
-  cout << "RES: " << res << endl;
-  connector.read("af");
-  connector.create(ShortenedUrl{});
-  DLOG << "db url: " << dbURL;
+  cout << Config::dbUrl << endl;
+
+  table_handler.read("af");
+  table_handler.create(ShortenedUrl{});
+  DLOG << "db url: " << Config::dbUrl;
 
   WFHttpServer server(handle_request);
 

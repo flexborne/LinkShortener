@@ -4,8 +4,8 @@ project(Database)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_library(Database INTERFACE
-        mysql_struct_info.h)
-target_sources(Database INTERFACE MYSQL.cpp)
+add_library(Database INTERFACE)
+
+target_sources(Database INTERFACE urls_table_handler.cpp)
 
 target_include_directories(Database INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})

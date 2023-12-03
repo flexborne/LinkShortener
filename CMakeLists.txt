@@ -10,16 +10,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(RequestHandlers)
 add_subdirectory(Database)
-add_subdirectory(Serialization)
 add_subdirectory(Utils)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
 target_link_libraries(${PROJECT_NAME} PRIVATE RequestHandlers)
 target_link_libraries(${PROJECT_NAME} PRIVATE Database)
-target_link_libraries(${PROJECT_NAME} PRIVATE Serialization)
 target_link_libraries(${PROJECT_NAME} PRIVATE Utils)
 
+target_include_directories(${PROJECT_NAME} INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
 
 list(APPEND CMAKE_PREFIX_PATH  "/home/sashka/Projects/coost/cmake-build-release-wsl/src")
 

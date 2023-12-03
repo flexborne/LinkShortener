@@ -5,7 +5,7 @@
 		<Option title="LinkShortener"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\cmake-build-release-wsl\;CMake Files\..\coost\cmake-build-release-wsl\src\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Serialization\;CMake Files\Utils\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Database\;CMake Files\..\;CMake Files\..\coost\;CMake Files\..\coost\cmake-build-release-wsl\;CMake Files\..\coost\cmake-build-release-wsl\src\;CMake Files\..\workflow\;CMake Files\RequestHandlers\;CMake Files\Utils\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/sashka/Projects/LinkShortener/cmake-build-debug-wsl"/>
@@ -27,7 +27,6 @@
 					<Add directory="/home/sashka/Projects/workflow/_include"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>
-					<Add directory="/home/sashka/Projects/LinkShortener/Serialization"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Utils"/>
 					<Add directory="/home/sashka/Projects/coost/include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
@@ -55,7 +54,6 @@
 					<Add directory="/home/sashka/Projects/workflow/_include"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>
-					<Add directory="/home/sashka/Projects/LinkShortener/Serialization"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Utils"/>
 					<Add directory="/home/sashka/Projects/coost/include"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11"/>
@@ -94,10 +92,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sashka/Projects/LinkShortener/Database/MYSQL.cpp">
+		<Unit filename="/home/sashka/Projects/LinkShortener/Database/urls_table_handler.cpp">
 			<Option target="LinkShortener"/>
 		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/Database/MYSQL.h">
+		<Unit filename="/home/sashka/Projects/LinkShortener/Database/urls_table_handler.h">
 			<Option target="LinkShortener"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/dao.cpp">
@@ -110,9 +108,6 @@
 			<Option target="LinkShortener"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/request_handler.h">
-			<Option target="LinkShortener"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/Serialization/shortened_url_serialization.cpp">
 			<Option target="LinkShortener"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/main.cpp">
@@ -141,9 +136,6 @@
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/RequestHandlers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\RequestHandlers\"/>
-		</Unit>
-		<Unit filename="/home/sashka/Projects/LinkShortener/Serialization/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Serialization\"/>
 		</Unit>
 		<Unit filename="/home/sashka/Projects/LinkShortener/Utils/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Utils\"/>

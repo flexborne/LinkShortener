@@ -129,42 +129,29 @@ LinkShortener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/build
 .PHONY : LinkShortener/fast
 
-#=============================================================================
-# Target rules for targets named Database
-
-# Build rule for target.
-Database: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Database
-.PHONY : Database
-
-# fast build rule for target.
-Database/fast:
-	$(MAKE) $(MAKESILENT) -f Database/CMakeFiles/Database.dir/build.make Database/CMakeFiles/Database.dir/build
-.PHONY : Database/fast
-
-Database/MYSQL.o: Database/MYSQL.cpp.o
-.PHONY : Database/MYSQL.o
+Database/urls_table_handler.o: Database/urls_table_handler.cpp.o
+.PHONY : Database/urls_table_handler.o
 
 # target to build an object file
-Database/MYSQL.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.o
-.PHONY : Database/MYSQL.cpp.o
+Database/urls_table_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o
+.PHONY : Database/urls_table_handler.cpp.o
 
-Database/MYSQL.i: Database/MYSQL.cpp.i
-.PHONY : Database/MYSQL.i
+Database/urls_table_handler.i: Database/urls_table_handler.cpp.i
+.PHONY : Database/urls_table_handler.i
 
 # target to preprocess a source file
-Database/MYSQL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.i
-.PHONY : Database/MYSQL.cpp.i
+Database/urls_table_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.i
+.PHONY : Database/urls_table_handler.cpp.i
 
-Database/MYSQL.s: Database/MYSQL.cpp.s
-.PHONY : Database/MYSQL.s
+Database/urls_table_handler.s: Database/urls_table_handler.cpp.s
+.PHONY : Database/urls_table_handler.s
 
 # target to generate assembly for a file
-Database/MYSQL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/MYSQL.cpp.s
-.PHONY : Database/MYSQL.cpp.s
+Database/urls_table_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.s
+.PHONY : Database/urls_table_handler.cpp.s
 
 RequestHandlers/dao.o: RequestHandlers/dao.cpp.o
 .PHONY : RequestHandlers/dao.o
@@ -214,30 +201,6 @@ RequestHandlers/request_handler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.s
 .PHONY : RequestHandlers/request_handler.cpp.s
 
-Serialization/shortened_url_serialization.o: Serialization/shortened_url_serialization.cpp.o
-.PHONY : Serialization/shortened_url_serialization.o
-
-# target to build an object file
-Serialization/shortened_url_serialization.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.o
-.PHONY : Serialization/shortened_url_serialization.cpp.o
-
-Serialization/shortened_url_serialization.i: Serialization/shortened_url_serialization.cpp.i
-.PHONY : Serialization/shortened_url_serialization.i
-
-# target to preprocess a source file
-Serialization/shortened_url_serialization.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.i
-.PHONY : Serialization/shortened_url_serialization.cpp.i
-
-Serialization/shortened_url_serialization.s: Serialization/shortened_url_serialization.cpp.s
-.PHONY : Serialization/shortened_url_serialization.s
-
-# target to generate assembly for a file
-Serialization/shortened_url_serialization.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkShortener.dir/build.make CMakeFiles/LinkShortener.dir/Serialization/shortened_url_serialization.cpp.s
-.PHONY : Serialization/shortened_url_serialization.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -270,20 +233,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Database"
 	@echo "... LinkShortener"
-	@echo "... Database/MYSQL.o"
-	@echo "... Database/MYSQL.i"
-	@echo "... Database/MYSQL.s"
+	@echo "... Database/urls_table_handler.o"
+	@echo "... Database/urls_table_handler.i"
+	@echo "... Database/urls_table_handler.s"
 	@echo "... RequestHandlers/dao.o"
 	@echo "... RequestHandlers/dao.i"
 	@echo "... RequestHandlers/dao.s"
 	@echo "... RequestHandlers/request_handler.o"
 	@echo "... RequestHandlers/request_handler.i"
 	@echo "... RequestHandlers/request_handler.s"
-	@echo "... Serialization/shortened_url_serialization.o"
-	@echo "... Serialization/shortened_url_serialization.i"
-	@echo "... Serialization/shortened_url_serialization.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
