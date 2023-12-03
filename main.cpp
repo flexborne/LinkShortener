@@ -66,6 +66,7 @@ DEF_string(dbHost, "localhost", "dbHost");
 int main(int argc, char** argv) try {
   god::bless_no_bugs();
   db::UrlsTableHandler table_handler{};
+  table_handler.create_required_table();
 
   flag::parse(argc, argv);
   cout << FLG_dbName << endl;

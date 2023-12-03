@@ -19,7 +19,7 @@ C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "exp
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
 -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
-CMake Debug Log at CMakeLists.txt:48 (find_package):
+CMake Debug Log at CMakeLists.txt:49 (find_package):
   <PackageName>_ROOT CMake variable [CMAKE_FIND_USE_PACKAGE_ROOT_PATH].
 
     none
@@ -103,7 +103,7 @@ CMake Debug Log at CMakeLists.txt:48 (find_package):
 
 
 
-CMake Debug Log at CMakeLists.txt:48 (find_package):
+CMake Debug Log at CMakeLists.txt:49 (find_package):
 
 
 -- WORKFLOW_LIB_DIR is /home/sashka/Projects/workflow/_lib

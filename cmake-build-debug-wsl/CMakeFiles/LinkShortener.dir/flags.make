@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++-18
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sashka/Projects/workflow/_include -I/home/sashka/Projects/LinkShortener/RequestHandlers -I/home/sashka/Projects/LinkShortener/Database -I/home/sashka/Projects/LinkShortener/Utils -isystem /home/sashka/Projects/coost/include
+CXX_INCLUDES = -I/home/sashka/Projects/LinkShortener -I/home/sashka/Projects/workflow/_include -I/home/sashka/Projects/LinkShortener/RequestHandlers -I/home/sashka/Projects/LinkShortener/Database -I/home/sashka/Projects/LinkShortener/Utils -isystem /home/sashka/Projects/coost/include
 
 CXX_FLAGS =  -stdlib=libc++ -g -std=gnu++2b
 

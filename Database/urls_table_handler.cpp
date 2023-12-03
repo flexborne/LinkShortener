@@ -5,7 +5,7 @@
 #include "shortened_url.h"
 #include "workflow/MySQLResult.h"
 #include "workflow/WFTaskFactory.h"
-#include "../config.h"
+#include "config.h"
 
 #include <format>
 
@@ -16,7 +16,17 @@ using enum UrlsTableColumn;
 }
 
 void mysql_callback(WFMySQLTask* task) {
-
+  if (task->get_state() != WFT_STATE_SUCCESS) {
+    ELOG << "[MYSQL] Task failed with error: "
+         << WFGlobal::get_error_string(task->get_state(), task->get_error());
+    return;
+  }
+  cout << "EVERYTHING IS FINE";
+  auto* resp = task->get_resp();
+  LOG << resp->get_info() << "\n" << resp->get_affected_rows();
+  cout << "VERY FINE";
+  LOG << "KEK";
+  //cout << task->get_resp()->
 }
 
 void db::UrlsTableHandler::create_impl(ShortenedUrl url) {
@@ -41,22 +51,7 @@ void db::UrlsTableHandler::read_impl(UrlsTableInfo::PrimaryKey key) {
 
   auto query = std::format("SELECT * FROM {} WHERE {} = '{}';", UrlsTableInfo::TABLE_NAME,
                            UrlsTableInfo::column_name(Shortened), std::move(key));
-  auto callback = [](WFMySQLTask* task)
-  {
-    cout << "HI from callback2" << endl;
-    if (task->get_state() != WFT_STATE_SUCCESS)
-    {
-      ELOG << "[MYSQL] Task failed with error: " << WFGlobal::get_error_string(task->get_state(), task->get_error());
-      return;
-    }
-    cout << "EVERYTHING IS FINE";
-    auto* resp = task->get_resp();
-    LOG << resp->get_info() << "\n" << resp->get_affected_rows();
-    cout << "VERY FINE";
-    LOG << "KEK";
-    //cout << task->get_resp()->
 
-  };
 
   task->get_req()->set_query(query);
   task->start();

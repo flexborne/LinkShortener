@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/sashka/Projects/LinkShortener"/>
 					<Add directory="/home/sashka/Projects/workflow/_include"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>
@@ -51,6 +52,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
+					<Add directory="/home/sashka/Projects/LinkShortener"/>
 					<Add directory="/home/sashka/Projects/workflow/_include"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/RequestHandlers"/>
 					<Add directory="/home/sashka/Projects/LinkShortener/Database"/>

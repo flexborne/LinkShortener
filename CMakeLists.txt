@@ -14,11 +14,12 @@ add_subdirectory(Utils)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
+target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+
 target_link_libraries(${PROJECT_NAME} PRIVATE RequestHandlers)
 target_link_libraries(${PROJECT_NAME} PRIVATE Database)
 target_link_libraries(${PROJECT_NAME} PRIVATE Utils)
 
-target_include_directories(${PROJECT_NAME} INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
 
 list(APPEND CMAKE_PREFIX_PATH  "/home/sashka/Projects/coost/cmake-build-release-wsl/src")
 

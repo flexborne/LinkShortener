@@ -780,7 +780,7 @@ CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o: \
   /home/sashka/Projects/workflow/_include/workflow/mysql_types.h \
   /home/sashka/Projects/workflow/_include/workflow/MySQLResult.inl \
   /home/sashka/Projects/workflow/_include/workflow/mysql_byteorder.h \
-  /home/sashka/Projects/LinkShortener/Database/../config.h \
+  /home/sashka/Projects/LinkShortener/config.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/format \
   /usr/lib/llvm-18/bin/../include/c++/v1/__format/container_adaptor.h \
   /usr/lib/llvm-18/bin/../include/c++/v1/__format/range_default_formatter.h \
