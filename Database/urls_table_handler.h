@@ -2,24 +2,13 @@
 
 #include "crud_interface.h"
 #include "shortened_url.h"
-#include "urls_table_handler.h"
 
-#include "workflow/WFMySQLConnection.h"
-
-#include <expected>
+#include "workflow/MySQLResult.h"
+#include "workflow/WFTaskFactory.h"
+#include "workflow/Workflow.h"
 
 #include "enum_traits.h"
-
-
-struct Error{
-  const char* message;
-};
-
-template <class Data>
-using Result = std::expected<Data, Error>;
-
-template <class Data>
-using ResultCallback = std::function<void(Result<Data>)>;
+#include "result_callback.h"
 
 ENUM_DEFINE(UrlsTableColumn, Shortened, Original, CreationTime)
 
@@ -44,20 +33,35 @@ struct UrlsTableInfo {
 /// able to retrieve by primary key, add record, delete etc.
 struct UrlsTableHandler : public CRUD {
  public:
-  /// @brief inserts record into db
-  void create_impl(ShortenedUrl url);
+  explicit UrlsTableHandler(SeriesWork* series) : series{series} {}
 
-  //using ReadResult = std::expeceted<
-  void read_impl(UrlsTableInfo::PrimaryKey key, ResultCallback<ShortenedUrl> callback);
+ public:
+  /// @brief inserts record into db
+  /// puts shortened url into callback if success, otherwise error
+  void create_impl(ShortenedUrl url,
+                   ResultCallback<std::string> callback) const;
+
+  /// @brief read entire row into shortened url and puts the res into @a callback
+  void read_impl(UrlsTableInfo::PrimaryKey key,
+                 ResultCallback<ShortenedUrl> callback) const;
 
   /// @brief read only column
-  void read_impl(UrlsTableInfo::PrimaryKey key, UrlsTableColumn column);
+  /// puts cell into @a callback or error
+  void read_impl(UrlsTableInfo::PrimaryKey key, UrlsTableColumn column,
+                 ResultCallback<protocol::MySQLCell> callback) const;
 
   /// @brief custom query execution for specific situations
-  void exec_custom_query(const std::string& query, mysql_callback_t callback);
+  void exec_custom_query(const std::string& query,
+                         mysql_callback_t callback) const;
 
   /// @brief creates required table in database for storing records
   /// @note blocking because table should always exist in order to store data
-  void create_required_table();
+  Error create_required_table();
+
+ private:
+  void start_task(WFMySQLTask* task) const;
+
+ private:
+  SeriesWork* series;
 };
 }  // namespace db

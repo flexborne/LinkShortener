@@ -5,7 +5,7 @@
 #include "workflow/HttpUtil.h"
 #include "workflow/WFTaskFactory.h"
 
-#include <cstring>  // For std::strcmp
+#include <cstring>  
 #include <unordered_map>
 #include <fmt/format.h>
 
@@ -19,7 +19,9 @@ constexpr inline char const* INVALID_BODY = "Invalid body";
 }  // namespace default_messages
 
 namespace tags {
-constexpr inline char const* KEY = "key";
+constexpr inline char const* SHORT = "short";
+constexpr inline char const* ORIGINAL = "original";
+constexpr inline char const* ERROR = "error";
 }  // namespace default_messages
 
 void reply_unsupported_method(protocol::HttpResponse* resp);

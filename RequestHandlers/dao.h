@@ -1,32 +1,32 @@
 #pragma once
 
-#include "crud_interface.h"
-#include <string>
-
-#include <functional>
-
-#include <expected>
-
+#include "result_callback.h"
 #include "urls_table_handler.h"
 
-namespace dao
-{
+#include "crud_interface.h"
+#include "workflow/Workflow.h"
 
-struct Error {
+#include <string>
 
-  const char* body;
-};
+namespace dao {
 
 class ShortenedUrlDAO : public CRUD {
  public:
-  using CreationResult = std::expected<std::string, Error>;
-  using CreationCallback = std::function<void(CreationResult)>;
+  using Result = Result<std::string>;
+  using ResultCallback = ResultCallback<std::string>;
 
-  using ReadResult = std::expected<std::string, Error>;
  public:
-  void createImpl(const char* original_url, CreationCallback callback);
+  explicit ShortenedUrlDAO(SeriesWork* series) : series{series} {
+    assert(series != nullptr);
+  }
 
-  void readResult(std::string key);
+ public:
+  void create_impl(std::string original_url, ResultCallback callback) const;
+
+  void read_impl(std::string shortened, ResultCallback callback) const;
+
+ private:
+  SeriesWork* series;
 };
 
-}
+}  // namespace dao
