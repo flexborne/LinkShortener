@@ -5,9 +5,9 @@
 #include "workflow/HttpUtil.h"
 #include "workflow/WFTaskFactory.h"
 
-#include <cstring>  
-#include <unordered_map>
 #include <fmt/format.h>
+#include <cstring>
+#include <unordered_map>
 
 namespace request {
 
@@ -22,7 +22,7 @@ namespace tags {
 constexpr inline char const* SHORT = "short";
 constexpr inline char const* ORIGINAL = "original";
 constexpr inline char const* ERROR = "error";
-}  // namespace default_messages
+}  // namespace tags
 
 void reply_unsupported_method(protocol::HttpResponse* resp);
 void reply_invalid_body(protocol::HttpResponse* resp);
@@ -81,9 +81,7 @@ template <class RequestHandler>
 int register_request_handler(const char* route) {
   static constexpr RequestHandler INST;
   Router::add_handler(
-      route, +[](WFHttpTask* task) {
-        INST.handle_request(task);
-      });
+      route, +[](WFHttpTask* task) { INST.handle_request(task); });
   return 1;
 }
 

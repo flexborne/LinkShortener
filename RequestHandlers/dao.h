@@ -1,7 +1,6 @@
 #pragma once
 
 #include "result_callback.h"
-#include "urls_table_handler.h"
 
 #include "crud_interface.h"
 #include "workflow/Workflow.h"
