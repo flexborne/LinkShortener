@@ -70,3 +70,64 @@ E1216 16:53:58.198 1480 main.cpp:97] Could not start server. Error code: -1
 D1216 17:09:08.463 6788 main.cpp:94] db url: mysql://root:root@localhost:3306/db
 E1216 17:09:08.463 6788 main.cpp:101] Could not start server. Error code: -1
 F1216 17:11:12.540] SIGSEGV: segmentation fault
+I1216 17:12:51.272 13142 urls_table_handler.cpp:116] 2
+F1216 17:12:51.272] SIGSEGV: segmentation fault
+I1216 17:13:36.346 13496 urls_table_handler.cpp:116] 2
+D1216 17:14:26.450 13486 main.cpp:94] db url: mysql://root:root@localhost:3306/db
+E1216 17:14:26.450 13486 main.cpp:101] Could not start server. Error code: -1
+I1216 17:14:33.790 14098 urls_table_handler.cpp:116] INFO 
+I1216 17:14:33.790 14098 urls_table_handler.cpp:117] 2
+I1216 17:14:59.340 14283 urls_table_handler.cpp:116] INFO 
+I1216 17:14:59.340 14283 urls_table_handler.cpp:117] 2
+I1216 17:15:12.138 14579 urls_table_handler.cpp:116] INFO 
+I1216 17:15:12.138 14579 urls_table_handler.cpp:117] 2
+F1216 17:15:12.138] SIGSEGV: segmentation fault
+I1216 17:15:43.648 14897 urls_table_handler.cpp:116] INFO 
+I1216 17:15:43.648 14897 urls_table_handler.cpp:117] 2
+F1216 17:15:43.648] SIGSEGV: segmentation fault
+I1216 17:16:41.047 15363 urls_table_handler.cpp:116] INFO false
+I1216 17:16:41.047 15363 urls_table_handler.cpp:117] 2
+F1216 17:16:41.047] SIGSEGV: segmentation fault
+I1216 17:16:53.157 15479 urls_table_handler.cpp:116] INFO 0
+I1216 17:16:53.157 15479 urls_table_handler.cpp:117] 2
+F1216 17:16:53.157] SIGSEGV: segmentation fault
+F1216 17:18:31.894] SIGABRT: aborted
+D1216 17:30:58.788 22986 main.cpp:96] db url: mysql://root:root@localhost:3306/db
+E1216 17:30:58.788 22986 main.cpp:103] Could not start server. Error code: -1
+I1216 17:31:05.812 24080 urls_table_handler.cpp:58] 
+1
+I1216 17:31:05.812 24080 urls_table_handler.cpp:60] KEK
+D1216 17:32:40.018 24067 main.cpp:96] db url: mysql://root:root@localhost:3306/db
+E1216 17:32:40.018 24067 main.cpp:103] Could not start server. Error code: -1
+I1216 17:35:11.935 27367 urls_table_handler.cpp:58] 
+0
+I1216 17:35:11.935 27367 urls_table_handler.cpp:60] KEK
+D1216 17:36:14.995 27356 main.cpp:97] db url: mysql://root:root@localhost:3306/db
+E1216 17:36:14.995 27356 main.cpp:104] Could not start server. Error code: -1
+E1216 17:36:27.117 27839 urls_table_handler.cpp:40] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 17:38:27.888 27834 main.cpp:97] db url: mysql://root:root@localhost:3306/db
+E1216 17:38:27.888 27834 main.cpp:104] Could not start server. Error code: -1
+E1216 17:39:07.106 28916 urls_table_handler.cpp:40] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 17:43:28.775 28907 main.cpp:100] db url: mysql://root:root@localhost:3306/db
+E1216 17:43:28.775 28907 main.cpp:107] Could not start server. Error code: -1
+E1216 17:44:59.612 30816 urls_table_handler.cpp:42] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 17:45:45.893 30805 main.cpp:100] db url: mysql://root:root@localhost:3306/db
+E1216 17:45:45.893 30805 main.cpp:107] Could not start server. Error code: -1
+E1216 17:46:37.410 31374 urls_table_handler.cpp:42] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 17:47:49.071 31365 main.cpp:95] db url: mysql://root:root@localhost:3306/db
+E1216 17:47:49.071 31365 main.cpp:102] Could not start server. Error code: -1
+E1216 17:49:18.878 32023 urls_table_handler.cpp:43] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 17:49:47.338 32011 main.cpp:95] db url: mysql://root:root@localhost:3306/db
+E1216 17:49:47.338 32011 main.cpp:102] Could not start server. Error code: -1
+E1216 17:49:58.865 32253 urls_table_handler.cpp:42] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 17:59:59.281 32244 main.cpp:95] db url: mysql://root:root@localhost:3306/db
+E1216 17:59:59.281 32244 main.cpp:102] Could not start server. Error code: -1
+E1216 18:00:07.932 38320 urls_table_handler.cpp:32] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 18:01:50.366 38311 main.cpp:94] db url: mysql://root:root@localhost:3306/db
+E1216 18:01:50.366 38311 main.cpp:101] Could not start server. Error code: -1
+E1216 18:02:30.957 39957 urls_table_handler.cpp:32] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 18:02:47.879 39947 main.cpp:94] db url: mysql://root:root@localhost:3306/db
+E1216 18:02:47.879 39947 main.cpp:101] Could not start server. Error code: -1
+E1216 18:02:54.377 40349 urls_table_handler.cpp:32] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 18:04:06.810 40339 main.cpp:94] db url: mysql://root:root@localhost:3306/db
+E1216 18:04:06.810 40339 main.cpp:101] Could not start server. Error code: -1
