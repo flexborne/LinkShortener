@@ -92,6 +92,6 @@ void ShortenURL::handle_post(WFHttpTask* task) const {
              });
 }
 
-auto _ = {register_request_handler<ShortenURL>("/")};
+auto _ = {register_request_handler<ShortenURL>("/url")};
 
 }  // namespace request
