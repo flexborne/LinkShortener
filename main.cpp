@@ -50,11 +50,11 @@ int main(int argc, char** argv) try {
   flag::parse(argc, argv);
   cout << FLG_db_name << endl;
 
-  Config::dbUrl = std::format("mysql://{}:{}@{}:{}/{}", FLG_db_user.data(),
+  Config::db_url = std::format("mysql://{}:{}@{}:{}/{}", FLG_db_user.data(),
                               FLG_db_pass.data(), FLG_db_host.data(),
                               FLG_db_port, FLG_db_name.data());
 
-  LOG << "db url: " << Config::dbUrl;
+  LOG << "db url: " << Config::db_url;
 
   // table creation does not require series here
   db::UrlsTableHandler table_handler{nullptr};

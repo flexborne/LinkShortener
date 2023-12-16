@@ -4,5 +4,5 @@
 
 struct Config
 {
-  static inline std::string dbUrl;
+  static inline std::string db_url;
 };

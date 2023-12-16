@@ -128,7 +128,7 @@ void db::UrlsTableHandler::read_impl(UrlsTableInfo::PrimaryKey key,
 
 void db::UrlsTableHandler::exec_custom_query(const std::string& query,
                                              mysql_callback_t callback) const {
-  WFMySQLTask* task = WFTaskFactory::create_mysql_task(Config::dbUrl, RETRY_MAX,
+  WFMySQLTask* task = WFTaskFactory::create_mysql_task(Config::db_url, RETRY_MAX,
                                                        std::move(callback));
 
   task->get_req()->set_query(query);
@@ -159,7 +159,7 @@ Error db::UrlsTableHandler::create_required_table() {
   Error res;
 
   WFMySQLTask* task = WFTaskFactory::create_mysql_task(
-      Config::dbUrl, RETRY_MAX, [&wait_group, &res](WFMySQLTask* task) {
+      Config::db_url, RETRY_MAX, [&wait_group, &res](WFMySQLTask* task) {
         defer([&wait_group]() { wait_group.done(); });
         if (auto error = get_error_if_exists(task); error) {
           res = std::move(error);
