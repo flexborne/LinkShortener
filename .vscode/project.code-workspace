@@ -1,0 +1,95 @@
+{
+	"folders": [
+		{
+			"path": "..",
+			"name": "ProjectFolder"
+		}
+	],
+	"settings": {
+		"C_Cpp.intelliSenseEngine": "disabled",
+		"clangd.arguments": [
+			"--clang-tidy",
+            "--compile-commands-dir=./build/Debug",
+			"--background-index"
+		],
+		"cmake.autoSelectActiveFolder": false,
+		"cmake.generator": "Ninja",
+		"cmake.buildDirectory": "${workspaceFolder:ProjectFolder}/build/${buildType}",
+		"cmake.exportCompileCommandsFile": true,
+		"cmake.configureOnEdit": false,
+		"cmake.options.statusBarVisibility": "compact",
+		"cmake.configureOnOpen": false,
+		"cmake.ignoreCMakeListsMissing": true,
+		"cmake.skipConfigureIfCachePresent": false,
+		"search.exclude": {
+			"**/*.map": true,
+			"**/*.plist": true,
+			"**/*.tmp": true,
+			"**/*.user": true,
+			"**/build/**": true,
+			"**/ui_*.h*": true,
+			"**/compile_commands.json": true,
+		},
+		"search.quickOpen.history.filterSortOrder": "recency",
+		"qttools.injectNatvisFile": false,
+		"C_mantic.c.curlyBraceFormat.function": "New line",
+		"C_mantic.caseStyle": "camelCase",
+		"C_mantic.cpp.accessor.getterDefinitionLocation": "Generate definition in matching source file",
+		"C_mantic.cpp.accessor.setterDefinitionLocation": "Generate definition in matching source file",
+		"C_mantic.cpp.bracedInitialization": true,
+		"C_mantic.cpp.curlyBraceFormat.function": "New line",
+		"C_mantic.cpp.generateNamespaces": false,
+		"lldb.displayFormat": "auto",
+		"lldb.showDisassembly": "auto",
+		"lldb.dereferencePointers": false,
+		"lldb.consoleMode": "evaluate",
+		"cmake.environment": {
+			"CMAKE_INSTALL_MODE": "ABS_SYMLINK"
+		},
+	},
+	"launch": {
+		"configurations": [
+			{
+				"name": "gdb",
+				"type": "cppdbg",
+				"request": "launch",
+				"program": "${command:cmake.launchTargetPath}",
+				"args": [],
+				"cwd": "${command:cmake.getLaunchTargetDirectory}",
+				"environment": [
+					{
+						"name": "PATH",
+						"value": "${env:PATH}:${command:cmake.getLaunchTargetDirectory}"
+					}
+				],
+			},
+			{
+				"name": "lldb",
+				"type": "lldb",
+				"request": "launch",
+				"program": "${command:cmake.launchTargetPath}",
+				"cwd": "${command:cmake.getLaunchTargetDirectory}",
+			},
+			{
+				"name": "lldb - attach",
+				"type": "lldb",
+				"request": "attach",
+				"program": "${command:cmake.launchTargetPath}",
+			}
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"hars.cppsnippets",
+			"tdennis4496.cmantic",
+			"llvm-vs-code-extensions.vscode-clangd",
+			"twxs.cmake",
+			"ms-vscode.cmake-tools",
+			"atlassian.atlascode",
+			"tonka3000.qtvsctools",
+			"vadimcn.vscode-lldb",
+			"ms-azuretools.vscode-docker"
+		],
+	},
+}

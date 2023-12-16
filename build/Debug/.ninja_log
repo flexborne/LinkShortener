@@ -1,0 +1,4 @@
+# ninja log v5
+0	889	1702216566536201564	CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o	7e471fc91c04ec02
+0	1419	1702216567056201527	CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o	5c560ffa9a8dc5e5
+0	1113	1702216566756201549	CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o	b3d8f08ecc699f0c
