@@ -1,0 +1,17 @@
+D1216 13:24:40.363 4342 main.cpp:81] db url: mysql://root:root@localhost:3306/db
+E1216 13:24:40.363 4347 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
+F1216 13:40:51.305] SIGSEGV: segmentation fault
+D1216 13:41:08.359 12150 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 13:41:08.359 12155 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
+F1216 13:41:28.861] SIGSEGV: segmentation fault
+D1216 13:41:40.239 12473 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 13:41:40.239 12478 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
+D1216 13:42:14.270 12747 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 13:42:14.270 12752 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
+F1216 13:45:33.206] SIGSEGV: segmentation fault
+D1216 13:45:40.047 13815 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 13:45:40.047 13820 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
+D1216 13:45:57.664 14298 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 13:45:57.664 14303 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
+D1216 13:52:59.650 19386 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 13:52:59.650 19391 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed

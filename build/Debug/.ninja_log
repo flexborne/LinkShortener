@@ -1,4 +1,14 @@
 # ninja log v5
-0	889	1702216566536201564	CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o	7e471fc91c04ec02
-0	1419	1702216567056201527	CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o	5c560ffa9a8dc5e5
-0	1113	1702216566756201549	CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o	b3d8f08ecc699f0c
+1	794	1702727132784148561	CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o	7e471fc91c04ec02
+1	1323	1702726933594197172	CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o	5c560ffa9a8dc5e5
+1	1662	1702726933934195996	CMakeFiles/LinkShortener.dir/main.cpp.o	d022c41da7335047
+1	1057	1702727133044148462	CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o	b3d8f08ecc699f0c
+1057	1192	1702727133184148406	LinkShortener	3a5563790cca1c44
+2	1327	1702727391624104270	CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o	5c560ffa9a8dc5e5
+1	1685	1702727391984104135	CMakeFiles/LinkShortener.dir/main.cpp.o	d022c41da7335047
+1	1080	1702727481004064759	CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o	b3d8f08ecc699f0c
+1	1331	1702727481244064693	CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o	5c560ffa9a8dc5e5
+1	1688	1702727481604064593	CMakeFiles/LinkShortener.dir/main.cpp.o	d022c41da7335047
+1	780	1702727578994053284	CMakeFiles/LinkShortener.dir/RequestHandlers/dao.cpp.o	7e471fc91c04ec02
+1	1031	1702727579244053231	CMakeFiles/LinkShortener.dir/RequestHandlers/request_handler.cpp.o	b3d8f08ecc699f0c
+1032	1195	1702727579404053196	LinkShortener	3a5563790cca1c44
