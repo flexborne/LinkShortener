@@ -18,7 +18,7 @@
 #define RETRY_MAX 1
 
 namespace {
-/// @brief logs and returns error considering the state fo @a task
+/// @brief logs and returns error considering the state of @a task
 inline Error get_error_if_exists(WFMySQLTask* task) {
   if (task->get_state() != WFT_STATE_SUCCESS) {
     const char* error =
