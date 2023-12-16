@@ -15,3 +15,58 @@ D1216 13:45:57.664 14298 main.cpp:80] db url: mysql://root:root@localhost:3306/d
 E1216 13:45:57.664 14303 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
 D1216 13:52:59.650 19386 main.cpp:80] db url: mysql://root:root@localhost:3306/db
 E1216 13:52:59.650 19391 urls_table_handler.cpp:20] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:07:53.953 27633 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:07:53.953 27638 urls_table_handler.cpp:21] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:07:58.392 27710 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:07:58.392 27715 urls_table_handler.cpp:21] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:07:59.687 27746 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:07:59.687 27751 urls_table_handler.cpp:21] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:08:33.227 28333 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:08:33.227 28338 urls_table_handler.cpp:21] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:25:15.912 37853 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:25:15.912 37858 urls_table_handler.cpp:43] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:33:30.318 42609 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:33:30.318 42614 urls_table_handler.cpp:43] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:34:24.147 43160 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:34:24.147 43183 urls_table_handler.cpp:43] [MYSQL] Task failed with error: URI Parse Failed
+D1216 14:41:20.862 47072 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 14:41:20.862 47077 urls_table_handler.cpp:43] [MYSQL] Task failed with error: URI Parse Failed
+D1216 15:00:10.187 55937 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 15:00:10.187 55942 urls_table_handler.cpp:47] [MYSQL] Task failed with error: URI Parse Failed
+D1216 16:15:41.587 82749 main.cpp:80] db url: mysql://root:root@localhost:3306/db
+E1216 16:15:41.587 82754 urls_table_handler.cpp:47] [MYSQL] Task failed with error: URI Parse Failed
+D1216 16:17:27.477 84552 main.cpp:82] db url: mysql://root:root@localhost:3306/db
+E1216 16:17:27.477 84558 urls_table_handler.cpp:47] [MYSQL] Task failed with error: Aborted
+D1216 16:28:40.816 89530 main.cpp:85] db url: mysql://root:root@localhost:3306/db
+D1216 16:28:51.314 89622 main.cpp:85] db url: mysql://root:root@localhost:3306/db
+D1216 16:29:00.580 89711 main.cpp:85] db url: mysql://root:root@localhost:3306/db
+D1216 16:32:46.141 94922 main.cpp:89] db url: mysql://root:root@localhost:3306/db
+E1216 16:32:46.141 94931 urls_table_handler.cpp:50] [MYSQL] Task failed with error: Aborted
+D1216 16:35:26.571 97168 main.cpp:90] db url: mysql://root:root@localhost:3306/db
+E1216 16:35:26.571 97168 main.cpp:97] Could not start server. Error code: -1
+E1216 16:35:26.571 97177 urls_table_handler.cpp:50] [MYSQL] Task failed with error: Aborted
+D1216 16:36:44.351 97927 main.cpp:90] db url: mysql://root:root@localhost:3306/db
+E1216 16:36:44.351 97927 main.cpp:97] Could not start server. Error code: -1
+E1216 16:36:44.351 97936 urls_table_handler.cpp:50] [MYSQL] Task failed with error: Aborted
+D1216 16:36:59.299 98080 main.cpp:90] db url: mysql://root:root@localhost:3306/db
+E1216 16:36:59.299 98080 main.cpp:97] Could not start server. Error code: -1
+E1216 16:36:59.299 98090 urls_table_handler.cpp:50] [MYSQL] Task failed with error: Aborted
+D1216 16:37:07.063 98207 main.cpp:90] db url: mysql://root:root@localhost:3306/db
+E1216 16:37:07.063 98207 main.cpp:97] Could not start server. Error code: -1
+E1216 16:37:07.063 98215 urls_table_handler.cpp:50] [MYSQL] Task failed with error: Aborted
+D1216 16:37:23.587 98354 main.cpp:90] db url: mysql://root:root@localhost:3306/db
+E1216 16:37:23.587 98354 main.cpp:97] Could not start server. Error code: -1
+E1216 16:37:23.587 98363 urls_table_handler.cpp:50] [MYSQL] Task failed with error: Aborted
+I1216 16:37:41.937 98765 urls_table_handler.cpp:56] 
+0
+I1216 16:37:41.937 98765 urls_table_handler.cpp:58] KEK
+D1216 16:42:21.877 98757 main.cpp:90] db url: mysql://root:root@localhost:3306/db
+E1216 16:42:21.877 98757 main.cpp:97] Could not start server. Error code: -1
+I1216 16:45:18.838 1151 urls_table_handler.cpp:56] 
+1
+I1216 16:45:18.838 1151 urls_table_handler.cpp:58] KEK
+D1216 16:53:58.198 1480 main.cpp:90] db url: mysql://root:root@localhost:3306/db
+E1216 16:53:58.198 1480 main.cpp:97] Could not start server. Error code: -1
+D1216 17:09:08.463 6788 main.cpp:94] db url: mysql://root:root@localhost:3306/db
+E1216 17:09:08.463 6788 main.cpp:101] Could not start server. Error code: -1
+F1216 17:11:12.540] SIGSEGV: segmentation fault
