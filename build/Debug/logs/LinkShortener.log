@@ -131,3 +131,11 @@ E1216 18:02:47.879 39947 main.cpp:101] Could not start server. Error code: -1
 E1216 18:02:54.377 40349 urls_table_handler.cpp:32] [MYSQL] Task failed with error code: 1062 , error message: 
 D1216 18:04:06.810 40339 main.cpp:94] db url: mysql://root:root@localhost:3306/db
 E1216 18:04:06.810 40339 main.cpp:101] Could not start server. Error code: -1
+E1216 21:35:14.064 51847 urls_table_handler.cpp:32] [MYSQL] Task failed with error code: 1062 , error message: 
+D1216 21:38:13.653 51837 main.cpp:89] db url: mysql://root:root@localhost:3306/db
+E1216 21:38:13.653 51837 main.cpp:96] Could not start server. Error code: -1
+I1216 21:38:22.820 55178 main.cpp:56] db url: mysql://root:root@localhost:3306/db
+I1216 21:38:36.173 55340 main.cpp:56] db url: mysql://root:root@localhost:3306/db
+E1216 21:38:36.173 55340 main.cpp:70] Could not start server. Error code: -1
+I1216 21:38:46.616 55566 main.cpp:56] db url: mysql://root:root@localhost:3306/db
+I1216 21:39:01.289 55685 main.cpp:56] db url: mysql://root:root@localhost:3306/db

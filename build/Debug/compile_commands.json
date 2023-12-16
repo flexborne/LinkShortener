@@ -18,5 +18,10 @@
   "directory": "/home/sashka/Projects/LinkShortener/build/Debug",
   "command": "/usr/bin/clang++ -I/home/sashka/Projects/LinkShortener -I/home/sashka/Projects/workflow/_include -I/home/sashka/Projects/LinkShortener/RequestHandlers -I/home/sashka/Projects/LinkShortener/Database -I/home/sashka/Projects/LinkShortener/Utils -isystem /home/sashka/Projects/coost/include  -stdlib=libc++ -g -std=gnu++2b -o CMakeFiles/LinkShortener.dir/Database/urls_table_handler.cpp.o -c /home/sashka/Projects/LinkShortener/Database/urls_table_handler.cpp",
   "file": "/home/sashka/Projects/LinkShortener/Database/urls_table_handler.cpp"
+},
+{
+  "directory": "/home/sashka/Projects/LinkShortener/build/Debug",
+  "command": "/usr/bin/clang++ -I/home/sashka/Projects/LinkShortener -I/home/sashka/Projects/workflow/_include -I/home/sashka/Projects/LinkShortener/RequestHandlers -I/home/sashka/Projects/LinkShortener/Database -I/home/sashka/Projects/LinkShortener/Utils -isystem /home/sashka/Projects/coost/include  -stdlib=libc++ -g -std=gnu++2b -o CMakeFiles/LinkShortener.dir/Utils/generate_random_str.cpp.o -c /home/sashka/Projects/LinkShortener/Utils/generate_random_str.cpp",
+  "file": "/home/sashka/Projects/LinkShortener/Utils/generate_random_str.cpp"
 }
 ]
