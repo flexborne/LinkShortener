@@ -19,7 +19,7 @@
 
 namespace {
 /// @brief logs and returns error considering the state of @a task
-inline Error get_error_if_exists(WFMySQLTask* task) {
+Error get_error_if_exists(WFMySQLTask* task) {
   if (task->get_state() != WFT_STATE_SUCCESS) {
     const char* error =
         WFGlobal::get_error_string(task->get_state(), task->get_error());
@@ -43,8 +43,8 @@ using enum UrlsTableColumn;
 using namespace protocol;
 }  // namespace
 
-void db::UrlsTableHandler::create_impl(
-    ShortenedUrl url, ResultCallback<std::string> callback) const {
+void db::UrlsTableHandler::create_impl(ShortenedUrl url,
+                                       ErrorCallback callback) const {
   auto query = std::format(
       "INSERT INTO {} ({}, {}, {}) "
       "VALUES ('{}', '{}', '{}');",
@@ -56,11 +56,7 @@ void db::UrlsTableHandler::create_impl(
   exec_custom_query(query,
                     [res_callback = std::move(callback),
                      shortened = std::move(url.shortened)](WFMySQLTask* task) {
-                      if (auto error = get_error_if_exists(task); error) {
-                        res_callback(std::unexpected(std::move(error)));
-                        return;
-                      }
-                      res_callback(std::move(shortened));
+                      res_callback(get_error_if_exists(task));
                     });
 }
 

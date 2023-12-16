@@ -39,7 +39,7 @@ struct UrlsTableHandler : public CRUD {
   /// @brief inserts record into db
   /// puts shortened url into callback if success, otherwise error
   void create_impl(ShortenedUrl url,
-                   ResultCallback<std::string> callback) const;
+                   ErrorCallback callback) const;
 
   /// @brief read entire row into shortened url and puts the res into @a callback
   void read_impl(UrlsTableInfo::PrimaryKey key,

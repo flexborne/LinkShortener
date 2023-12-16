@@ -1,4 +1,5 @@
 #include "dao.h"
+#include <__expected/unexpected.h>
 #include "generate_random_str.h"
 #include "result_callback.h"
 #include "urls_table_handler.h"
@@ -16,11 +17,19 @@ void dao::ShortenedUrlDAO::create_impl(std::string original_url,
   }
 
   db::UrlsTableHandler handler{series};
+  auto shortened_url = utils::generate_random_string();
   handler.create(
-      ShortenedUrl{.shortened = utils::generate_random_string(),
+      ShortenedUrl{.shortened = shortened_url,
                    .original = original_url,
                    .creation_time = std::chrono::system_clock::now()},
-      std::move(callback));
+      [res_callback = std::move(callback),
+       shortened = std::move(shortened_url)](Error err) {
+        if (err) {
+          res_callback(std::unexpected(std::move(err)));
+          return;
+        }
+        res_callback(shortened);
+      });
 }
 
 void dao::ShortenedUrlDAO::read_impl(std::string shortened,
