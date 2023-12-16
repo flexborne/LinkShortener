@@ -19,7 +19,7 @@ void dao::ShortenedUrlDAO::create_impl(std::string original_url,
   auto shortened_url = utils::generate_random_string();
   handler.create(
       ShortenedUrl{.shortened = shortened_url,
-                   .original = original_url,
+                   .original = std::move(original_url),
                    .creation_time = std::chrono::system_clock::now()},
       [res_callback = std::move(callback),
        shortened = std::move(shortened_url)](Error err) {
