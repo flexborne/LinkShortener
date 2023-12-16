@@ -139,3 +139,19 @@ I1216 21:38:36.173 55340 main.cpp:56] db url: mysql://root:root@localhost:3306/d
 E1216 21:38:36.173 55340 main.cpp:70] Could not start server. Error code: -1
 I1216 21:38:46.616 55566 main.cpp:56] db url: mysql://root:root@localhost:3306/db
 I1216 21:39:01.289 55685 main.cpp:56] db url: mysql://root:root@localhost:3306/db
+I1216 21:43:58.096 61525 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+I1216 22:03:31.177 66405 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+F1216 22:05:20.039] SIGABRT: aborted
+I1216 22:07:05.856 67283 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+I1216 22:07:07.906 67294 request_handler.cpp:84] false
+F1216 22:07:07.906] SIGABRT: aborted
+I1216 22:10:04.280 68084 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+F1216 22:10:06.970] SIGABRT: aborted
+I1216 22:10:23.412 68235 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+F1216 22:10:24.949] SIGABRT: aborted
+I1216 22:12:47.680 68761 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+I1216 22:21:20.410 71355 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+F1216 22:22:27.528] SIGABRT: aborted
+I1216 22:31:29.240 74400 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+I1216 22:35:52.102 75766 main.cpp:57] db url: mysql://root:root@localhost:3306/db
+I1216 22:37:44.212 76305 main.cpp:57] db url: mysql://root:root@localhost:3306/db
