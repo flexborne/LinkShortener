@@ -38,8 +38,7 @@ struct UrlsTableHandler : public CRUD {
  public:
   /// @brief inserts record into db
   /// puts shortened url into callback if success, otherwise error
-  void create_impl(ShortenedUrl url,
-                   ErrorCallback callback) const;
+  void create_impl(ShortenedUrl url, ErrorCallback callback) const;
 
   /// @brief read entire row into shortened url and puts the res into @a callback
   void read_impl(UrlsTableInfo::PrimaryKey key,
@@ -61,6 +60,7 @@ struct UrlsTableHandler : public CRUD {
   /// @brief custom query execution
   void exec_custom_query(const std::string& query,
                          mysql_callback_t callback) const;
+
  private:
   SeriesWork* series;
 };
