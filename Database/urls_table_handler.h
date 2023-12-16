@@ -50,17 +50,17 @@ struct UrlsTableHandler : public CRUD {
   void read_impl(UrlsTableInfo::PrimaryKey key, UrlsTableColumn column,
                  ResultCallback<protocol::MySQLCell> callback) const;
 
-  /// @brief custom query execution for specific situations
-  void exec_custom_query(const std::string& query,
-                         mysql_callback_t callback) const;
-
   /// @brief creates required table in database for storing records
   /// @note blocking because table should always exist in order to store data
   Error create_required_table();
 
  private:
+  /// @brief starts task in series or independently
   void start_task(WFMySQLTask* task) const;
 
+  /// @brief custom query execution
+  void exec_custom_query(const std::string& query,
+                         mysql_callback_t callback) const;
  private:
   SeriesWork* series;
 };
