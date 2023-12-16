@@ -1,9 +1,0 @@
-/home/sashka/Projects/LinkShortener/build/Debug/CMakeFiles/LinkShortener.dir
-/home/sashka/Projects/LinkShortener/build/Debug/CMakeFiles/edit_cache.dir
-/home/sashka/Projects/LinkShortener/build/Debug/CMakeFiles/rebuild_cache.dir
-/home/sashka/Projects/LinkShortener/build/Debug/RequestHandlers/CMakeFiles/edit_cache.dir
-/home/sashka/Projects/LinkShortener/build/Debug/RequestHandlers/CMakeFiles/rebuild_cache.dir
-/home/sashka/Projects/LinkShortener/build/Debug/Database/CMakeFiles/edit_cache.dir
-/home/sashka/Projects/LinkShortener/build/Debug/Database/CMakeFiles/rebuild_cache.dir
-/home/sashka/Projects/LinkShortener/build/Debug/Utils/CMakeFiles/edit_cache.dir
-/home/sashka/Projects/LinkShortener/build/Debug/Utils/CMakeFiles/rebuild_cache.dir
